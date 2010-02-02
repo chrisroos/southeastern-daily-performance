@@ -1,0 +1,12 @@
+#! /usr/bin/env ruby
+
+require 'open-uri'
+require File.join(File.dirname(__FILE__), '..', 'lib', 'sedpr')
+
+unless html_location = ARGV[0]
+  puts "Usage: sedpr-to-csv location-of-html # file or uri"
+  exit 1
+end
+
+html = open(html_location)
+puts DailyPerformanceReport.new(html).to_csv
