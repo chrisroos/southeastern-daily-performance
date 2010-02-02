@@ -4,8 +4,12 @@ require 'affected_service'
 class AffectedServiceTest < Test::Unit::TestCase
   
   def test_should_provide_read_access_to_the_reason_for_the_disruption
-    affected_service = AffectedService.new('Signal problem', '')
+    affected_service = AffectedService.new('Signal problem', '00:00 origin - destination cancelled')
     assert_equal 'Signal problem', affected_service.reason_for_disruption
+  end
+  
+  def test_should_fail_fast_if_we_cannot_parse_the_incident_data
+    assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', 'foo bar baz') }
   end
   
   def test_should_deal_with_cancellations

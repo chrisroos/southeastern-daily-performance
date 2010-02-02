@@ -1,12 +1,20 @@
 class AffectedService
   
+  class UnidentifiedService < StandardError
+    def initialize(reason_for_disruption, incident_text)
+      super("Reason: #{reason_for_disruption}.  Incident text: #{incident_text}")
+    end
+  end
+  
   attr_reader :reason_for_disruption
   attr_reader :scheduled_start_time, :scheduled_start_station, :scheduled_destination_station
   attr_reader :effect_on_service
   
   def initialize(reason_for_disruption, incident_text)
     @reason_for_disruption = reason_for_disruption
-    incident_text =~ /(\d\d:\d\d) (.*?) \- (.*)/
+    unless incident_text =~ /(\d\d:\d\d) (.*?) \- (.*)/
+      raise UnidentifiedService.new(reason_for_disruption, incident_text)
+    end
     @scheduled_start_time, @scheduled_start_station = $1, $2
     destination_and_effect_on_service = $3
     if    destination_and_effect_on_service =~ /(.*) (cancelled)/
