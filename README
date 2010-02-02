@@ -21,3 +21,5 @@ To convert to CSV
    - Replace / terminated at/ with ',terminated at' - NOTE. This isn't as simple because reasons are sometimes concatenated with 'and'
    - Replace / started/ with ',started' - NOTE. I thought we could replace / started at/ but I've seen an instance of /started /
    - Replace / cancelled/ with ',cancelled'
+   
+5. Add the date as the first column.  The h1 contains the date, albeit without a year.
