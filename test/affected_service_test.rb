@@ -8,8 +8,9 @@ class AffectedServiceTest < Test::Unit::TestCase
     assert_equal 'Signal problem', affected_service.reason_for_disruption
   end
   
-  def test_should_fail_fast_if_we_cannot_parse_the_incident_data
-    assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', 'foo bar baz') }
+  def test_should_emit_warning_if_we_cannot_parse_the_incident_data
+    AffectedService.any_instance.expects(:warn).with("Cannot parse service: 'foo bar baz'")
+    AffectedService.new('', 'foo bar baz')
   end
   
 end

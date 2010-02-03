@@ -1,10 +1,4 @@
 class AffectedService
-
-  class UnidentifiedService < StandardError
-    def initialize(reason_for_disruption, incident_text)
-      super("Reason: #{reason_for_disruption}.  Incident text: #{incident_text}")
-    end
-  end
   
   attr_reader :reason_for_disruption
   attr_reader :scheduled_start_time, :scheduled_start_station, :scheduled_destination_station
@@ -12,24 +6,25 @@ class AffectedService
   
   def initialize(reason_for_disruption, incident_text)
     @reason_for_disruption = reason_for_disruption
-    unless incident_text =~ /(\d\d:\d\d) (.*?) (?:-|to) (.*)/
-      raise UnidentifiedService.new(reason_for_disruption, incident_text)
-    end
-    @scheduled_start_time, @scheduled_start_station = $1, $2
-    destination_and_effect_on_service = $3
-    if    destination_and_effect_on_service =~ /(.*) (cancelled)/
-    elsif destination_and_effect_on_service =~ /(.*) (did not call.*)/
-    elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
-    elsif destination_and_effect_on_service =~ /(.*) (started .*)/
-    elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
-    elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
-    else
-      unless destination_and_effect_on_service.split(' ').length == 1
-        warn "Cannot parse destination and reason: '#{destination_and_effect_on_service}'"
+    if incident_text =~ /(\d\d:\d\d) (.*?) (?:-|to) (.*)/
+      @scheduled_start_time, @scheduled_start_station = $1, $2
+      destination_and_effect_on_service = $3
+      if    destination_and_effect_on_service =~ /(.*) (cancelled)/
+      elsif destination_and_effect_on_service =~ /(.*) (did not call.*)/
+      elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
+      elsif destination_and_effect_on_service =~ /(.*) (started .*)/
+      elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
+      elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
+      else
+        unless destination_and_effect_on_service.split(' ').length == 1
+          warn "Cannot parse destination and reason: '#{destination_and_effect_on_service}'"
+        end
+        destination_and_effect_on_service =~ /(.*)/
       end
-      destination_and_effect_on_service =~ /(.*)/
+      @scheduled_destination_station, @effect_on_service = $1, ($2||'')
+    else
+      warn "Cannot parse service: '#{incident_text}'"
     end
-    @scheduled_destination_station, @effect_on_service = $1, ($2||'')
   end
   
   def ==(incident)
