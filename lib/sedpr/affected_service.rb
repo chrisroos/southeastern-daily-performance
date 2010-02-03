@@ -22,6 +22,8 @@ class AffectedService
     elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
     elsif destination_and_effect_on_service =~ /(.*) (started .*)/
     elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
+    else
+      raise UnidentifiedService.new(reason_for_disruption, incident_text)
     end
     @scheduled_destination_station, @effect_on_service = $1, $2
   end

@@ -12,6 +12,10 @@ class AffectedServiceTest < Test::Unit::TestCase
     assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', 'foo bar baz') }
   end
   
+  def test_should_fail_fast_if_we_cannot_parse_the_reason_for_the_disruption
+    assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', '00:00 origin - destination foo-bar-baz') }
+  end
+  
   def test_should_deal_with_cancellations
     affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
     assert_equal 'cancelled', affected_service.effect_on_service
