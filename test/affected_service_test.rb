@@ -25,6 +25,22 @@ class AffectedServiceStrangeSeperatorsTest < Test::Unit::TestCase
     assert_equal 'destination', affected_service.scheduled_destination_station
   end
   
+  def test_should_deal_with_a_lack_of_space_between_the_hyphen_and_origin_stations
+    affected_service = AffectedService.new('', "00:00 origin- destination cancelled")
+    
+    assert_equal '00:00',       affected_service.scheduled_start_time
+    assert_equal 'origin',      affected_service.scheduled_start_station
+    assert_equal 'destination', affected_service.scheduled_destination_station
+  end
+  
+  def test_should_deal_with_an_extraneous_question_mark_and_lack_of_space_between_the_hyphen_and_origin_stations
+    affected_service = AffectedService.new('', "00:00 origin?- destination cancelled")
+    
+    assert_equal '00:00',       affected_service.scheduled_start_time
+    assert_equal 'origin',      affected_service.scheduled_start_station
+    assert_equal 'destination', affected_service.scheduled_destination_station
+  end
+  
 end
 
 class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
