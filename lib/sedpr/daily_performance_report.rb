@@ -11,7 +11,9 @@ class DailyPerformanceReport
   def date
     date = (@doc/'h1').inner_text
     date.gsub!(/\?/, ' ')
-    date =~ /(.+?) (\d+) (.+)/
+    if date =~ /(.+?) (\d+) (.+)/
+    elsif (@doc/'h2').inner_text =~ /(.+?) (\d+) (.+)/
+    end
     day_name, day, month_name = $1, $2, $3
     date = [day, month_name[0..2].downcase, '2010'].join('-')
     Date.parse(date)

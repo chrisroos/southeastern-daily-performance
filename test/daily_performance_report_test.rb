@@ -46,7 +46,7 @@ class DailyPerformanceReportTest < Test::Unit::TestCase
     @report = DailyPerformanceReport.new(html)
   end
   
-  def test_should_parse_the_date_from_the_heading
+  def test_should_parse_the_date_from_the_level_1_heading
     assert_equal Date.parse('2010-01-27'), @report.date
   end
   
@@ -89,6 +89,50 @@ class DailyPerformanceReportTest < Test::Unit::TestCase
   def test_should_parse_the_fifth_service_disruption
     expected_incident = AffectedService.new('Fatality at Wandsworth Road', '08:54 Swanley - Victoria')
     assert_equal expected_incident, @report.affected_services[4]
+  end
+  
+end
+
+class DailyPerformanceReportNewFormatTest < Test::Unit::TestCase
+  
+  def setup
+    html =<<-End
+<div class="content" id="content_975">
+  <h1>Daily performance information</h1>
+  <div class="float_reset"></div>
+</div>
+<div class="content" id="content_976">
+  <h2>Sunday 31 January&nbsp;</h2>
+  <p>
+    Whether you're one of our regular commuters, travelling on business or for leisure, you expect Southeastern trains to be punctual and reliable. 
+  </p>
+  <p>
+    On Sunday 31 January, <strong>1047</strong> train services were scheduled to operate of which <strong>1039</strong> ran.
+  </p>
+  <p>
+    We aim to run all our trains on time, however there are times when this isn't possible. On this day <strong>96%</strong> of services ran within 5 minutes of schedule.
+  </p>
+    <p class="bordered">The following services were diverted, cancelled or delayed by over 10 minutes:
+  </p>
+</div>
+    End
+    @report = DailyPerformanceReport.new(html)
+  end
+  
+  def test_should_parse_the_date_from_the_level_2_heading
+    assert_equal Date.parse('2010-01-31'), @report.date
+  end
+  
+  def test_should_parse_the_number_of_scheduled_services
+    assert_equal 1047, @report.scheduled_services
+  end
+  
+  def test_should_parse_the_number_of_actual_services
+    assert_equal 1039, @report.actual_services
+  end
+  
+  def test_should_parse_the_percentage_or_trains_that_ran_within_5_minutes_of_schedule
+    assert_equal 96, @report.services_within_five_minutes_of_schedule
   end
   
 end
