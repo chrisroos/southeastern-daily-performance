@@ -35,6 +35,11 @@ class DailyPerformanceReportTest < Test::Unit::TestCase
         <br />
         07:36 Victoria - Ashford delayed by 10 minutes
       </p>
+      <p>
+        <strong>Fatality at Wandsworth Road</strong>
+        <br />
+        08:54 Swanley - Victoria
+      </p>
     </div>
     EndHtmlReport
     
@@ -58,7 +63,7 @@ class DailyPerformanceReportTest < Test::Unit::TestCase
   end
   
   def test_should_parse_the_number_of_affected_services
-    assert_equal 4, @report.affected_services.length
+    assert_equal 5, @report.affected_services.length
   end
   
   def test_should_parse_the_first_service_disruption
@@ -79,6 +84,11 @@ class DailyPerformanceReportTest < Test::Unit::TestCase
   def test_should_parse_the_fourth_service_disruption
     expected_incident = AffectedService.new('Track circuit failure', '07:36 Victoria - Ashford delayed by 10 minutes')
     assert_equal expected_incident, @report.affected_services[3]
+  end
+  
+  def test_should_parse_the_fifth_service_disruption
+    expected_incident = AffectedService.new('Fatality at Wandsworth Road', '08:54 Swanley - Victoria')
+    assert_equal expected_incident, @report.affected_services[4]
   end
   
 end

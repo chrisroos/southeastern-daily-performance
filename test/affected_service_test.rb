@@ -12,10 +12,6 @@ class AffectedServiceTest < Test::Unit::TestCase
     assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', 'foo bar baz') }
   end
   
-  def test_should_fail_fast_if_we_cannot_parse_the_reason_for_the_disruption
-    assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', '00:00 origin - destination foo-bar-baz') }
-  end
-  
 end
 
 class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
@@ -59,6 +55,22 @@ class AffectedServiceSeparatedByToTest < Test::Unit::TestCase
 end
 
 class AffectedServiceOutcomeTest < Test::Unit::TestCase
+  
+  def test_should_assume_a_one_word_destination_station_with_no_outcome_and_therefore_not_warn
+    AffectedService.any_instance.expects(:warn).never
+    affected_service = AffectedService.new('', "00:00 origin - destination")
+    
+    assert_equal 'destination', affected_service.scheduled_destination_station
+    assert_equal '', affected_service.effect_on_service
+  end
+  
+  def test_should_warn_that_we_cannot_parse_the_destination_station_and_outcome
+    AffectedService.any_instance.expects(:warn).with("Cannot parse destination and reason: 'destination and reason'")
+    affected_service = AffectedService.new('', "00:00 origin - destination and reason")
+    
+    assert_equal 'destination and reason', affected_service.scheduled_destination_station
+    assert_equal '', affected_service.effect_on_service
+  end
   
   def test_should_deal_with_cancellations
     affected_service = AffectedService.new('', "00:00 origin - destination cancelled")

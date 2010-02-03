@@ -1,5 +1,5 @@
 class AffectedService
-  
+
   class UnidentifiedService < StandardError
     def initialize(reason_for_disruption, incident_text)
       super("Reason: #{reason_for_disruption}.  Incident text: #{incident_text}")
@@ -23,9 +23,12 @@ class AffectedService
     elsif destination_and_effect_on_service =~ /(.*) (started .*)/
     elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
     else
-      raise UnidentifiedService.new(reason_for_disruption, incident_text)
+      unless destination_and_effect_on_service.split(' ').length == 1
+        warn "Cannot parse destination and reason: '#{destination_and_effect_on_service}'"
+      end
+      destination_and_effect_on_service =~ /(.*)/
     end
-    @scheduled_destination_station, @effect_on_service = $1, $2
+    @scheduled_destination_station, @effect_on_service = $1, ($2||'')
   end
   
   def ==(incident)
