@@ -16,35 +16,49 @@ class AffectedServiceTest < Test::Unit::TestCase
     assert_raise(AffectedService::UnidentifiedService) { AffectedService.new('', '00:00 origin - destination foo-bar-baz') }
   end
   
-  def test_should_parse_the_time_of_the_service_when_the_stations_are_separated_by_hyphen
-    affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
-    assert_equal '00:00', affected_service.scheduled_start_time
+end
+
+class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
+  
+  def setup
+    @affected_service = AffectedService.new('', "00:00 origin - destination outcome")
   end
   
-  def test_should_parse_the_origin_station_of_the_service_when_the_stations_are_separated_by_hyphen
-    affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
-    assert_equal 'origin', affected_service.scheduled_start_station
+  def test_should_parse_the_time_of_the_service
+    assert_equal '00:00', @affected_service.scheduled_start_time
   end
   
-  def test_should_parse_the_destination_station_of_the_service_when_the_stations_are_separated_by_hyphen
-    affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
-    assert_equal 'destination', affected_service.scheduled_destination_station
+  def test_should_parse_the_origin_station
+    assert_equal 'origin', @affected_service.scheduled_start_station
   end
   
-  def test_should_parse_the_time_of_the_service_when_the_stations_are_separated_by_the_word_to
-    affected_service = AffectedService.new('', "00:00 origin to destination cancelled")
-    assert_equal '00:00', affected_service.scheduled_start_time
+  def test_should_parse_the_destination_station
+    assert_equal 'destination', @affected_service.scheduled_destination_station
   end
   
-  def test_should_parse_the_origin_station_of_the_service_when_the_stations_are_separated_by_the_word_to
-    affected_service = AffectedService.new('', "00:00 origin to destination cancelled")
-    assert_equal 'origin', affected_service.scheduled_start_station
+end
+
+class AffectedServiceSeparatedByToTest
+  
+  def setup
+    @affected_service = AffectedService.new('', "00:00 origin to destination outcome")
   end
   
-  def test_should_parse_the_destination_station_of_the_service_when_the_stations_are_separated_by_the_word_to
-    affected_service = AffectedService.new('', "00:00 origin to destination cancelled")
-    assert_equal 'destination', affected_service.scheduled_destination_station
+  def test_should_parse_the_time_of_the_service
+    assert_equal '00:00', @affected_service.scheduled_start_time
   end
+  
+  def test_should_parse_the_origin_station
+    assert_equal 'origin', @affected_service.scheduled_start_station
+  end
+  
+  def test_should_parse_the_destination_station
+    assert_equal 'destination', @affected_service.scheduled_destination_station
+  end
+  
+end
+
+class AffectedServiceOutcomeTest
   
   def test_should_deal_with_cancellations
     affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
