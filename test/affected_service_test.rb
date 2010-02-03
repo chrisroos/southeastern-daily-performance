@@ -15,6 +15,18 @@ class AffectedServiceTest < Test::Unit::TestCase
   
 end
 
+class AffectedServiceStrangeSeperatorsTest < Test::Unit::TestCase
+  
+  def test_should_deal_with_a_question_mark_as_a_seperator
+    affected_service = AffectedService.new('', "00:00 origin ? destination cancelled")
+    
+    assert_equal '00:00',       affected_service.scheduled_start_time
+    assert_equal 'origin',      affected_service.scheduled_start_station
+    assert_equal 'destination', affected_service.scheduled_destination_station
+  end
+  
+end
+
 class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
   
   def setup

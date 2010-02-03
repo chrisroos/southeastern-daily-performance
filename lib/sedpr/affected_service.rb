@@ -6,7 +6,7 @@ class AffectedService
   
   def initialize(reason_for_disruption, incident_text)
     @reason_for_disruption = reason_for_disruption
-    if incident_text =~ /(\d\d:\d\d) (.*?) (?:-|to) (.*)/
+    if incident_text =~ /(\d\d:\d\d) (.*?) (?:-|to|\?) (.*)/
       @scheduled_start_time, @scheduled_start_station = $1, $2
       destination_and_effect_on_service = $3
       if    destination_and_effect_on_service =~ /(.*) (cancelled)/
