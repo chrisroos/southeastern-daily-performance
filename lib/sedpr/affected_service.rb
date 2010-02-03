@@ -12,7 +12,7 @@ class AffectedService
   
   def initialize(reason_for_disruption, incident_text)
     @reason_for_disruption = reason_for_disruption
-    unless incident_text =~ /(\d\d:\d\d) (.*?) \- (.*)/
+    unless incident_text =~ /(\d\d:\d\d) (.*?) (?:-|to) (.*)/
       raise UnidentifiedService.new(reason_for_disruption, incident_text)
     end
     @scheduled_start_time, @scheduled_start_station = $1, $2
