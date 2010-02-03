@@ -21,7 +21,7 @@ end
 class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
   
   def setup
-    @affected_service = AffectedService.new('', "00:00 origin - destination outcome")
+    @affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
   end
   
   def test_should_parse_the_time_of_the_service
@@ -41,7 +41,7 @@ end
 class AffectedServiceSeparatedByToTest
   
   def setup
-    @affected_service = AffectedService.new('', "00:00 origin to destination outcome")
+    @affected_service = AffectedService.new('', "00:00 origin to destination cancelled")
   end
   
   def test_should_parse_the_time_of_the_service
