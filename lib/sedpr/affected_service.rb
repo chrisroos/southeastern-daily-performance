@@ -22,6 +22,7 @@ class AffectedService
     elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
     elsif destination_and_effect_on_service =~ /(.*) (started .*)/
     elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
+    elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
     else
       unless destination_and_effect_on_service.split(' ').length == 1
         warn "Cannot parse destination and reason: '#{destination_and_effect_on_service}'"
