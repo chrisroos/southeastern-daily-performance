@@ -38,7 +38,7 @@ class AffectedServiceSeparatedByHyphensTest < Test::Unit::TestCase
   
 end
 
-class AffectedServiceSeparatedByToTest
+class AffectedServiceSeparatedByToTest < Test::Unit::TestCase
   
   def setup
     @affected_service = AffectedService.new('', "00:00 origin to destination cancelled")
@@ -58,7 +58,7 @@ class AffectedServiceSeparatedByToTest
   
 end
 
-class AffectedServiceOutcomeTest
+class AffectedServiceOutcomeTest < Test::Unit::TestCase
   
   def test_should_deal_with_cancellations
     affected_service = AffectedService.new('', "00:00 origin - destination cancelled")
