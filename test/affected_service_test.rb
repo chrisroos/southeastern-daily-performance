@@ -126,14 +126,19 @@ class AffectedServiceOutcomeTest < Test::Unit::TestCase
     assert_equal 'started at London Bridge', affected_service.effect_on_service
   end
   
-  def test_should_deal_with_services_that_start_elsewhere_and_terminate_early
-    affected_service = AffectedService.new('', "00:00 origin - destination started Tonbridge and terminated at Tunbridge Wells")
-    assert_equal 'started Tonbridge and terminated at Tunbridge Wells', affected_service.effect_on_service
-  end
-  
   def test_should_deal_with_diverted_services
     affected_service = AffectedService.new('', "00:00 origin - destination diverted to Barnehurst")
     assert_equal 'diverted to Barnehurst', affected_service.effect_on_service
+  end
+  
+  def test_should_deal_with_services_that_start_elsewhere_and_are_delayed
+    affected_service = AffectedService.new('', '00:00 origin - destination started at London Bridge and delayed by 15 minutes')
+    assert_equal 'started at London Bridge and delayed by 15 minutes', affected_service.effect_on_service
+  end
+  
+  def test_should_deal_with_services_that_start_elsewhere_and_terminate_early
+    affected_service = AffectedService.new('', "00:00 origin - destination started Tonbridge and terminated at Tunbridge Wells")
+    assert_equal 'started Tonbridge and terminated at Tunbridge Wells', affected_service.effect_on_service
   end
   
 end
