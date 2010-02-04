@@ -1,5 +1,6 @@
 require 'test_helper'
 require 'daily_performance_report'
+require 'csv'
 
 class DailyPerformanceReportTest < Test::Unit::TestCase
   
@@ -133,6 +134,29 @@ class DailyPerformanceReportNewFormatTest < Test::Unit::TestCase
   
   def test_should_parse_the_percentage_or_trains_that_ran_within_5_minutes_of_schedule
     assert_equal 96, @report.services_within_five_minutes_of_schedule
+  end
+  
+end
+
+class DailyPerformanceReportCsvTest < Test::Unit::TestCase
+  
+  def setup
+    html = <<-EndHtmlReport
+    <div class="content" id="content_7116">
+      <h1>Wednesday&nbsp;27&nbsp;January</h1>    <div class="float_reset"></div>
+    </div>
+    <div class="content" id="content_7114">
+      <p>
+        <strong>Points failure at Slade Green</strong>
+        <br />
+        13:54 Gillingham to Charing Cross started Rochester,&nbsp; delayed by 15 minutes and terminated London Bridge
+    EndHtmlReport
+    @report = DailyPerformanceReport.new(html).to_csv
+  end
+  
+  def test_should_quote_the_reason_in_the_csv_output
+    date, reason, time, origin, destination, reason = CSV.parse(@report).first
+    assert_equal 'started Rochester,  delayed by 15 minutes and terminated London Bridge', reason
   end
   
 end

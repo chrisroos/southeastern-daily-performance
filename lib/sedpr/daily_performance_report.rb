@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'hpricot'
 require 'affected_services_report'
+require 'csv'
 
 class DailyPerformanceReport
   
@@ -37,7 +38,7 @@ class DailyPerformanceReport
   
   def to_csv
     affected_services.collect do |service|
-      [date, service.reason_for_disruption, service.scheduled_start_time, service.scheduled_start_station, service.scheduled_destination_station, service.effect_on_service].join(',')
+      CSV.generate_line [date, service.reason_for_disruption, service.scheduled_start_time, service.scheduled_start_station, service.scheduled_destination_station, service.effect_on_service]
     end.join("\n")
   end
   
