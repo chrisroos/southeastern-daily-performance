@@ -10,12 +10,14 @@ class AffectedService
       @scheduled_start_time, @scheduled_start_station = $1, $2
       destination_and_effect_on_service = $3
       @scheduled_start_station.gsub!(/[^a-zA-Z ]/, '')
-      if    destination_and_effect_on_service =~ /(.*) (cancelled)/
-      elsif destination_and_effect_on_service =~ /(.*) (started .*)/
-      elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
-      elsif destination_and_effect_on_service =~ /(.*) (did not call.*)/
-      elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
-      elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
+      reasons = [
+        'cancelled', 'started', 'delayed by', 'did not call', 'terminated at', 'diverted'
+      ]
+      matches = reasons.collect do |reason|
+        destination_and_effect_on_service =~ /#{reason}/
+      end
+      if matches.compact.min && reason = reasons[matches.index(matches.compact.min)]
+        destination_and_effect_on_service =~ /(.*) (#{reason}.*)/
       else
         unless destination_and_effect_on_service.split(' ').length == 1
           warn "Warning. Unknown, or missing, affect on service: '#{incident_text}'"
