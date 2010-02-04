@@ -9,7 +9,7 @@ class AffectedServiceTest < Test::Unit::TestCase
   end
   
   def test_should_emit_warning_if_we_cannot_parse_the_incident_data
-    AffectedService.any_instance.expects(:warn).with("Cannot parse service: 'foo bar baz'")
+    AffectedService.any_instance.expects(:warn).with("Warning. Cannot parse service details: 'foo bar baz'")
     AffectedService.new('', 'foo bar baz')
   end
   
@@ -94,7 +94,7 @@ class AffectedServiceOutcomeTest < Test::Unit::TestCase
   end
   
   def test_should_warn_that_we_cannot_parse_the_destination_station_and_outcome
-    AffectedService.any_instance.expects(:warn).with("Cannot parse destination and reason: 'destination and reason'")
+    AffectedService.any_instance.expects(:warn).with("Warning. Unknown, or missing, affect on service: '00:00 origin - destination and reason'")
     affected_service = AffectedService.new('', "00:00 origin - destination and reason")
     
     assert_equal 'destination and reason', affected_service.scheduled_destination_station

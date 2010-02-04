@@ -18,13 +18,13 @@ class AffectedService
       elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
       else
         unless destination_and_effect_on_service.split(' ').length == 1
-          warn "Cannot parse destination and reason: '#{destination_and_effect_on_service}'"
+          warn "Warning. Unknown, or missing, affect on service: '#{incident_text}'"
         end
         destination_and_effect_on_service =~ /(.*)/
       end
       @scheduled_destination_station, @effect_on_service = $1, ($2||'')
     else
-      warn "Cannot parse service: '#{incident_text}'"
+      warn "Warning. Cannot parse service details: '#{incident_text}'"
     end
   end
   
