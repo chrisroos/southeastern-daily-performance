@@ -11,7 +11,7 @@ class AffectedServicesReport
   def affected_services
     @doc.search('*').collect do |elem|
       if elem.text? and incident_text = elem.inner_text[/\d\d:\d\d.*/]
-        reason = find_previous_strong_element(elem).inner_text
+        reason = find_previous_strong_element(elem).inner_text.gsub(/[^a-zA-z ]/, '')
         AffectedService.new(reason.strip, incident_text.strip)
       end
     end.compact

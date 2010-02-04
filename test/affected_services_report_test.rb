@@ -82,7 +82,7 @@ class AffectedServicesReportMultipleIncidentsWierdMarkupTest < Test::Unit::TestC
     <div>
       <p>
         <br />
-        <strong>Track circuit failure <br/></strong>
+        <strong>&nbsp;<br/>Track circuit failure <br/></strong>
         <br />
         05:50 Ashford - Victoria delayed by 20 minutes
         <br />
