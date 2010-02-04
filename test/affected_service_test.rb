@@ -141,6 +141,11 @@ class AffectedServiceOutcomeTest < Test::Unit::TestCase
     assert_equal 'started Tonbridge and terminated at Tunbridge Wells', affected_service.effect_on_service
   end
   
+  def test_should_deal_with_services_that_are_delayed_and_miss_stations
+    affected_service = AffectedService.new('', '00:00 origin - destination delayed by 10 minutes and did not call at Woolwich Dockyard')
+    assert_equal 'delayed by 10 minutes and did not call at Woolwich Dockyard', affected_service.effect_on_service
+  end
+  
 end
 
 class AffectedServiceEqualityTest < Test::Unit::TestCase

@@ -11,9 +11,9 @@ class AffectedService
       destination_and_effect_on_service = $3
       @scheduled_start_station.gsub!(/[^a-zA-Z ]/, '')
       if    destination_and_effect_on_service =~ /(.*) (cancelled)/
-      elsif destination_and_effect_on_service =~ /(.*) (did not call.*)/
       elsif destination_and_effect_on_service =~ /(.*) (started .*)/
       elsif destination_and_effect_on_service =~ /(.*) (delayed by.*)/
+      elsif destination_and_effect_on_service =~ /(.*) (did not call.*)/
       elsif destination_and_effect_on_service =~ /(.*) (terminated at.*)/
       elsif destination_and_effect_on_service =~ /(.*) (diverted.*)/
       else
