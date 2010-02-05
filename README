@@ -1,25 +1,18 @@
-Process
-=======
-1. Manually convert one of the html reports to csv
+Installation
+============
+$ gem install southeastern-daily-performance -r http://gemcutter.org
 
-2. Parse the csv file with a csv library to ensure that it's valid (or at least that each row contains the same number of columns)
-   - Something like: "CSV.open('se-2010-01-27.csv', 'r').collect { |row| row.length }.uniq"
-   
-2. Wrap a test around the parser (that doesn't exist), asserting that the result of parsing the html report is the hand crafted csv output
 
-To convert to CSV
-=================
-1. Make the heading (reason) the first column.
+Usage
+=====
+$ sedpr-to-csv <location-of-html>
 
-2. Replace /(\d\d:\d\d) / with \1, (i.e. replace the space after the time with a comma).
 
-3. Replace / - / with ',' (i.e. replace the space-hyphen-space between origin/destination stations with a comma).
+Examples
+========
+# Explicitly download html and convert local file
+$ curl "http://www.southeasternrailway.co.uk/index.php/cms/pages/view/132" > sedpr.html
+$ sedpr-to-csv sedpr.html
 
-4. Separate the notes:
-   - Replace / did not call/ with ',did not call'
-   - Replace / delayed by/ with ',delayed by'
-   - Replace / terminated at/ with ',terminated at' - NOTE. This isn't as simple because reasons are sometimes concatenated with 'and'
-   - Replace / started/ with ',started' - NOTE. I thought we could replace / started at/ but I've seen an instance of /started /
-   - Replace / cancelled/ with ',cancelled'
-   
-5. Add the date as the first column.  The h1 contains the date, albeit without a year.
+# Implicitly download html and convert
+$ sedpr-to-csv http://www.southeasternrailway.co.uk/index.php/cms/pages/view/132
