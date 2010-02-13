@@ -14,10 +14,10 @@ class AffectedService
         'cancelled', 'started', 'delayed by', 'did not call', 'terminated at', 'diverted'
       ]
       matches = reasons.collect do |reason|
-        destination_and_effect_on_service =~ /#{reason}/
+        destination_and_effect_on_service =~ /#{reason}/i
       end
       if matches.compact.min && reason = reasons[matches.index(matches.compact.min)]
-        destination_and_effect_on_service =~ /(.*) (#{reason}.*)/
+        destination_and_effect_on_service =~ /(.*) (#{reason}.*)/i
       else
         unless destination_and_effect_on_service.split(' ').length == 1
           warn "Warning. Unknown, or missing, affect on service: '#{incident_text}'"
