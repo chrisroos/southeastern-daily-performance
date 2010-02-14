@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{southeastern-daily-performance}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Roos"]
-  s.date = %q{2010-02-05}
+  s.date = %q{2010-02-14}
   s.default_executable = %q{sedpr-to-csv}
   s.email = %q{chris@seagul.co.uk}
   s.executables = ["sedpr-to-csv"]
