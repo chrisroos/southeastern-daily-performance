@@ -44,7 +44,7 @@ spec = Gem::Specification.new do |s|
   s.rdoc_options      = %w(--main README)
 
   # Add any extra files to include in the gem
-  s.files             = %w(README Rakefile combined.csv) + Dir.glob("{bin,test,lib/**/*}")
+  s.files             = %w(README Rakefile) + Dir.glob("{bin,test,lib/**/*}")
   s.executables       = FileList["bin/**"].map { |f| File.basename(f) }
   s.require_paths     = ["lib"]
 

@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{chris@seagul.co.uk}
   s.executables = ["sedpr-to-csv"]
   s.extra_rdoc_files = ["README"]
-  s.files = ["README", "Rakefile", "combined.csv", "bin", "test", "lib/sedpr", "lib/sedpr/affected_service.rb", "lib/sedpr/affected_services_report.rb", "lib/sedpr/daily_performance_report.rb", "lib/sedpr.rb", "bin/sedpr-to-csv"]
+  s.files = ["README", "Rakefile", "bin", "test", "lib/sedpr", "lib/sedpr/affected_service.rb", "lib/sedpr/affected_services_report.rb", "lib/sedpr/daily_performance_report.rb", "lib/sedpr.rb", "bin/sedpr-to-csv"]
   s.homepage = %q{http://github.com/chrisroos/southeastern-daily-performance}
   s.rdoc_options = ["--main", "README"]
   s.require_paths = ["lib"]
