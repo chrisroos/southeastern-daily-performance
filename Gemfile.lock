@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    hpricot (0.8.2)
+    mocha (0.9.8)
+      rake
+    rake (0.8.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hpricot
+  mocha
