@@ -6,6 +6,7 @@ require 'csv'
 class DailyPerformanceReport
   
   def initialize(html)
+    html = html.gsub(%r!&nbsp;!, ' ')
     @doc = Hpricot(html)
   end
   
