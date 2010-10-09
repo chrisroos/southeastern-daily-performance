@@ -8,5 +8,5 @@ unless html_location = ARGV[0]
   exit 1
 end
 
-html = open(html_location)
-puts DailyPerformanceReport.new(html).to_csv
+io = open(html_location)
+puts DailyPerformanceReport.new(io.read).to_csv
