@@ -33,24 +33,24 @@ spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
   s.name              = "southeastern-daily-performance"
-  s.version           = "0.0.2"
+  s.version           = "0.0.3"
   s.summary           = "Converts Southeaster Daily Performance reports from HTML to CSV"
   s.author            = "Chris Roos"
   s.email             = "chris@seagul.co.uk"
   s.homepage          = "http://github.com/chrisroos/southeastern-daily-performance"
 
   s.has_rdoc          = true
-  s.extra_rdoc_files  = %w(README)
-  s.rdoc_options      = %w(--main README)
+  s.extra_rdoc_files  = %w(README.md)
+  s.rdoc_options      = %w(--main README.md)
 
   # Add any extra files to include in the gem
-  s.files             = %w(README Rakefile) + Dir.glob("{bin,test,lib/**/*}")
+  s.files             = %w(README.md Rakefile) + Dir.glob("{bin,test,lib/**/*}")
   s.executables       = FileList["bin/**"].map { |f| File.basename(f) }
   s.require_paths     = ["lib"]
 
   # If you want to depend on other gems, add them here, along with any
   # relevant versions
-  # s.add_dependency("some_other_gem", "~> 0.1.0")
+  s.add_dependency('hpricot')
 
   # If your tests use any gems, include them here
   # s.add_development_dependency("mocha") # for example
