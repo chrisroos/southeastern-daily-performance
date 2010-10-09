@@ -1,4 +1,4 @@
-module SoutheasterDailyPerformance
+module SoutheasternDailyPerformance
   class AffectedService
   
     attr_reader :reason_for_disruption

@@ -2,7 +2,7 @@ require 'hpricot'
 require 'csv'
 require 'date'
 
-module SoutheasterDailyPerformance
+module SoutheasternDailyPerformance
   class DailyPerformanceReport
   
     def initialize(html)

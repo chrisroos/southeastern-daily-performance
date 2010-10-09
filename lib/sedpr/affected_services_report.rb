@@ -1,6 +1,6 @@
 require 'hpricot'
 
-module SoutheasterDailyPerformance
+module SoutheasternDailyPerformance
   class AffectedServicesReport
   
     def initialize(html)

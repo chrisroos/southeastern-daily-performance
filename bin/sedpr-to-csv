@@ -9,4 +9,4 @@ unless html_location = ARGV[0]
 end
 
 io = open(html_location)
-puts SoutheasterDailyPerformance::DailyPerformanceReport.new(io.read).to_csv
+puts SoutheasternDailyPerformance::DailyPerformanceReport.new(io.read).to_csv
