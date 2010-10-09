@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'daily_performance_report'
 require 'csv'
 
 class DailyPerformanceReportTest < Test::Unit::TestCase

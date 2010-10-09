@@ -1,6 +1,4 @@
-require 'rubygems'
 require 'hpricot'
-require 'affected_service'
 
 class AffectedServicesReport
   

@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'daily_performance_report'
 
 class DailyPerformanceReportIntegrationTest < Test::Unit::TestCase
   

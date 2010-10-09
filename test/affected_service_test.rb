@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'affected_service'
 
 class AffectedServiceTest < Test::Unit::TestCase
   

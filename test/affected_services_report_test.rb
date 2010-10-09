@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'affected_services_report'
 
 class AffectedServicesReportOneIncidentTest < Test::Unit::TestCase
   
