@@ -20,7 +20,7 @@ spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
   s.name              = "southeastern-daily-performance"
-  s.version           = "0.0.3"
+  s.version           = "0.0.4"
   s.summary           = "Converts Southeaster Daily Performance reports from HTML to CSV"
   s.author            = "Chris Roos"
   s.email             = "chris@seagul.co.uk"
