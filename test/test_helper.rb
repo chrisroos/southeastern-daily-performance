@@ -4,6 +4,6 @@ require 'bundler/setup'
 require 'test/unit'
 require 'mocha'
 
-require 'sedpr'
+require 'southeastern_daily_performance'
 
 include SoutheasternDailyPerformance
