@@ -4,6 +4,6 @@ require 'bundler/setup'
 require 'test/unit'
 require 'mocha'
 
-require File.join(File.dirname(__FILE__), '..', 'lib', 'sedpr')
+require 'sedpr'
 
 include SoutheasternDailyPerformance
