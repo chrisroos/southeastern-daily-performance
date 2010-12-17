@@ -171,6 +171,11 @@ class AffectedServiceOutcomeTest < Test::Unit::TestCase
     assert_equal 'ran fast calling station only', affected_service.effect_on_service
   end
   
+  def test_should_deal_with_services_that_only_stop_at_a_limited_number_of_stops
+    affected_service = AffectedService.new('', '00:00 origin - destination called station-1 and station-2 only')
+    assert_equal 'called station-1 and station-2 only', affected_service.effect_on_service
+  end
+  
 end
 
 class AffectedServiceEqualityTest < Test::Unit::TestCase
