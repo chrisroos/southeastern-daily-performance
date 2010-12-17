@@ -7,6 +7,7 @@ module SoutheasternDailyPerformance
   
     def initialize(reason_for_disruption, incident_text)
       @reason_for_disruption = reason_for_disruption
+      incident_text.gsub!(/–/, '-') # Replace ndash with normal dash
       if incident_text =~ /(\d\d:\d\d) (.*?) ?(?:-|to|\?) (.*)/
         @scheduled_start_time, @scheduled_start_station = $1, $2
         destination_and_effect_on_service = $3
