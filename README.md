@@ -20,16 +20,11 @@
     
 ## Notes
 
-I just ran the conversion for the all the raw data.  I got warnings from the following files:
+### Combining all csv files into one big file
 
-* 2010-01-29
-* 2010-02-01
-* 2010-02-10
-* 2010-02-11
-* 2010-02-16
-* 2010-02-17
-* 2010-02-28
-* 2010-03-05
-* 2010-04-06
+    $ cat data/csv/*.csv > combined.csv
 
-The markup must've changed on the 2010-04-15 as the last successful conversion is from 2010-04-14.
+## TODO
+
+* 2010-04-21 breaks the parser...
+* Ensure that I'm generating valid CSV (specifically that I'm quoting columns that contain commas)
