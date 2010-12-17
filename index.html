@@ -31,6 +31,7 @@
   </head>
   <body>
     <h1>Southeastern Daily Performance Querymalarky</h1>
+    
     <h2>Reference</h2>
     <ul>
       <li>
@@ -40,17 +41,17 @@
         <a href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
       </li>
     </ul>
+    
     <h2>Example queries</h2>
-    <p>
-      <ul>
-        <li>
-          <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station',%20count()%20as%20'number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%20order%20by%20count()%20desc">Stations with the most problems</a>
-        </li>
-        <li>
-          <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20FROM%20359310%20where%20Problem%20LIKE%20'%25Snow%25'">Problems caused by THE SNOW</a>
-        </li>
-      </ul>
-    </p>
+    <ul>
+      <li>
+        <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station',%20count()%20as%20'number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%20order%20by%20count()%20desc">Stations with the most problems</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20FROM%20359310%20where%20Problem%20LIKE%20'%25Snow%25'">Problems caused by THE SNOW</a>
+      </li>
+    </ul>
+    
     <form>
       <p>
         <textarea id="rawQuery" cols="100" rows="10"></textarea>
@@ -60,6 +61,8 @@
         <input id="queryReset" type="button" value="Reset" />
       </p>
     </form>
+    
     <p id="escapedQuery"></p>
+    
   </body>
 </html>
