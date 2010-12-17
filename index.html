@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Southeastern Daily Performance Querymalarky</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    
+      var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
+      var FusionTableID = 359310;
+      
+      var resetRawQuery = function() {
+        $('#rawQuery').val('SELECT * FROM ' + FusionTableID);
+      }
+    
+      $(function() {
+        resetRawQuery();
+        
+        $('#queryReset').click(resetRawQuery);
+        
+        $('#queryEncoder').click(function() {
+          var rawQuery     = $('#rawQuery').val();
+          var escapedQuery = encodeURIComponent(rawQuery);
+          var url          = FusionApiUrl + escapedQuery;
+          
+          var anchor = $('<a href="' + url + '" target="_blank">' + url + '</a>');
+          $('#escapedQuery').html(anchor);
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Southeastern Daily Performance Querymalarky</h1>
+    <p><a href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a></p>
+    <p><a href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a></p>
+    <form>
+      <p>
+        <textarea id="rawQuery" cols="100" rows="10"></textarea>
+      </p>
+      <p>
+        <input id="queryEncoder" type="button" value="Go go go" />
+        <input id="queryReset" type="button" value="Reset" />
+      </p>
+    </form>
+    <p id="escapedQuery"></p>
+  </body>
+</html>
