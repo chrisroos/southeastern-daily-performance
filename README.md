@@ -22,7 +22,8 @@
 
 ### Combining all csv files into one big file
 
-    $ cat data/csv/*.csv > combined.csv
+    $ echo "Date,Problem,Scheduled departure time,Scheduled departure station,Scheduled arrival station,Affect on service" > combined.csv
+    $ cat data/csv/*.csv >> combined.csv
 
 ## TODO
 
