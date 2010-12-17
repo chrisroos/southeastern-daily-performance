@@ -126,6 +126,9 @@ class AffectedServiceOutcomeTest < Test::Unit::TestCase
   def test_should_deal_with_services_that_terminate_early
     affected_service = AffectedService.new('', "00:00 origin - destination terminated at London Bridge")
     assert_equal 'terminated at London Bridge', affected_service.effect_on_service
+    
+    affected_service = AffectedService.new('', '00:00 origin - destination terminated station')
+    assert_equal 'terminated station', affected_service.effect_on_service
   end
   
   def test_should_deal_with_services_that_start_elsewhere

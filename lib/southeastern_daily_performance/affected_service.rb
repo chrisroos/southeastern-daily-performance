@@ -13,7 +13,7 @@ module SoutheasternDailyPerformance
         destination_and_effect_on_service = $3
         @scheduled_start_station.gsub!(/[^a-zA-Z ]/, '')
         reasons = [
-          'cancelled', 'started', 'delayed by', 'did not call', 'terminated at', 'diverted'
+          'cancelled', 'started', 'delayed by', 'did not call', 'terminated( at)?', 'diverted'
         ]
         matches = reasons.collect do |reason|
           destination_and_effect_on_service =~ /#{reason}/i
