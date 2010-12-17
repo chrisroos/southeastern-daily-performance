@@ -1,0 +1,90 @@
+2010-04-08,Technical fault,05:31,Dartford,Charing Cross,cancelled
+2010-04-08,Technical fault,06:32,Charing Cross,Dartford,cancelled
+2010-04-08,Technical fault,07:26,Dartford,Cannon St,cancelled
+2010-04-08,Train fault,06:32,Crayford,Cannon St,cancelled
+2010-04-08,Train fault,07:20,Cannon St,Orpington,cancelled
+2010-04-08,Train fault,08:02,Orpington,Charing Cross,cancelled
+2010-04-08,Train fault,08:49,Charing Cross,Sidcup,cancelled
+2010-04-08,Track circuit failure,09:08,Barnehurst,Cannon St,cancelled
+2010-04-08,Track circuit failure,10:09,Charing Cross,Gillingham,delayed by 10 minutes
+2010-04-08,Points failure,09:45,Charing Cross,Hastings,delayed by 59 minutes
+2010-04-08,Points failure,10:15,Charing Cross,Hastings,delayed by 22 minutes
+2010-04-08,Points failure,10:45,Charing Cross,Hastings,delayed by 11 minutes
+2010-04-08,Points failure,10:50,Hastings,Charing Cross,delayed by 41 minutes and terminated at Tonbridge
+2010-04-08,Points failure,11:32,Hastings,Charing Cross,cancelled
+2010-04-08,Points failure,11:50,Hastings,Charing Cross,terminated at London Bridge
+2010-04-08,Points failure,13:15,Charing Cross,Hastings,started at Tonbridge
+2010-04-08,Points failure,13:45,Charing Cross,Hastings,started at London Bridge
+2010-04-08,Technical fault,11:32,Gillingham,Victoria,delayed by 18 minutes and terminated at Bromley South
+2010-04-08,Points fault at Charing Cross,12:50,Hastings,Charing Cross,terminated at London Bridge
+2010-04-08,Points fault at Charing Cross,13:36,Sevenoaks,Charing Cross,terminated at London Bridge
+2010-04-08,Points fault at Charing Cross,14:10,Charing Cross,Ramsgate,delayed by 24 minutes and did not call at Sevenoaks
+2010-04-08,Points fault at Charing Cross,14:36,Charing Cross,Sevenoaks,started at London Bridge
+2010-04-08,Points fault at Charing Cross,14:45,Charing Cross,Hastings,started at London Bridge
+2010-04-08,Delayed train crew,13:02,Sevenoaks,Kent House,delayed by 10 minutes
+2010-04-08,Train fault at Slade Green,14:27,Cannon St,Dartford,delayed by 10 minutes
+2010-04-08,Vandalism,19:14,London Bridge,Sevenoaks,delayed by 18 minutes
+2010-04-08,Points failure at Grove Park,17:03,Charing Cross,Orpington,terminated at Hither Green
+2010-04-08,Points failure at Grove Park,17:05,Sevenoaks,Charing Cross,terminated at Grove Park
+2010-04-08,Points failure at Grove Park,17:08,Cannon St,Ramsgate,delayed by 17 minutes
+2010-04-08,Points failure at Grove Park,17:14,Charing Cross,Dover Priory,delayed by 13 minutes
+2010-04-08,Points failure at Grove Park,17:19,Charing Cross,Ore,delayed by 25 minutes and terminated at Hastings
+2010-04-08,Points failure at Grove Park,17:19,Cannon St,Sevenoaks,delayed by 12 minutes
+2010-04-08,Points failure at Grove Park,17:23,Charing Cross,Tunbridge Wells,delayed by 32 minutes
+2010-04-08,Points failure at Grove Park,17:24,Cannon St,Ashford,delayed by 31 minutes
+2010-04-08,Points failure at Grove Park,17:26,Charing Cross,Orpington,delayed by 29 minutes
+2010-04-08,Points failure at Grove Park,17:30,Cannon St,Ramsgate,delayed by 32 minutes
+2010-04-08,Points failure at Grove Park,17:37,Cannon St,Hastings,delayed by 16 minutes
+2010-04-08,Points failure at Grove Park,17:41,Charing Cross,Ramsgate,delayed by 23 minutes
+2010-04-08,Points failure at Grove Park,17:41,Cannon St,Sevenoaks,delayed by 25 minutes and terminated at Orpington
+2010-04-08,Points failure at Grove Park,17:45,Charing Cross,Tunbridge Wells,delayed by 18 minutes and terminated at Tonbridge
+2010-04-08,Points failure at Grove Park,17:45,Cannon St,Ramsgate,delayed by 15 minutes
+2010-04-08,Points failure at Grove Park,17:47,Charing Cross,Orpington,delayed by 10 minutes
+2010-04-08,Points failure at Grove Park,17:52,Cannon St,Ramsgate,delayed by 13 minutes
+2010-04-08,Points failure at Grove Park,17:53,Margate,St Pancras International,delayed by 10 minutes
+2010-04-08,Points failure at Grove Park,17:54,Charing Cross,Sidcup,delayed by 14 minutes
+2010-04-08,Points failure at Grove Park,18:01,Charing Cross,Gravesend,delayed by 10 minutes and terminated at Dartford
+2010-04-08,Points failure at Grove Park,18:03,Orpington,Cannon St,started at Hither Green
+2010-04-08,Points failure at Grove Park,18:03,Charing Cross,Ore,terminated at Hastings
+2010-04-08,Points failure at Grove Park,18:07,Charing Cross,Tunbridge Wells,started at Chelsfield and delayed by 27 minutes
+2010-04-08,Points failure at Grove Park,18:08,Cannon St,Ramsgate,delayed by 11 minutes
+2010-04-08,Points failure at Grove Park,18:14,Cannon St,Ramsgate,delayed by 33 minutes
+2010-04-08,Points failure at Grove Park,18:18,Sevenoaks,Victoria,did not call at Bat & Ball
+2010-04-08,Points failure at Grove Park,18:28,Cannon St,Hastings,delayed by 37 minutes
+2010-04-08,Points failure at Grove Park,18:33,Ashford,Canterbury West,delayed by 14 minutes
+2010-04-08,Points failure at Grove Park,18:33,Tunbridge Wells,Hastings,delayed by 24 minutes
+2010-04-08,Points failure at Grove Park,18:34,Orpington,Cannon St,delayed by 16 minutes
+2010-04-08,Points failure at Grove Park,18:35,Sevenoaks,Charing Cross,started at Orpington
+2010-04-08,Points failure at Grove Park,18:40,Ramsgate,Charing Cross,terminated at Ashford
+2010-04-08,Points failure at Grove Park,18:45,Charing Cross,Hastings,delayed by 15 minutes
+2010-04-08,Points failure at Grove Park,18:45,Sevenoaks,Victoria,started at Bickley
+2010-04-08,Points failure at Grove Park,18:51,Tunbridge Wells,Charing Cross,started at Tonbridge and delayed by 11 minutes
+2010-04-08,Points failure at Grove Park,18:54,Cannon St,Barnehurst,started at New Cross
+2010-04-08,Points failure at Grove Park,19:04,Gravesend,Charing Cross,started at Dartford
+2010-04-08,Points failure at Grove Park,19:04,Cannon St,Hastings,delayed by 12 minutes
+2010-04-08,Points failure at Grove Park,19:06,Sevenoaks,Charing Cross,delayed by 12 minutes and terminated at London Bridge
+2010-04-08,Points failure at Grove Park,19:21,Tunbridge Wells,Charing Cross,delayed by 38 minutes and terminated at Orpington
+2010-04-08,Points failure at Grove Park,19:29,Ashford,Canterbury West,delayed by 32 minutes
+2010-04-08,Points failure at Grove Park,19:40,Charing Cross,Ramsgate,delayed by 15 minutes
+2010-04-08,Points failure at Grove Park,19:51,Tunbridge Wells,Charing Cross,delayed by 27 minutes and terminated at London Bridge
+2010-04-08,Points failure at Grove Park,20:05,Ashford,Ramsgate,delayed by 12 minutes
+2010-04-08,Points failure at Grove Park,20:09,Charing Cross,Gillingham,started at London Bridge
+2010-04-08,Points failure at Grove Park,20:22,Ramsgate,Ashford,delayed by 21 minutes
+2010-04-08,Points failure at Grove Park,20:24,Dover Priory,Charing Cross,delayed by 13 minutes
+2010-04-08,Points failure at Grove Park,20:30,Charing Cross,Tunbridge Wells,started at Orpington
+2010-04-08,Points failure at Grove Park,20:41,Ramsgate,Charing Cross,delayed by 12 minutes
+2010-04-08,Points failure at Grove Park,20:50,Hastings,Charing Cross,delayed by 21 minutes
+2010-04-08,Points failure at Grove Park,21:00,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-04-08,Points failure at Grove Park,21:03,Ashford,Ramsgate,delayed by 16 minutes
+2010-04-08,Points failure at Grove Park,21:51,Tunbridge Wells,Charing Cross,delayed by 13 minutes
+2010-04-08,Points failure at Grove Park,22:45,Charing Cross,Hastings,delayed by 11 minutes
+2010-04-08,Points failure at Grove Park,23:07,Grove Park,Bromley North,cancelled
+2010-04-08,Points failure at Grove Park,23:23,Bromley North,Grove Park,cancelled
+2010-04-08,Train fault at Dover Priory,17:39,Dover Priory,Victoria,delayed by 11 minutes
+2010-04-08,Passenger problem,18:24,Victoria,Gillingham,delayed by 13 minutes
+2010-04-08,Passenger problem,18:44,Cannon St,Ramsgate,delayed by 14 minutes
+2010-04-08,Train fault,16:10,Cannon St,Cannon St,cancelled
+2010-04-08,Train fault,17:43,Cannon St,Barnehurst,cancelled
+2010-04-08,Trespasser on the track,20:25,St Pancras International,Faversham,delayed by 17 minutes
+2010-04-08,Technical fault,21:55,Dartford,Charing Cross,delayed by 14 minutes and terminated at London Bridge
+2010-04-08,Technical fault,22:52,Charing Cross,Dartford,started at London Bridge
