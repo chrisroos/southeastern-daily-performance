@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+ROOT          = File.expand_path('../../', __FILE__)
+HTML_DATA_DIR = File.join(ROOT, 'data', 'html')
+CSV_DATA_DIR  = File.join(ROOT, 'data', 'csv')
+
+CONVERTOR     = File.join(ROOT, 'bin', 'sedpr-to-csv')
+LIB_DIR       = File.join(ROOT, 'lib')
+
+Dir[File.join(HTML_DATA_DIR, '*.html')].each do |file|
+  p file
+  
+  html_filename = File.basename(file)
+  csv_filename  = html_filename.sub(/\.html/, '.csv')
+  
+  cmd = "ruby -I#{LIB_DIR} #{CONVERTOR} #{file} > #{File.join(CSV_DATA_DIR, csv_filename)}"
+  `#{cmd}`
+end
