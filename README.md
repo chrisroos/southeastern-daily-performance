@@ -18,15 +18,18 @@
 
     $ sedpr-to-csv http://www.southeasternrailway.co.uk/index.php/cms/pages/view/132
     
-## TODO/Notes
+## Notes
 
-I just re-ran the conversion for the raw data from the 21st Jan to the 11th Feb.  I got warnings from the following files:
+I just ran the conversion for the all the raw data.  I got warnings from the following files:
 
-* 2010-01-26
 * 2010-01-29
 * 2010-02-01
-* 2010-02-08
 * 2010-02-10
 * 2010-02-11
+* 2010-02-16
+* 2010-02-17
+* 2010-02-28
+* 2010-03-05
+* 2010-04-06
 
-Additionally, 2010-01-26 and 2010-02-08 csv files were changed.
+The markup must've changed on the 2010-04-15 as the last successful conversion is from 2010-04-14.
