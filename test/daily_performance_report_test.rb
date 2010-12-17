@@ -137,6 +137,42 @@ class DailyPerformanceReportNewFormatTest < Test::Unit::TestCase
   
 end
 
+class DailyPerformanceReport15thAprilOnwardTest < Test::Unit::TestCase
+  
+  def setup
+    html =<<-End
+<div id="mainblock">
+  <div id="middle">
+    <h1>Thursday 15 April</h1>
+    <div class="content">
+    <p>Whether you're one of our regular commuters, travelling on business or for leisure, you expect Southeastern trains to be punctual and reliable.</p>
+    <p>On Thursday 15 April <strong>2055</strong> services were scheduled to operate of which <strong>2041</strong> ran.</p>
+    <p>We aim to run all our trains on time, however there are times when this isn't possible. On this day <strong>96%</strong> of services ran within 5 minutes of schedule.</p>
+    <h4 class="primarybh4">The following services were diverted, cancelled or delayed by over 10 mins:</h4>
+  </div>
+</div>
+    End
+    @report = DailyPerformanceReport.new(html)
+  end
+  
+  def test_should_parse_the_date_from_the_level_1_heading
+    assert_equal Date.parse('2010-04-15'), @report.date
+  end
+  
+  def test_should_parse_the_number_of_scheduled_services
+    assert_equal 2055, @report.scheduled_services
+  end
+  
+  def test_should_parse_the_number_of_actual_services
+    assert_equal 2041, @report.actual_services
+  end
+  
+  def test_should_parse_the_percentage_or_trains_that_ran_within_5_minutes_of_schedule
+    assert_equal 96, @report.services_within_five_minutes_of_schedule
+  end
+  
+end
+
 class DailyPerformanceReportCsvTest < Test::Unit::TestCase
   
   def setup

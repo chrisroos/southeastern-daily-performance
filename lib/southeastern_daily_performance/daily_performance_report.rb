@@ -22,7 +22,7 @@ module SoutheasternDailyPerformance
     end
   
     def scheduled_services
-      report[/(\d+) train services were scheduled/, 1].to_i
+      report[/(\d+) (train )?services were scheduled/, 1].to_i
     end
   
     def actual_services
@@ -50,7 +50,11 @@ module SoutheasternDailyPerformance
       end
     
       def report_container
-        (@doc/'h1').first.parent.next_sibling
+        if (@doc/'#mainblock').any?
+          (@doc/'h1').first.next_sibling
+        else
+          (@doc/'h1').first.parent.next_sibling
+        end
       end
     
   end
