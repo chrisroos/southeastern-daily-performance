@@ -1,0 +1,62 @@
+2010-06-03,Train fault,00:15,Sittingbourne,Sheerness,cancelled
+2010-06-03,Train fault,10:32,Sheerness,Sittingbourne,delayed by 16 minutes
+2010-06-03,Points failure,06:20,Tonbridge,Tunbridge Wells,cancelled
+2010-06-03,Points failure,06:40,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-06-03,Technical fault,13:08,Dartford,Victoria,cancelled
+2010-06-03,Technical fault,14:09,Victoria,Dartford,cancelled
+2010-06-03,Technical fault,15:08,Dartford,Victoria,cancelled
+2010-06-03,Failed freight train at Lee,15:26,Charing Cross,Gravesend,terminated at Hither Green
+2010-06-03,Failed freight train at Lee,15:40,Cannon St,Cannon St,terminated at Lewisham
+2010-06-03,Failed freight train at Lee,15:50,Cannon St,Orpington,did not call at Lewisham
+2010-06-03,Failed freight train at Lee,15:56,Charing Cross,Gravesend,did not call at Hither Green
+2010-06-03,Failed freight train at Lee,16:10,Cannon St,Cannon St,did not call at Hither Green
+2010-06-03,Failed freight train at Lee,16:17,Cannon St,Cannon St,delayed by 18 minutes and did not call at St Johns
+2010-06-03,Failed freight train at Lee,16:26,Charing Cross,Gravesend,did not call at Hither Green
+2010-06-03,Failed freight train at Lee,16:33,Gravesend,Charing Cross,cancelled
+2010-06-03,Failed freight train at Lee,16:55,Charing Cross,Gravesend,did not call at New Eltham
+2010-06-03,Failed freight train at Lee,16:58,Cannon St,Cannon St,did not call at Hither Green
+2010-06-03,Failed freight train at Lee,17:03,Gravesend,Charing Cross,terminated at Sidcup
+2010-06-03,Failed freight train at Lee,17:10,Charing Cross,Sidcup,cancelled
+2010-06-03,Failed freight train at Lee,17:16,Cannon St,Dartford,delayed by 16 minutes
+2010-06-03,Failed freight train at Lee,17:17,Charing Cross,Gillingham,did not call at New Eltham
+2010-06-03,Failed freight train at Lee,17:21,Cannon St,Crayford,delayed by 15 minutes and did not call at Hither Green
+2010-06-03,Failed freight train at Lee,17:32,Charing Cross,Sidcup,cancelled
+2010-06-03,Failed freight train at Lee,17:33,Gravesend,Charing Cross,did not call at Crayford
+2010-06-03,Failed freight train at Lee,17:39,Charing Cross,Gillingham,delayed by 21 minutes
+2010-06-03,Failed freight train at Lee,17:43,Cannon St,Barnehurst,did not call at Hither Green
+2010-06-03,Failed freight train at Lee,17:47,Charing Cross,Orpington,cancelled
+2010-06-03,Failed freight train at Lee,17:47,Cannon St,Crayford,delayed by 10 minutes
+2010-06-03,Failed freight train at Lee,17:50,Cannon St,Gravesend,cancelled
+2010-06-03,Failed freight train at Lee,17:52,Cannon St,Broadstairs,delayed by 13 minutes
+2010-06-03,Failed freight train at Lee,17:54,Charing Cross,Sidcup,cancelled
+2010-06-03,Failed freight train at Lee,18:01,Crayford,Cannon St,cancelled
+2010-06-03,Failed freight train at Lee,18:03,Cannon St,Sevenoaks,delayed by 16 minutes and terminated at Orpington
+2010-06-03,Failed freight train at Lee,18:14,Cannon St,Ramsgate,delayed by 12 minutes
+2010-06-03,Failed freight train at Lee,18:22,Dartford,Charing Cross,cancelled
+2010-06-03,Failed freight train at Lee,18:34,Orpington,Cannon St,cancelled
+2010-06-03,Failed freight train at Lee,18:38,Barnehurst,Cannon St,cancelled
+2010-06-03,Failed freight train at Lee,18:48,Gravesend,Charing Cross,cancelled
+2010-06-03,Failed freight train at Lee,19:06,Sevenoaks,Charing Cross,started at Orpington
+2010-06-03,Failed freight train at Lee,19:25,Dartford,Charing Cross,cancelled
+2010-06-03,Failed freight train at Lee,19:27,Cannon St,Dartford,cancelled
+2010-06-03,Failed freight train at Lee,19:47,Cannon St,Slade Green,delayed by 15 minutes
+2010-06-03,Train fault,15:52,Dartford,Charing Cross,cancelled
+2010-06-03,Train fault,16:49,Charing Cross,Sidcup,cancelled
+2010-06-03,Technical fault,19:49,Faversham,Dover Priory,delayed by 11 minutes
+2010-06-03,Station issue at London Bridge,18:56,Slade Green,Cannon St,delayed by 10 minutes
+2010-06-03,Mechanical fault at Bromley South,17:57,Victoria,Ramsgate,terminated at Bromley South
+2010-06-03,Mechanical fault at Bromley South,18:03,Victoria,Ashford,delayed by 15 minutes
+2010-06-03,Mechanical fault at Bromley South,19:20,Faversham,Dover Priory,cancelled
+2010-06-03,Mechanical fault at Bromley South,20:05,Dover Priory,Victoria,started at Faversham
+2010-06-03,Train fault at Sidcup,18:14,Charing Cross,Barnehurst,cancelled
+2010-06-03,Train fault at Sidcup,19:08,Barnehurst,Cannon St,cancelled
+2010-06-03,Cracked windscreen,19:56,Charing Cross,Gravesend,terminated at Dartford
+2010-06-03,Cracked windscreen,21:03,Gravesend,Charing Cross,started at Dartford and delayed by 17 minutes
+2010-06-03,Points failure,19:54,Margate,St Pancras International,delayed by 10 minutes
+2010-06-03,Train fault at Faversham,20:52,Victoria,Ramsgate,delayed by 35 minutes and did not call at Whitstable
+2010-06-03,Train fault at Faversham,22:15,Faversham,Dover Priory,delayed by 24 minutes
+2010-06-03,Train fault at Faversham,22:45,Faversham,Dover Priory,delayed by 15 minutes
+2010-06-03,Train fault at Faversham,23:04,Ramsgate,Gillingham,delayed by 31 minutes
+2010-06-03,Train fault at Faversham,23:05,Dover Priory,Faversham,delayed by 16 minutes
+2010-06-03,Train fault,23:39,Charing Cross,Gillingham,terminated at London Bridge
+2010-06-03,Points fault,23:45,Charing Cross,Hastings,delayed by 36 minutes

@@ -1,0 +1,111 @@
+2010-09-23,Signalling problems at Harlow delaying a freight train,05:56,Charing Cross,Gillingham,delayed by 13 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,07:10,Cannon St,Slade Green,delayed by 13 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,07:25,Hastings,Cannon St,delayed by 12 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,07:46,Dartford,Cannon St,delayed by 10 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:00,Slade Green,Charing Cross,delayed by 11 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:06,Dartford,Cannon St,delayed by 10 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:17,Sevenoaks,Cannon St,delayed by 11 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:29,Crayford,Cannon St,delayed by 13 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:30,Cannon St,Hayes,delayed by 11 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:44,Charing Cross,Hayes,delayed by 10 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:51,Cannon St,Orpington,delayed by 17 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:55,Charing Cross,Gravesend,delayed by 13 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,08:55,Charing Cross,Gravesend,terminated at Dartford
+2010-09-23,Signalling problems at Harlow delaying a freight train,09:03,Cannon St,Beckenham Junction,delayed by 10 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,09:09,Cannon St,Cannon St,delayed by 11 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,09:18,Cannon St,Orpington,delayed by 12 minutes
+2010-09-23,Signalling problems at Harlow delaying a freight train,10:03,Gravesend,Charing Cross,started at Dartford
+2010-09-23,Signalling error near Dover,04:50,Ramsgate,Charing Cross,did not call at Folkestone West
+2010-09-23,Signalling error near Dover,04:50,Ramsgate,Charing Cross,delayed by 24 minutes
+2010-09-23,Signalling error near Dover,04:51,Tonbridge,Ramsgate,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,05:20,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,05:28,Ramsgate,Cannon St,did not call at Sandwich
+2010-09-23,Signalling error near Dover,05:47,Gillingham,Dover Priory,terminated at Faversham
+2010-09-23,Signalling error near Dover,06:12,Dover Priory,Ashford,started at Folkestone West
+2010-09-23,Signalling error near Dover,06:12,Dover Priory,Ashford,delayed by 32 minutes
+2010-09-23,Signalling error near Dover,06:15,Faversham,Ramsgate,delayed by 23 minutes
+2010-09-23,Signalling error near Dover,06:16,Ashford,Victoria,cancelled
+2010-09-23,Signalling error near Dover,06:19,Dover Priory,Faversham,started at Canterbury East
+2010-09-23,Signalling error near Dover,06:22,Ramsgate,Cannon St,did not call at Sandwich
+2010-09-23,Signalling error near Dover,06:26,Ramsgate,St Pancras International,delayed by 14 minutes
+2010-09-23,Signalling error near Dover,06:30,Ashford,Ramsgate,delayed by 14 minutes
+2010-09-23,Signalling error near Dover,06:33,Ashford,Ramsgate,delayed by 14 minutes
+2010-09-23,Signalling error near Dover,06:38,Dover Priory,Ashford,started at Folkestone West
+2010-09-23,Signalling error near Dover,06:38,Dover Priory,Ashford,delayed by 30 minutes
+2010-09-23,Signalling error near Dover,06:40,Ramsgate,Charing Cross,did not call at Headcorn
+2010-09-23,Signalling error near Dover,06:44,Margate,St Pancras International,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,06:45,Victoria,Dover Priory,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,06:45,Victoria,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,06:48,Ramsgate,Charing Cross,started at Ashford
+2010-09-23,Signalling error near Dover,06:48,Ramsgate,Charing Cross,delayed by 16 minutes
+2010-09-23,Signalling error near Dover,07:04,Dover Priory,Faversham,cancelled
+2010-09-23,Signalling error near Dover,07:05,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,07:08,Dover Priory,Ashford,cancelled
+2010-09-23,Signalling error near Dover,07:26,Ramsgate,St Pancras International,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,07:38,Dover Priory,Ashford,started at Folkestone Central
+2010-09-23,Signalling error near Dover,07:40,Ramsgate,Charing Cross,did not call at Sandwich
+2010-09-23,Signalling error near Dover,07:40,Ramsgate,Charing Cross,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,07:51,Faversham,Dover Priory,cancelled
+2010-09-23,Signalling error near Dover,08:05,Dover Priory,Victoria,started at Canterbury East
+2010-09-23,Signalling error near Dover,08:05,Ramsgate,Ashford,did not call at Sandwich
+2010-09-23,Signalling error near Dover,08:18,Ramsgate,Ashford,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,08:34,Ebbsfleet International,St Pancras International,cancelled
+2010-09-23,Signalling error near Dover,08:45,Dover Priory,Victoria,started at Faversham
+2010-09-23,Signalling error near Dover,08:49,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,08:51,Cannon St,Orpington,did not call at Elmers End
+2010-09-23,Signalling error near Dover,08:53,Charing Cross,Ashford,did not call at Orpington
+2010-09-23,Signalling error near Dover,08:53,Charing Cross,Ashford,delayed by 23 minutes
+2010-09-23,Signalling error near Dover,09:05,Dover Priory,Victoria,started at Canterbury East
+2010-09-23,Signalling error near Dover,09:15,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,09:15,Faversham,Dover Priory,delayed by 31 minutes
+2010-09-23,Signalling error near Dover,09:22,Ramsgate,Ashford,cancelled
+2010-09-23,Signalling error near Dover,09:33,Ashford,Canterbury West,delayed by 21 minutes
+2010-09-23,Signalling error near Dover,09:40,Charing Cross,Ramsgate,delayed by 14 minutes
+2010-09-23,Signalling error near Dover,09:45,Faversham,Dover Priory,delayed by 22 minutes
+2010-09-23,Signalling error near Dover,09:45,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,09:45,Dover Priory,Victoria,started at Canterbury East
+2010-09-23,Signalling error near Dover,10:03,Tonbridge,Strood,delayed by 13 minutes
+2010-09-23,Signalling error near Dover,10:10,Charing Cross,Dover Priory,delayed by 10 minutes
+2010-09-23,Signalling error near Dover,10:12,St Pancras International,Dover Priory,delayed by 12 minutes
+2010-09-23,Signalling error near Dover,10:15,Faversham,Dover Priory,terminated at Canterbury East
+2010-09-23,Signalling error near Dover,10:22,Ramsgate,Ashford,cancelled
+2010-09-23,Signalling error near Dover,10:33,Ashford,Canterbury West,delayed by 27 minutes
+2010-09-23,Signalling error near Dover,10:40,Charing Cross,Ramsgate,delayed by 11 minutes
+2010-09-23,Signalling error near Dover,10:45,Dover Priory,Victoria,started at Canterbury East
+2010-09-23,Signalling error near Dover,11:03,Ashford,Ramsgate,delayed by 27 minutes
+2010-09-23,Signalling error near Dover,11:05,Dover Priory,Victoria,started at Canterbury East
+2010-09-23,Signalling error near Dover,11:22,Ramsgate,Ashford,delayed by 18 minutes
+2010-09-23,Signalling error near Dover,11:40,Ramsgate,Charing Cross,delayed by 14 minutes
+2010-09-23,Signalling error near Dover,12:03,Ashford,Ramsgate,delayed by 10 minutes
+2010-09-23,Bridge struck by road vehicle at Sole Street,04:33,Swanley,Victoria,started at Bromley South
+2010-09-23,Train fault at Victoria,06:50,Victoria,Orpington,cancelled
+2010-09-23,Train fault at Victoria,07:38,Orpington,Victoria,cancelled
+2010-09-23,Train fault at Victoria,08:25,Victoria,Orpington,cancelled
+2010-09-23,Train fault at Victoria,09:10,Orpington,Victoria,cancelled
+2010-09-23,Shortage of drivers,06:40,Ashford,Victoria,did not call at Charing
+2010-09-23,Shortage of drivers,06:40,Ashford,Victoria,delayed by 28 minutes
+2010-09-23,Shortage of drivers,08:07,Victoria,Ashford,cancelled
+2010-09-23,Shortage of drivers,08:37,Victoria,Ashford,delayed by 14 minutes
+2010-09-23,Shortage of drivers,09:47,Ashford,Victoria,did not call at Charing
+2010-09-23,Shortage of drivers,09:47,Ashford,Victoria,delayed by 19 minutes
+2010-09-23,Freight train awaiting access to sidings at Hoo Junction,07:40,St Pancras International,Margate,delayed by 11 minutes
+2010-09-23,Train fault at Ramsgate,09:40,Ramsgate,Charing Cross,delayed by 22 minutes
+2010-09-23,Train fault at Ramsgate,11:07,Victoria,Ashford,delayed by 10 minutes
+2010-09-23,Eurostar train problem at Ashford,09:37,Victoria,Ashford,delayed by 17 minutes
+2010-09-23,Awaiting driver at Faversham,14:05,Dover Priory,Victoria,delayed by 11 minutes
+2010-09-23,Awaiting driver at Orpington,15:25,Orpington,Victoria,cancelled
+2010-09-23,Awaiting driver at Orpington,17:04,Victoria,Gillingham,cancelled
+2010-09-23,Awaiting driver at Orpington,17:30,Cannon St,Ramsgate,delayed by 11 minutes
+2010-09-23,Awaiting driver at Orpington,18:49,Faversham,Dover Priory,delayed by 12 minutes
+2010-09-23,Awaiting driver at Orpington,18:58,Faversham,St Pancras International,delayed by 15 minutes
+2010-09-23,Awaiting driver at Orpington,19:40,Ramsgate,Charing Cross,delayed by 11 minutes
+2010-09-23,Awaiting driver at Faversham,14:22,Victoria,Ramsgate,delayed by 14 minutes
+2010-09-23,Awaiting driver at Faversham,15:45,Faversham,Dover Priory,delayed by 16 minutes
+2010-09-23,Awaiting driver at Faversham,16:34,Ramsgate,Faversham,delayed by 10 minutes
+2010-09-23,No driver at Charing Cross,16:00,Charing Cross,Tunbridge Wells,cancelled
+2010-09-23,FCC train failure at St Albans,16:22,Blackfriars,Rochester,delayed by 15 minutes
+2010-09-23,No driver at Tunbridge Wells,17:21,Tunbridge Wells,Charing Cross,cancelled
+2010-09-23,No driver at Tunbridge Wells,18:32,Charing Cross,Tunbridge Wells,started at Orpington
+2010-09-23,No driver at Tunbridge Wells,19:51,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-09-23,Passenger taken ill at Blackfriars,18:32,Sevenoaks,Blackfriars,delayed by 11 minutes
+2010-09-23,Train fault with attachment at Ashford,22:17,Ashford,Victoria,delayed by 36 minutes

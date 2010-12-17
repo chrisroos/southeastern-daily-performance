@@ -1,0 +1,48 @@
+2010-07-11,Train fault,06:40,Dartford,Charing Cross,cancelled
+2010-07-11,Vandalism at Maidstone West,06:26,Tonbridge,Strood,terminated at Maidstone West
+2010-07-11,Vandalism at Maidstone West,07:34,Paddock Wood,Strood,delayed by 18 minutes
+2010-07-11,Vandalism at Maidstone West,07:35,Strood,Paddock Wood,cancelled
+2010-07-11,Vandalism at Maidstone West,08:34,Paddock Wood,Strood,started at Maidstone West
+2010-07-11,Technical fault at Grove Park,07:40,Orpington,Charing Cross,cancelled
+2010-07-11,Technical fault at Grove Park,08:13,Dartford,Charing Cross,cancelled
+2010-07-11,Technical fault at Grove Park,08:25,Sevenoaks,Charing Cross,cancelled
+2010-07-11,Technical fault at Grove Park,08:26,Charing Cross,Gravesend,cancelled
+2010-07-11,Technical fault at Grove Park,09:10,Charing Cross,Gillingham,started at Dartford
+2010-07-11,Technical fault at Grove Park,09:33,Gravesend,Charing Cross,started at Dartford and delayed by 11 minutes
+2010-07-11,Track maintenance over run,07:45,Victoria,Ramsgate,delayed by 12 minutes
+2010-07-11,Planning error,07:45,Victoria,Ashford,started at Borough Green & Wrotham
+2010-07-11,Planning error,08:45,Victoria,Ashford,started at Borough Green & Wrotham
+2010-07-11,Technical fault at Tunbridge Wells,09:23,Charing Cross,Hastings,delayed by 55 minutes and terminated at Tunbridge Wells
+2010-07-11,Technical fault at Tunbridge Wells,09:53,Charing Cross,Hastings,did not call at Wadhurst and delayed by 96 minutes
+2010-07-11,Technical fault at Tunbridge Wells,10:23,Charing Cross,Hastings,terminated at Tunbridge Wells
+2010-07-11,Technical fault at Tunbridge Wells,10:53,Charing Cross,Hastings,delayed by 77 minutes
+2010-07-11,Technical fault at Tunbridge Wells,11:23,Charing Cross,Hastings,delayed by 57 minutes
+2010-07-11,Technical fault at Tunbridge Wells,11:53,Charing Cross,Hastings,delayed by 34 minutes
+2010-07-11,Technical fault at Tunbridge Wells,12:08,Hastings,Charing Cross,started Tunbridge Wells delayed by 30 minutes and terminated at London Bridge
+2010-07-11,Technical fault at Tunbridge Wells,12:28,Hastings,Charing Cross,delayed by 13 minutes
+2010-07-11,Technical fault at Tunbridge Wells,12:53,Charing Cross,Hastings,delayed by 22 minutes
+2010-07-11,Technical fault at Tunbridge Wells,13:28,Hastings,Charing Cross,delayed by 14 minutes
+2010-07-11,Technical fault at Tunbridge Wells,13:53,Charing Cross,Hastings,started at London Bridge
+2010-07-11,Technical fault at Tunbridge Wells,14:08,Hastings,Charing Cross,delayed by 40 minutes and terminated at London Bridge
+2010-07-11,Technical fault at Tunbridge Wells,14:28,Hastings,Charing Cross,delayed by 24 minutes and terminated at London Bridge
+2010-07-11,Technical fault at Tunbridge Wells,15:53,Charing Cross,Hastings,started at London Bridge
+2010-07-11,Technical fault at Tunbridge Wells,16:23,Charing Cross,Hastings,started at London Bridge
+2010-07-11,Driver issue,14:47,Ashford,Borough Green & Wrotham,delayed by 11 minutes
+2010-07-11,Staff shortage,15:06,Orpington,Victoria,cancelled
+2010-07-11,Staff shortage at Hastings,16:08,Hastings,Charing Cross,delayed by 16 minutes
+2010-07-11,Staff shortage at Hastings,16:28,Hastings,Charing Cross,delayed by 15 minutes
+2010-07-11,Staff shortage at Hastings,18:23,Charing Cross,Hastings,delayed by 10 minutes
+2010-07-11,Passenger disorder,15:45,Victoria,Ramsgate,delayed by 12 minutes
+2010-07-11,Passenger disorder,16:55,Farningham Road,Faversham,delayed by 18 minutes
+2010-07-11,Points failure at Slade Green,18:54,Gillingham,Charing Cross,did not call at Abbey Wood
+2010-07-11,Points failure at Slade Green,19:13,Dartford,Charing Cross,did not call at Charlton
+2010-07-11,Points failure at Slade Green,19:43,Dartford,Charing Cross,started at Slade Green
+2010-07-11,Gas leak at Chilham,20:38,Charing Cross,Ramsgate,terminated at Ashford
+2010-07-11,Gas leak at Chilham,21:36,Ramsgate,Ashford,terminated at Canterbury West
+2010-07-11,Gas leak at Chilham,21:38,Charing Cross,Ramsgate,did not call at Wye and delayed by 17 minutes
+2010-07-11,Gas leak at Chilham,21:42,St Pancras International,Margate,did not call at Canterbury West and delayed by 17 minutes
+2010-07-11,Gas leak at Chilham,21:53,Margate,St Pancras International,did not call at Canterbury West and delayed by 31 minutes
+2010-07-11,Gas leak at Chilham,22:08,Charing Cross,Ramsgate,terminated at Ashford
+2010-07-11,Gas leak at Chilham,22:42,St Pancras International,Ramsgate,did not call at Canterbury West and delayed by 70 minutes
+2010-07-11,Passenger disorder,21:08,Charing Cross,Ramsgate,delayed by 52 minutes
+2010-07-11,Train fault at Rochester,22:10,Charing Cross,Gillingham,terminated at Rochester

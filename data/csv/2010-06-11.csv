@@ -1,0 +1,47 @@
+2010-06-11,Branch on the line,00:10,Victoria,Ramsgate,delayed by 40 minutes
+2010-06-11,Technical fault,06:13,Sevenoaks,Blackfriars,cancelled
+2010-06-11,Technical fault,08:20,Blackfriars,Sevenoaks,delayed by 10 minutes
+2010-06-11,Train maintenance required,07:06,Ramsgate,Victoria,did not call at Meopham
+2010-06-11,Mechanical fault,06:44,Margate,St Pancras International,delayed by 135 minutes and terminated at Ebbsfleet
+2010-06-11,Mechanical fault,07:10,St Pancras International,Dover Priory,delayed by 12 minutes
+2010-06-11,Mechanical fault,07:26,Ramsgate,St Pancras International,terminated at Ashford
+2010-06-11,Mechanical fault,07:49,Margate,St Pancras International,terminated at Ashford
+2010-06-11,Mechanical fault,08:10,St Pancras International,Dover Priory,delayed by 20 minutes
+2010-06-11,Mechanical fault,08:40,St Pancras International,Margate,delayed by 27 minutes
+2010-06-11,Mechanical fault,09:12,St Pancras International,Dover Priory,cancelled
+2010-06-11,Mechanical fault,09:40,St Pancras International,Margate,delayed by 11 minutes
+2010-06-11,Mechanical fault,09:44,Dover Priory,St Pancras International,delayed by 15 minutes
+2010-06-11,Mechanical fault,09:55,St Pancras International,Faversham,cancelled
+2010-06-11,Mechanical fault,10:44,Dover Priory,St Pancras International,started at Ashford and delayed by 30 minutes
+2010-06-11,Train fault,06:40,Blackfriars,Orpington,delayed by 12 minutes
+2010-06-11,Train fault,07:12,Blackfriars,Sevenoaks,delayed by 10 minutes
+2010-06-11,Scheduling error,08:06,Dartford,Cannon St,delayed by 10 minutes
+2010-06-11,Scheduling error,09:03,Cannon St,Beckenham Junction,cancelled
+2010-06-11,Technical fault at Gillingham,12:24,Gillingham,Charing Cross,cancelled
+2010-06-11,Technical fault at Gillingham,13:56,Charing Cross,Gravesend,cancelled
+2010-06-11,Stock shortages,15:38,Barnehurst,Cannon St,cancelled
+2010-06-11,Stock shortages,16:24,Cannon St,Barnehurst,cancelled
+2010-06-11,Train fault,16:19,Hastings,Charing Cross,did not call at Sevenoaks
+2010-06-11,Mechanical fault,16:20,Charing Cross,Hayes,cancelled
+2010-06-11,Mechanical fault,17:08,Hayes,Charing Cross,cancelled
+2010-06-11,Mechanical fault,17:56,Charing Cross,Barnehurst,cancelled
+2010-06-11,Train fault,15:40,Sittingbourne,Sheerness,delayed by 24 minutes
+2010-06-11,Train fault,16:02,Sheerness,Sittingbourne,delayed by 22 minutes
+2010-06-11,Technical fault,16:35,Strood,Paddock Wood,delayed by 15 minutes
+2010-06-11,Points failure at Tunbridge Wells,16:15,Charing Cross,Hastings,terminated at Tunbridge Wells
+2010-06-11,Points failure at Tunbridge Wells,16:41,Charing Cross,Hastings,delayed by 15 minutes
+2010-06-11,Points failure at Tunbridge Wells,17:19,Charing Cross,Ore,delayed by 11 minutes
+2010-06-11,Points failure at Tunbridge Wells,17:21,Tunbridge Wells,Charing Cross,cancelled
+2010-06-11,Points failure at Tunbridge Wells,18:19,Hastings,Charing Cross,started at Tonbridge
+2010-06-11,Points failure at Tunbridge Wells,18:32,Charing Cross,Tunbridge Wells,cancelled
+2010-06-11,Train fault,16:22,Blackfriars,Rochester,terminated at Herne Hill
+2010-06-11,Train fault,17:12,Blackfriars,Kent House,delayed by 11 minutes
+2010-06-11,Signalling failure,16:58,Blackfriars,Rochester,delayed by 12 minutes
+2010-06-11,Signalling failure,17:42,Blackfriars,Sevenoaks,delayed by 34 minutes
+2010-06-11,Signalling failure,17:42,Blackfriars,Sevenoaks,delayed by 26 minutes
+2010-06-11,Signalling failure,17:42,Blackfriars,Sevenoaks,terminated at Swanley
+2010-06-11,Signalling failure,18:26,Blackfriars,Sevenoaks,delayed by 25 minutes
+2010-06-11,Signalling failure,19:45,Sevenoaks,Bromley South,started at Swanley
+2010-06-11,Train crew delayed,21:09,Charing Cross,Gillingham,delayed by 18 minutes
+2010-06-11,Train fault,22:40,Sittingbourne,Sheerness,cancelled
+2010-06-11,Train fault,23:02,Sheerness,Sittingbourne,cancelled

@@ -1,0 +1,252 @@
+2010-05-24,Points failure at Swanley,12:45,Dover Priory,Victoria,delayed by 12 minutes
+2010-05-24,Multiple track circuit failure at Strood,04:10,Gillingham,Charing Cross,delayed by 16 minutes and terminated at London Bridge
+2010-05-24,Multiple track circuit failure at Strood,05:39,Charing Cross,Gillingham,started at London Bridge
+2010-05-24,Multiple track circuit failure at Strood,06:26,Charing Cross,Strood,terminated at Dartford
+2010-05-24,Multiple track circuit failure at Strood,06:30,Broadstairs,St Pancras International,delayed by 26 minutes
+2010-05-24,Multiple track circuit failure at Strood,06:32,Ramsgate,Victoria,delayed by 18 minutes
+2010-05-24,Multiple track circuit failure at Strood,06:38,Gillingham,Charing Cross,did not call at Crayford
+2010-05-24,Multiple track circuit failure at Strood,06:48,Gravesend,Cannon St,delayed by 15 minutes
+2010-05-24,Multiple track circuit failure at Strood,06:57,Strood,Cannon St,started at Gravesend
+2010-05-24,Multiple track circuit failure at Strood,07:00,Broadstairs,St Pancras International,delayed by 12 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:07,Rochester,St Pancras International,delayed by 10 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:19,Strood,Cannon St,started at Dartford
+2010-05-24,Multiple track circuit failure at Strood,07:22,St Pancras International,Faversham,delayed by 11 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:28,Rochester,Beckenham Junction,delayed by 16 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:33,Gillingham,Victoria,delayed by 17 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:37,Rochester,St Pancras International,delayed by 10 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:38,Gillingham,Charing Cross,delayed by 19 minutes and terminated at Rochester
+2010-05-24,Multiple track circuit failure at Strood,07:50,Gillingham,Victoria,delayed by 12 minutes
+2010-05-24,Multiple track circuit failure at Strood,07:58,Strood,Charing Cross,started at Dartford
+2010-05-24,Multiple track circuit failure at Strood,08:07,Rochester,St Pancras International,cancelled
+2010-05-24,Multiple track circuit failure at Strood,08:08,Gillingham,Charing Cross,did not call at Crayford
+2010-05-24,Multiple track circuit failure at Strood,08:11,Sidcup,Charing Cross,did not call at London Bridge
+2010-05-24,Multiple track circuit failure at Strood,08:22,Victoria,Ramsgate,delayed by 13 minutes
+2010-05-24,Multiple track circuit failure at Strood,08:22,St Pancras International,Faversham,delayed by 12 minutes
+2010-05-24,Multiple track circuit failure at Strood,08:52,Victoria,Ramsgate,did not call at London Bridge and delayed by 15 minutes
+2010-05-24,Multiple track circuit failure at Strood,08:58,Victoria,Gillingham,delayed by 14 minutes
+2010-05-24,Multiple track circuit failure at Strood,08:58,St Pancras International,Faversham,cancelled
+2010-05-24,Multiple track circuit failure at Strood,09:02,Charing Cross,Dartford,cancelled
+2010-05-24,Multiple track circuit failure at Strood,09:07,Victoria,Ashford,delayed by 14 minutes
+2010-05-24,Multiple track circuit failure at Strood,09:45,Faversham,Dover Priory,delayed by 15 minutes
+2010-05-24,Multiple track circuit failure at Strood,09:50,Hayes,Cannon St,delayed by 10 minutes
+2010-05-24,Multiple track circuit failure at Strood,10:10,Cannon St,Cannon St,delayed by 14 minutes
+2010-05-24,Multiple track circuit failure at Strood,11:47,Cannon St,Cannon St,delayed by 25 minutes
+2010-05-24,Multiple track circuit failure at Strood,12:01,Dartford,Cannon St,cancelled
+2010-05-24,Multiple track circuit failure at Strood,12:26,Charing Cross,Gravesend,terminated at Dartford
+2010-05-24,Multiple track circuit failure at Strood,12:33,Gravesend,Charing Cross,started at Dartford and terminated at London Bridge
+2010-05-24,Multiple track circuit failure at Strood,13:35,Strood,Maidstone West,cancelled
+2010-05-24,Multiple track circuit failure at Strood,14:02,Maidstone West,Strood,cancelled
+2010-05-24,Multiple track circuit failure at Strood,14:28,Faversham,St Pancras International,cancelled
+2010-05-24,Multiple track circuit failure at Strood,14:38,Dartford,Victoria,cancelled
+2010-05-24,Multiple track circuit failure at Strood,15:39,Victoria,Dartford,cancelled
+2010-05-24,Train delayed from depot,05:17,Hastings,Charing Cross,did not call at Hildenborough and delayed by 15 minutes
+2010-05-24,Train fault at Faversham,05:20,Faversham,Dover Priory,delayed by 10 minutes
+2010-05-24,Train fault,06:10,Victoria,Orpington,cancelled
+2010-05-24,Train fault,07:10,Orpington,Victoria,cancelled
+2010-05-24,Train delayed from depot,06:30,Hastings,Tunbridge Wells,did not call at West St Leonards and delayed by 15 minutes
+2010-05-24,Train delayed from depot,06:39,Ore,Cannon St,started at Hastings and delayed by 11 minutes
+2010-05-24,Train delayed from depot,08:27,Charing Cross,Tunbridge Wells,did not call at Orpington
+2010-05-24,Train delayed from depot,08:33,Charing Cross,Ramsgate,delayed by 11 minutes
+2010-05-24,Train delayed from depot,08:37,Charing Cross,Sevenoaks,delayed by 10 minutes
+2010-05-24,Train delayed from depot,10:03,Ashford,Ramsgate,delayed by 10 minutes
+2010-05-24,Technical problems at Orpington,06:40,Orpington,Victoria,delayed by 11 minutes
+2010-05-24,Technical problems at Orpington,07:25,Victoria,Orpington,cancelled
+2010-05-24,Technical problems at Orpington,08:10,Orpington,Victoria,cancelled
+2010-05-24,Technical problems at Orpington,19:10,Orpington,Victoria,cancelled
+2010-05-24,Train fault,06:58,Orpington,Blackfriars,delayed by 10 minutes
+2010-05-24,Train fault,08:20,Blackfriars,Sevenoaks,delayed by 10 minutes
+2010-05-24,Technical problems,06:40,Blackfriars,Orpington,delayed by 11 minutes
+2010-05-24,Technical problems,08:47,Orpington,Blackfriars,delayed by 14 minutes
+2010-05-24,Train fault,07:55,Victoria,Orpington,terminated at Bickley
+2010-05-24,Train fault,08:25,Victoria,Orpington,terminated at Bromley South
+2010-05-24,Driver error at Cannon Street,09:27,Cannon St,Dartford,terminated at Borough Green & Wrotham
+2010-05-24,Driver error at Cannon Street,09:30,Cannon St,Hayes,cancelled
+2010-05-24,Driver error at Cannon Street,09:37,Cannon St,Slade Green,cancelled
+2010-05-24,Driver error at Cannon Street,09:50,Cannon St,Orpington,delayed by 11 minutes
+2010-05-24,Driver error at Cannon Street,09:54,Cannon St,Barnehurst,delayed by 12 minutes
+2010-05-24,Driver error at Cannon Street,10:17,Cannon St,Cannon St,cancelled
+2010-05-24,Driver error at Cannon Street,10:20,Hayes,Cannon St,cancelled
+2010-05-24,Driver error at Cannon Street,10:22,Dartford,Charing Cross,cancelled
+2010-05-24,Driver error at Cannon Street,10:33,Orpington,Cannon St,cancelled
+2010-05-24,Driver error at Cannon Street,10:38,Barnehurst,Cannon St,cancelled
+2010-05-24,Driver error at Cannon Street,11:20,Cannon St,Orpington,cancelled
+2010-05-24,Driver error at Cannon Street,11:38,Dartford,Victoria,did not call at Barnehurst and delayed by 11 minutes
+2010-05-24,Driver error at Cannon Street,12:00,Cannon St,Hayes,delayed by 11 minutes
+2010-05-24,Driver error at Cannon Street,12:57,Cannon St,Dartford,cancelled
+2010-05-24,Technical fault at Waterloo East,08:00,Slade Green,Charing Cross,delayed by 20 minutes
+2010-05-24,Technical fault at Waterloo East,08:02,Dartford,Charing Cross,delayed by 19 minutes
+2010-05-24,Technical fault at Waterloo East,08:55,Charing Cross,Gravesend,cancelled
+2010-05-24,Technical fault at Waterloo East,10:03,Gravesend,Charing Cross,started at Dartford
+2010-05-24,Technical fault at Waterloo East,10:08,Barnehurst,Cannon St,cancelled
+2010-05-24,Driver error at Battle,09:29,Hastings,Charing Cross,terminated at Battle
+2010-05-24,Driver error at Battle,11:15,Charing Cross,Hastings,started at London Bridge
+2010-05-24,External cable fault,11:24,Cannon St,Barnehurst,delayed by 11 minutes
+2010-05-24,External cable fault,11:26,Charing Cross,Gravesend,delayed by 16 minutes and terminated at Dartford
+2010-05-24,External cable fault,11:27,Cannon St,Dartford,delayed by 12 minutes and terminated at Slade Green
+2010-05-24,External cable fault,12:22,Dartford,Charing Cross,started at Barnehurst
+2010-05-24,External cable fault,13:30,Cannon St,Hayes,cancelled
+2010-05-24,External cable fault,13:31,Dartford,Cannon St,cancelled
+2010-05-24,External cable fault,14:00,Cannon St,Hayes,delayed by 14 minutes
+2010-05-24,External cable fault,14:20,Hayes,Cannon St,started at Elmers End
+2010-05-24,External cable fault,14:27,Cannon St,Dartford,cancelled
+2010-05-24,Staff shortage at Slade Green,12:37,Cannon St,Slade Green,delayed by 17 minutes
+2010-05-24,Staff shortage at Slade Green,12:39,Charing Cross,Gillingham,delayed by 16 minutes
+2010-05-24,Staff shortage at Slade Green,12:47,Cannon St,Cannon St,delayed by 11 minutes
+2010-05-24,Staff shortage at Slade Green,14:24,Gillingham,Charing Cross,delayed by 21 minutes and terminated at London Bridge
+2010-05-24,Staff shortage at Slade Green,15:56,Charing Cross,Gravesend,started at London Bridge
+2010-05-24,Track circuit failure at Gravesend,12:09,Charing Cross,Gillingham,delayed by 40 minutes
+2010-05-24,Track circuit failure at Gravesend,12:28,Faversham,St Pancras International,delayed by 34 minutes
+2010-05-24,Track circuit failure at Gravesend,12:52,St Pancras International,Faversham,delayed by 34 minutes
+2010-05-24,Track circuit failure at Gravesend,12:54,Gillingham,Charing Cross,delayed by 43 minutes and terminated at Dartford
+2010-05-24,Track circuit failure at Gravesend,12:56,Charing Cross,Gravesend,terminated at Dartford
+2010-05-24,Track circuit failure at Gravesend,12:58,Faversham,St Pancras International,delayed by 28 minutes
+2010-05-24,Track circuit failure at Gravesend,13:24,Gillingham,Charing Cross,delayed by 29 minutes and terminated at London Bridge
+2010-05-24,Track circuit failure at Gravesend,13:25,St Pancras International,Faversham,did not call at Rainham
+2010-05-24,Track circuit failure at Gravesend,13:26,Charing Cross,Gravesend,terminated at Dartford
+2010-05-24,Track circuit failure at Gravesend,13:28,Faversham,St Pancras International,delayed by 12 minutes
+2010-05-24,Track circuit failure at Gravesend,13:33,Gravesend,Charing Cross,delayed by 12 minutes started Dartford and terminated London Bridge
+2010-05-24,Track circuit failure at Gravesend,13:54,Gillingham,Charing Cross,delayed by 30 minutes and did not call at Abbey Wood
+2010-05-24,Track circuit failure at Gravesend,13:55,St Pancras International,Faversham,delayed by 25 minutes
+2010-05-24,Track circuit failure at Gravesend,14:03,Gravesend,Charing Cross,started at Dartford
+2010-05-24,Track circuit failure at Gravesend,14:26,Charing Cross,Gravesend,started at Dartford
+2010-05-24,Track circuit failure at Gravesend,14:28,St Pancras International,Faversham,delayed by 17 minutes
+2010-05-24,Track circuit failure at Gravesend,14:33,Gravesend,Charing Cross,started at Dartford
+2010-05-24,Track circuit failure at Gravesend,14:39,Charing Cross,Gillingham,started at London Bridge
+2010-05-24,Track circuit failure at Gravesend,14:56,Charing Cross,Gravesend,started at London Bridge
+2010-05-24,Track circuit failure at Gravesend,14:58,Faversham,St Pancras International,delayed by 12 minutes
+2010-05-24,Track circuit failure at Gravesend,15:26,Charing Cross,Gravesend,delayed by 16 minutes and terminated at Dartford
+2010-05-24,Track circuit failure at Gravesend,15:28,Faversham,St Pancras International,delayed by 10 minutes
+2010-05-24,Track circuit failure at Gravesend,20:33,Gravesend,Charing Cross,cancelled
+2010-05-24,Track circuit failure at Gravesend,21:47,Charing Cross,Hayes,delayed by 20 minutes
+2010-05-24,Track circuit failure at Gravesend,22:44,Hayes,Charing Cross,delayed by 15 minutes
+2010-05-24,Passenger alarm activated,14:52,Victoria,Ramsgate,delayed by 10 minutes
+2010-05-24,Passenger alarm activated,16:15,Faversham,Dover Priory,delayed by 12 minutes
+2010-05-24,Technical fault,15:09,Victoria,Dartford,delayed by 18 minutes
+2010-05-24,Technical fault,16:08,Dartford,Victoria,delayed by 13 minutes
+2010-05-24,Under investigation,12:03,Orpington,Cannon St,started at Hither Green
+2010-05-24,Power failure,15:55,St Pancras International,Faversham,cancelled
+2010-05-24,Power failure,16:12,St Pancras International,Dover Priory,delayed by 10 minutes
+2010-05-24,Power failure,17:28,Faversham,St Pancras International,delayed by 41 minutes
+2010-05-24,Power failure,18:55,St Pancras International,Faversham,delayed by 14 minutes
+2010-05-24,Points failure,17:03,Ashford,Ramsgate,delayed by 14 minutes
+2010-05-24,Train fault at Orpington,08:40,Orpington,Victoria,cancelled
+2010-05-24,Track circuit failure at Gillingham,15:22,Victoria,Ramsgate,delayed by 14 minutes
+2010-05-24,Track circuit failure at Gillingham,15:28,St Pancras International,Faversham,delayed by 11 minutes
+2010-05-24,Track circuit failure at Gillingham,15:52,Victoria,Ramsgate,delayed by 15 minutes
+2010-05-24,Track circuit failure at Gillingham,16:25,St Pancras International,Faversham,delayed by 33 minutes
+2010-05-24,Track circuit failure at Gillingham,16:32,Sheerness,Sittingbourne,delayed by 13 minutes
+2010-05-24,Track circuit failure at Gillingham,16:40,Sittingbourne,Sheerness,delayed by 16 minutes
+2010-05-24,Track circuit failure at Gillingham,16:45,Faversham,Dover Priory,delayed by 16 minutes
+2010-05-24,Track circuit failure at Gillingham,16:46,Cannon St,Ramsgate,delayed by 26 minutes
+2010-05-24,Track circuit failure at Gillingham,16:57,Victoria,Ramsgate,delayed by 34 minutes
+2010-05-24,Track circuit failure at Gillingham,16:58,St Pancras International,Faversham,delayed by 36 minutes
+2010-05-24,Track circuit failure at Gillingham,17:02,Sheerness,Sittingbourne,delayed by 15 minutes
+2010-05-24,Track circuit failure at Gillingham,17:08,Cannon St,Ramsgate,delayed by 48 minutes
+2010-05-24,Track circuit failure at Gillingham,17:19,Faversham,Dover Priory,delayed by 18 minutes
+2010-05-24,Track circuit failure at Gillingham,17:25,St Pancras International,Broadstairs,delayed by 38 minutes
+2010-05-24,Track circuit failure at Gillingham,17:27,Victoria,Ramsgate,delayed by 42 minutes
+2010-05-24,Track circuit failure at Gillingham,17:30,Cannon St,Ramsgate,delayed by 42 minutes
+2010-05-24,Track circuit failure at Gillingham,17:32,Sheerness,Sittingbourne,delayed by 28 minutes
+2010-05-24,Track circuit failure at Gillingham,17:34,Ramsgate,Faversham,delayed by 11 minutes
+2010-05-24,Track circuit failure at Gillingham,17:39,Dover Priory,Victoria,delayed by 16 minutes
+2010-05-24,Track circuit failure at Gillingham,17:40,Sittingbourne,Sheerness,delayed by 12 minutes
+2010-05-24,Track circuit failure at Gillingham,17:44,St Pancras International,Faversham,delayed by 43 minutes
+2010-05-24,Track circuit failure at Gillingham,17:52,Cannon St,Broadstairs,delayed by 43 minutes
+2010-05-24,Track circuit failure at Gillingham,17:58,Faversham,St Pancras International,delayed by 26 minutes
+2010-05-24,Track circuit failure at Gillingham,17:58,St Pancras International,Broadstairs,delayed by 42 minutes
+2010-05-24,Track circuit failure at Gillingham,18:02,Sheerness,Sittingbourne,delayed by 31 minutes
+2010-05-24,Track circuit failure at Gillingham,18:05,Dover Priory,Victoria,delayed by 12 minutes
+2010-05-24,Track circuit failure at Gillingham,18:14,Sittingbourne,Sheerness,cancelled
+2010-05-24,Track circuit failure at Gillingham,18:14,Cannon St,Ramsgate,delayed by 37 minutes
+2010-05-24,Track circuit failure at Gillingham,18:14,St Pancras International,Faversham,delayed by 36 minutes
+2010-05-24,Track circuit failure at Gillingham,18:19,Faversham,Dover Priory,delayed by 36 minutes
+2010-05-24,Track circuit failure at Gillingham,18:25,St Pancras International,Broadstairs,delayed by 41 minutes
+2010-05-24,Track circuit failure at Gillingham,18:28,Faversham,St Pancras International,delayed by 21 minutes
+2010-05-24,Track circuit failure at Gillingham,18:42,Sheerness,Sittingbourne,cancelled
+2010-05-24,Track circuit failure at Gillingham,18:45,Sittingbourne,Sheerness,cancelled
+2010-05-24,Track circuit failure at Gillingham,18:49,Faversham,Dover Priory,delayed by 43 minutes
+2010-05-24,Track circuit failure at Gillingham,18:58,Faversham,St Pancras International,cancelled
+2010-05-24,Track circuit failure at Gillingham,19:05,Dover Priory,Victoria,delayed by 24 minutes
+2010-05-24,Track circuit failure at Gillingham,19:19,Sheerness,Sittingbourne,cancelled
+2010-05-24,Track circuit failure at Gillingham,19:23,Sittingbourne,Sheerness,cancelled
+2010-05-24,Track circuit failure at Gillingham,19:24,Ramsgate,Faversham,delayed by 13 minutes
+2010-05-24,Track circuit failure at Gillingham,19:28,Faversham,St Pancras International,delayed by 24 minutes
+2010-05-24,Track circuit failure at Gillingham,19:40,Dover Priory,Victoria,delayed by 37 minutes
+2010-05-24,Track circuit failure at Gillingham,19:40,Ramsgate,Charing Cross,delayed by 43 minutes and terminated at Ashford
+2010-05-24,Track circuit failure at Gillingham,19:40,Sittingbourne,Sheerness,cancelled
+2010-05-24,Track circuit failure at Gillingham,19:46,Sheerness,Sittingbourne,cancelled
+2010-05-24,Track circuit failure at Gillingham,19:52,Victoria,Ramsgate,delayed by 33 minutes
+2010-05-24,Track circuit failure at Gillingham,20:02,Sheerness,Sittingbourne,cancelled
+2010-05-24,Track circuit failure at Gillingham,20:04,Ramsgate,Faversham,delayed by 22 minutes
+2010-05-24,Track circuit failure at Gillingham,20:25,St Pancras International,Faversham,cancelled
+2010-05-24,Track circuit failure at Gillingham,20:30,Charing Cross,Tunbridge Wells,terminated at Tonbridge
+2010-05-24,Track circuit failure at Gillingham,21:15,Faversham,Dover Priory,delayed by 43 minutes
+2010-05-24,Track circuit failure at Gillingham,21:40,Sittingbourne,Sheerness,delayed by 10 minutes
+2010-05-24,Track circuit failure at Gillingham,21:45,Faversham,Dover Priory,delayed by 29 minutes
+2010-05-24,Track circuit failure at Gillingham,22:07,Victoria,Ashford,delayed by 13 minutes
+2010-05-24,Track circuit failure at Gillingham,22:45,Dover Priory,Victoria,delayed by 28 minutes
+2010-05-24,Points fault,18:46,Hastings,Charing Cross,delayed by 16 minutes
+2010-05-24,Train fault at Rochester,15:39,Dover Priory,Victoria,delayed by 43 minutes
+2010-05-24,Train fault at Rochester,16:32,Gillingham,Victoria,terminated at Sole St
+2010-05-24,Train fault at Rochester,17:02,Gillingham,Victoria,delayed by 10 minutes
+2010-05-24,Train fault at Rochester,17:54,Victoria,Rochester,cancelled
+2010-05-24,Train fault at Rochester,17:57,Victoria,Ramsgate,delayed by 52 minutes
+2010-05-24,Train fault at Rochester,18:18,Victoria,Ashford,delayed by 36 minutes
+2010-05-24,Train fault at Rochester,18:24,Victoria,Gillingham,delayed by 18 minutes
+2010-05-24,Train fault at Rochester,18:27,Victoria,Ramsgate,delayed by 32 minutes
+2010-05-24,Train fault at Rochester,18:54,Gillingham,Charing Cross,delayed by 25 minutes
+2010-05-24,Train fault at Rochester,19:20,Faversham,Dover Priory,delayed by 78 minutes
+2010-05-24,Train fault at Rochester,19:25,Orpington,Victoria,cancelled
+2010-05-24,Train fault at Rochester,19:49,Faversham,Dover Priory,delayed by 67 minutes
+2010-05-24,Train fault at Rochester,20:05,Dover Priory,Victoria,delayed by 68 minutes and terminated at Bromley South
+2010-05-24,Train fault at Rochester,20:06,Ashford,Ramsgate,cancelled
+2010-05-24,Train fault at Rochester,20:10,Victoria,Orpington,cancelled
+2010-05-24,Train fault at Rochester,20:17,Ashford,Victoria,delayed by 25 minutes
+2010-05-24,Train fault at Rochester,20:32,Charing Cross,Dartford,delayed by 12 minutes
+2010-05-24,Train fault at Rochester,20:45,Dover Priory,Victoria,did not call at Sittingbourne and delayed by 58 minutes
+2010-05-24,Train fault at Rochester,20:52,Victoria,Ramsgate,terminated at Gillingham
+2010-05-24,Train fault at Rochester,21:04,Ramsgate,Faversham,delayed by 29 minutes
+2010-05-24,Train fault at Rochester,21:25,St Pancras International,Faversham,delayed by 10 minutes
+2010-05-24,Train fault at Rochester,22:15,Faversham,Dover Priory,delayed by 32 minutes
+2010-05-24,Train fault at Rochester,22:22,Victoria,Ramsgate,started at Bromley South and delayed by 30 minutes
+2010-05-24,Train fault at Rochester,22:45,Faversham,Dover Priory,delayed by 25 minutes
+2010-05-24,Train fault at Rochester,23:05,Dover Priory,Faversham,delayed by 55 minutes
+2010-05-24,Train fault at Rochester,23:45,Faversham,Dover Priory,delayed by 34 minutes
+2010-05-24,Platform issue,20:01,Dartford,Cannon St,delayed by 17 minutes
+2010-05-24,Train delayed from depot,17:12,Blackfriars,Kent House,delayed by 13 minutes
+2010-05-24,Track circuit failure,15:39,Dover Priory,Victoria,delayed by 13 minutes
+2010-05-24,Track circuit failure,16:05,Dover Priory,Victoria,delayed by 12 minutes
+2010-05-24,Track circuit failure,16:26,Ashford,Victoria,delayed by 12 minutes
+2010-05-24,Track circuit failure,16:47,Ashford,Victoria,delayed by 12 minutes
+2010-05-24,Track circuit failure,17:24,Orpington,Victoria,delayed by 26 minutes
+2010-05-24,Track circuit failure,17:32,Gillingham,Victoria,delayed by 79 minutes
+2010-05-24,Track circuit failure,17:40,Orpington,Victoria,delayed by 27 minutes
+2010-05-24,Track circuit failure,17:53,Orpington,Victoria,did not call at Kent House
+2010-05-24,Track circuit failure,18:00,Victoria,Orpington,delayed by 10 minutes
+2010-05-24,Track circuit failure,18:03,Victoria,Ashford,delayed by 13 minutes
+2010-05-24,Track circuit failure,18:09,Orpington,Victoria,delayed by 73 minutes
+2010-05-24,Track circuit failure,18:15,Victoria,Orpington,delayed by 19 minutes
+2010-05-24,Track circuit failure,18:25,Orpington,Victoria,did not call at Kent House and delayed by 10 minutes
+2010-05-24,Track circuit failure,18:30,Victoria,Orpington,did not call at Herne Hill
+2010-05-24,Track circuit failure,18:30,Victoria,Orpington,delayed by 25 minutes
+2010-05-24,Track circuit failure,18:40,Maidstone East,Victoria,delayed by 13 minutes
+2010-05-24,Track circuit failure,18:40,Orpington,Victoria,delayed by 60 minutes
+2010-05-24,Track circuit failure,18:42,Victoria,Ashford,delayed by 10 minutes
+2010-05-24,Track circuit failure,18:45,Victoria,Orpington,delayed by 15 minutes
+2010-05-24,Track circuit failure,18:49,Ashford,Victoria,delayed by 11 minutes
+2010-05-24,Track circuit failure,18:55,Orpington,Victoria,did not call at Beckenham Junction
+2010-05-24,Track circuit failure,18:57,Victoria,Ramsgate,delayed by 69 minutes
+2010-05-24,Track circuit failure,18:58,Victoria,Gillingham,cancelled
+2010-05-24,Track circuit failure,19:00,Victoria,Orpington,cancelled
+2010-05-24,Track circuit failure,19:04,Cannon St,Hastings,started at London Bridge
+2010-05-24,Track circuit failure,19:10,Victoria,Orpington,did not call at Herne Hill and delayed by 14 minutes
+2010-05-24,Track circuit failure,19:14,London Bridge,Sevenoaks,delayed by 12 minutes
+2010-05-24,Track circuit failure,19:25,Victoria,Orpington,cancelled
+2010-05-24,Track circuit failure,19:40,Charing Cross,Ramsgate,did not call at Paddock Wood
+2010-05-24,Track circuit failure,19:40,Orpington,Victoria,delayed by 21 minutes
+2010-05-24,Track circuit failure,19:40,Charing Cross,Ramsgate,delayed by 10 minutes
+2010-05-24,Track circuit failure,19:55,Orpington,Victoria,cancelled
+2010-05-24,Track circuit failure,20:15,Faversham,Dover Priory,delayed by 85 minutes
+2010-05-24,Track circuit failure,20:25,Victoria,Orpington,delayed by 21 minutes
+2010-05-24,Track circuit failure,20:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-05-24,Track circuit failure,20:49,Faversham,Dover Priory,delayed by 24 minutes

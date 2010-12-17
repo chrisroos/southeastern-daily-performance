@@ -1,0 +1,52 @@
+2010-09-03,Waiting delayed freight train,06:26,Charing Cross,Strood,delayed by 24 minutes
+2010-09-03,Waiting delayed freight train,06:58,St Pancras International,Faversham,delayed by 25 minutes and did not call at Chatham
+2010-09-03,Waiting delayed freight train,07:58,Strood,Charing Cross,delayed by 18 minutes and terminated at Dartford
+2010-09-03,Waiting delayed freight train,08:08,Gillingham,Charing Cross,delayed by 19 minutes and did not call at Northfleet
+2010-09-03,Waiting delayed freight train,09:32,Charing Cross,Dartford,cancelled
+2010-09-03,Train fault at Gravesend,08:22,St Pancras International,Faversham,delayed by 10 minutes
+2010-09-03,Train fault at Gravesend,08:51,Cannon St,Orpington,delayed by 11 minutes
+2010-09-03,Mechanical problems at Orpington,08:27,Charing Cross,Tunbridge Wells,terminated at Orpington
+2010-09-03,Mechanical problems at Orpington,09:51,Tunbridge Wells,Charing Cross,cancelled
+2010-09-03,Mechanical problems at Orpington,11:00,Charing Cross,Tunbridge Wells,delayed by 13 minutes and terminated at Tonbridge
+2010-09-03,Mechanical problems at Orpington,12:21,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-09-03,Driver error,10:33,Gravesend,Charing Cross,terminated at London Bridge
+2010-09-03,Driver error,11:39,Charing Cross,Gillingham,started at London Bridge
+2010-09-03,Track circuit failure at Herne Hill,08:45,Dover Priory,Victoria,delayed by 14 minutes
+2010-09-03,Track circuit failure at Herne Hill,10:40,Orpington,Victoria,delayed by 12 minutes
+2010-09-03,Track circuit failure at Herne Hill,10:55,Orpington,Victoria,delayed by 13 minutes
+2010-09-03,Track circuit failure at Herne Hill,11:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,11:40,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,11:52,Victoria,Ramsgate,delayed by 10 minutes
+2010-09-03,Track circuit failure at Herne Hill,12:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,12:40,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,13:10,Victoria,Orpington,delayed by 10 minutes
+2010-09-03,Track circuit failure at Herne Hill,13:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,13:25,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,13:40,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,13:40,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,14:10,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,14:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,14:40,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,14:40,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,15:10,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,15:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Track circuit failure at Herne Hill,15:40,Victoria,Orpington,did not call at Brixton
+2010-09-03,Track circuit failure at Herne Hill,15:40,Orpington,Victoria,did not call at Beckenham Junction
+2010-09-03,Train fault at Gillingham,13:24,Gillingham,Charing Cross,delayed by 26 minutes and did not call at Abbey Wood
+2010-09-03,Points failure,13:55,St Pancras International,Faversham,delayed by 25 minutes and did not call at Rainham
+2010-09-03,Planning error,12:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-09-03,Planning error,13:36,Sevenoaks,Charing Cross,started at Orpington
+2010-09-03,Train maintenance required at Charing Cross,14:36,Charing Cross,Sevenoaks,delayed by 10 minutes and terminated at Orpington
+2010-09-03,Train maintenance required at Charing Cross,15:36,Sevenoaks,Charing Cross,started at Orpington
+2010-09-03,Trespasser on the line at Hastings,18:46,Hastings,Charing Cross,delayed by 13 minutes
+2010-09-03,Mechanical fault at Lewisham,18:34,Cannon St,Barnehurst,delayed by 13 minutes
+2010-09-03,Train fault at Hastings,18:46,Hastings,Charing Cross,terminated at London Bridge and delayed by 13 minutes
+2010-09-03,Train fault at Hastings,20:45,Charing Cross,Hastings,started at London Bridge
+2010-09-03,Train fault,18:37,Charing Cross,Strood,terminated at Swanscombe
+2010-09-03,Passenger alarm activated,18:48,Charing Cross,Gillingham,delayed by 13 minutes
+2010-09-03,Passenger alarm activated,18:56,Charing Cross,Gravesend,delayed by 10 minutes
+2010-09-03,Technical fault at Tunbridge Wells,19:51,Tunbridge Wells,Charing Cross,delayed by 10 minutes and terminated at London Bridge
+2010-09-03,Technical fault at Tunbridge Wells,20:21,Tunbridge Wells,Charing Cross,cancelled
+2010-09-03,Technical fault at Tunbridge Wells,21:00,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-09-03,Technical fault at Tunbridge Wells,21:30,Charing Cross,Tunbridge Wells,cancelled
+2010-09-03,Fatality,22:33,Tonbridge,Strood,terminated at Aylesford

@@ -1,0 +1,93 @@
+2010-08-19,Technical fault at Grove Park,05:15,Hayes,Charing Cross,cancelled
+2010-08-19,Technical fault at Grove Park,05:20,Charing Cross,Dartford,cancelled
+2010-08-19,Technical fault at Grove Park,05:26,Charing Cross,Gravesend,terminated at Dartford
+2010-08-19,Technical fault at Grove Park,05:45,Hayes,Charing Cross,delayed by 12 minutes and did not call at Lewisham
+2010-08-19,Technical fault at Grove Park,06:06,Charing Cross,Sevenoaks,cancelled
+2010-08-19,Technical fault at Grove Park,06:37,Gravesend,Charing Cross,started at Dartford
+2010-08-19,Technical fault at Grove Park,07:17,Sevenoaks,Cannon St,cancelled
+2010-08-19,Train fault at Ramsgate,05:28,Ramsgate,Cannon St,delayed by 15 minutes and did not call at Pluckley
+2010-08-19,Mechanical fault at Borough Green,05:35,Canterbury West,Victoria,terminated at Borough Green & Wrotham
+2010-08-19,Mechanical fault at Borough Green,06:16,Ashford,Victoria,delayed by 14 minutes
+2010-08-19,Mechanical fault at Borough Green,06:25,Ashford,Blackfriars,delayed by 17 minutes
+2010-08-19,Mechanical fault at Borough Green,06:58,Ashford,Victoria,delayed by 11 minutes and did not call at Charing
+2010-08-19,Mechanical fault at Borough Green,08:07,Victoria,Ashford,did not call at Bearsted
+2010-08-19,Mechanical fault at Borough Green,09:25,Orpington,Victoria,delayed by 12 minutes and did not call at Shortlands
+2010-08-19,Mechanical fault at Borough Green,09:47,Ashford,Victoria,did not call at Charing
+2010-08-19,Mechanical fault at Minster,07:10,Ramsgate,Ashford,terminated at Minster
+2010-08-19,Mechanical fault at Minster,07:22,Ramsgate,Ashford,terminated at Minster
+2010-08-19,Mechanical fault at Minster,07:26,Ramsgate,St Pancras International,started at Ashford
+2010-08-19,Mechanical fault at Minster,07:40,Ramsgate,Charing Cross,cancelled
+2010-08-19,Mechanical fault at Minster,07:49,Margate,St Pancras International,delayed by 38 minutes and did not call at Minster
+2010-08-19,Mechanical fault at Minster,08:05,Ramsgate,Ashford,delayed by 23 minutes
+2010-08-19,Mechanical fault at Minster,08:18,Ramsgate,Ashford,cancelled
+2010-08-19,Mechanical fault at Minster,08:33,Ashford,Canterbury West,cancelled
+2010-08-19,Mechanical fault at Minster,08:47,Ashford,Victoria,delayed by 16 minutes and did not call at Charing
+2010-08-19,Mechanical fault at Minster,09:03,Ashford,Ramsgate,cancelled
+2010-08-19,Mechanical fault at Minster,09:35,Canterbury West,Ashford,cancelled
+2010-08-19,Mechanical fault at Minster,10:04,Ramsgate,Faversham,delayed by 13 minutes
+2010-08-19,Mechanical fault at Minster,10:05,Dover Priory,Victoria,delayed by 14 minutes
+2010-08-19,Mechanical fault at Minster,10:05,Dover Priory,Victoria,did not call at Meopham
+2010-08-19,Mechanical fault at Minster,12:03,Ashford,Ramsgate,cancelled
+2010-08-19,Mechanical fault at Minster,12:33,Ashford,Canterbury West,delayed by 16 minutes
+2010-08-19,Mechanical fault at Minster,13:22,Ramsgate,Ashford,cancelled
+2010-08-19,Mechanical fault at Minster,14:33,Ashford,Canterbury West,delayed by 18 minutes
+2010-08-19,Train fault at Ramsgate,08:40,Ramsgate,Faversham,delayed by 22 minutes and did not call at Broadstairs
+2010-08-19,Train fault at Ramsgate,08:45,Dover Priory,Victoria,delayed by 16 minutes and did not call at Meopham
+2010-08-19,Driver error,08:53,Charing Cross,Ashford,delayed by 14 minutes
+2010-08-19,Train fault,08:20,Blackfriars,Sevenoaks,cancelled
+2010-08-19,Train fault,10:32,Sevenoaks,Blackfriars,cancelled
+2010-08-19,Power supply failure,10:40,Cannon St,Cannon St,delayed by 15 minutes and terminated at London Bridge
+2010-08-19,Power supply failure,10:56,Charing Cross,Gravesend,did not call at Hither Green
+2010-08-19,Power supply failure,11:39,Charing Cross,Gillingham,delayed by 10 minutes
+2010-08-19,Power supply failure,12:17,Cannon St,Cannon St,started at London Bridge
+2010-08-19,External power supply fault,11:44,Dover Priory,St Pancras International,delayed by 10 minutes
+2010-08-19,Track defect,14:50,Hastings,Charing Cross,delayed by 35 minutes
+2010-08-19,Track defect,15:32,Hastings,Charing Cross,delayed by 10 minutes and terminated at Tonbridge
+2010-08-19,Track defect,15:45,Charing Cross,Hastings,terminated at Tonbridge
+2010-08-19,Track defect,16:41,Charing Cross,Hastings,started at Tonbridge
+2010-08-19,Track defect,17:50,Hastings,Charing Cross,delayed by 12 minutes
+2010-08-19,Delayed by freight train,13:07,Victoria,Ashford,delayed by 21 minutes
+2010-08-19,Delayed by freight train,13:47,Ashford,Victoria,terminated at Lenham
+2010-08-19,Delayed by freight train,14:28,Ashford,Victoria,delayed by 10 minutes
+2010-08-19,Delayed by freight train,15:37,Victoria,Ashford,delayed by 12 minutes
+2010-08-19,Train fault at Tunbridge Wells,13:15,Charing Cross,Hastings,delayed by 12 minutes
+2010-08-19,Train fault at Tunbridge Wells,13:51,Tunbridge Wells,Charing Cross,cancelled
+2010-08-19,Train fault at Tunbridge Wells,15:00,Charing Cross,Tunbridge Wells,cancelled
+2010-08-19,Train fault at Tunbridge Wells,17:18,Hastings,Charing Cross,started at Tonbridge
+2010-08-19,Track circuit failure,14:45,Charing Cross,Hastings,delayed by 42 minutes
+2010-08-19,Track circuit failure,14:50,Hastings,Charing Cross,delayed by 20 minutes and terminated at Tonbridge
+2010-08-19,Track circuit failure,15:15,Charing Cross,Hastings,terminated at Tunbridge Wells
+2010-08-19,Track circuit failure,15:30,Charing Cross,Tunbridge Wells,delayed by 26 minutes
+2010-08-19,Track circuit failure,15:32,Hastings,Charing Cross,delayed by 28 minutes
+2010-08-19,Track circuit failure,15:45,Hastings,Cannon St,delayed by 23 minutes and terminated at Orpington
+2010-08-19,Track circuit failure,16:15,Charing Cross,Hastings,delayed by 12 minutes
+2010-08-19,Track circuit failure,16:41,Charing Cross,Hastings,delayed by 14 minutes
+2010-08-19,Track circuit failure,16:50,Hastings,Charing Cross,delayed by 52 minutes and terminated at Tonbridge
+2010-08-19,Track circuit failure,16:53,Tunbridge Wells,Charing Cross,delayed by 22 minutes and did not call at Hildenborough
+2010-08-19,Track circuit failure,17:02,Cannon St,Hastings,delayed by 10 minutes
+2010-08-19,Track circuit failure,17:19,Charing Cross,Ore,started Tonbridge and terminated at Hastings
+2010-08-19,Track circuit failure,17:37,Cannon St,Hastings,delayed by 15 minutes
+2010-08-19,Track circuit failure,17:45,Cannon St,Ramsgate,started at Orpington
+2010-08-19,Track circuit failure,17:50,Hastings,Charing Cross,started Tonbridge and terminated London Bridge
+2010-08-19,Track circuit failure,17:59,Charing Cross,Ashford,delayed by 11 minutes
+2010-08-19,Track circuit failure,18:33,Tunbridge Wells,Hastings,cancelled
+2010-08-19,Track circuit failure,18:45,Charing Cross,Hastings,started at Tonbridge
+2010-08-19,Track circuit failure,18:46,Hastings,Charing Cross,delayed by 42 minutes and terminated at London Bridge
+2010-08-19,Track circuit failure,19:45,Charing Cross,Hastings,started at London Bridge
+2010-08-19,Track circuit failure,19:50,Hastings,Charing Cross,delayed by 88 minutes and terminated at Tonbridge
+2010-08-19,Track circuit failure,20:45,Charing Cross,Hastings,started at London Bridge
+2010-08-19,Track circuit failure,20:50,Hastings,Charing Cross,delayed by 36 minutes and terminated at London Bridge
+2010-08-19,Track circuit failure,21:45,Charing Cross,Hastings,started at Tonbridge
+2010-08-19,Track circuit failure,21:51,Tunbridge Wells,Charing Cross,cancelled
+2010-08-19,Track circuit failure,22:45,Charing Cross,Hastings,started at London Bridge and delayed by 24 minutes
+2010-08-19,Track circuit failure,23:00,Charing Cross,Tunbridge Wells,started at London Bridge and delayed by 21 minutes
+2010-08-19,Train fault,19:57,Cannon St,Dartford,terminated at London Bridge
+2010-08-19,Passenger alarm activated,20:32,Charing Cross,Dartford,delayed by 12 minutes
+2010-08-19,Police assistance requested,21:40,Orpington,Victoria,delayed by 13 minutes
+2010-08-19,Suicidal passenger at Rainham,20:52,Victoria,Ramsgate,delayed by 21 minutes
+2010-08-19,Suicidal passenger at Rainham,20:55,St Pancras International,Faversham,delayed by 20 minutes
+2010-08-19,Suicidal passenger at Rainham,21:28,Faversham,St Pancras International,delayed by 24 minutes
+2010-08-19,Suicidal passenger at Rainham,21:32,Sheerness,Gillingham,delayed by 17 minutes
+2010-08-19,Suicidal passenger at Rainham,22:15,Faversham,Dover Priory,delayed by 18 minutes
+2010-08-19,Suicidal passenger at Rainham,23:04,Ramsgate,Gillingham,delayed by 16 minutes
+2010-08-19,Suicidal passenger at Rainham,23:05,Dover Priory,Faversham,delayed by 10 minutes

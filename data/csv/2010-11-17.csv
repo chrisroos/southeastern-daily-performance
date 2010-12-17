@@ -1,0 +1,416 @@
+2010-11-17,Track circuit failure,08:13,Charing Cross,Dover Priory,cancelled
+2010-11-17,Track circuit failure,08:40,St Pancras International,Margate,delayed by 30 minutes
+2010-11-17,Track circuit failure,09:33,Ashford,Canterbury West,delayed by 16 minutes
+2010-11-17,Track circuit failure,10:03,Ashford,Ramsgate,delayed by 11 minutes
+2010-11-17,Track circuit failure,17:45,Charing Cross,Tunbridge Wells,delayed by 12 minutes
+2010-11-17,Track circuit failure,18:03,Charing Cross,Ore,delayed by 11 minutes
+2010-11-17,Track circuit failure,18:03,Charing Cross,Ore,delayed by 15 minutes
+2010-11-17,Track circuit failure,18:03,Charing Cross,Ore,delayed by 10 minutes
+2010-11-17,Track circuit failure,18:08,Cannon St,Ramsgate,cancelled
+2010-11-17,Track circuit failure,18:21,Charing Cross,Ashford,cancelled
+2010-11-17,Track circuit failure,18:35,Sevenoaks,Charing Cross,terminated at Sevenoaks
+2010-11-17,Track circuit failure,18:45,Sevenoaks,Victoria,cancelled
+2010-11-17,Track circuit failure,18:46,Hastings,Charing Cross,cancelled
+2010-11-17,Track circuit failure,19:21,Tunbridge Wells,Charing Cross,delayed by 11 minutes
+2010-11-17,Track circuit failure,19:29,Ashford,Canterbury West,delayed by 17 minutes
+2010-11-17,Track circuit failure,20:30,Charing Cross,Tunbridge Wells,delayed by 13 minutes
+2010-11-17,Train fault,06:58,Orpington,Blackfriars,delayed by 12 minutes
+2010-11-17,Train fault,08:29,Crayford,Cannon St,delayed by 11 minutes
+2010-11-17,Track circuit failure,07:06,Ramsgate,Victoria,delayed by 11 minutes
+2010-11-17,Track circuit failure,07:47,Ashford,Victoria,terminated at Herne Hill
+2010-11-17,Track circuit failure,07:59,Beckenham Junction,Blackfriars,cancelled
+2010-11-17,Track circuit failure,08:10,Orpington,Victoria,cancelled
+2010-11-17,Track circuit failure,08:26,Ashford,Victoria,cancelled
+2010-11-17,Track circuit failure,08:26,Orpington,Victoria,delayed by 24 minutes
+2010-11-17,Track circuit failure,08:40,Orpington,Victoria,terminated at Herne Hill
+2010-11-17,Track circuit failure,08:42,Kent House,Blackfriars,terminated at Herne Hill
+2010-11-17,Track circuit failure,09:10,Orpington,Victoria,cancelled
+2010-11-17,Track circuit failure,12:45,Dover Priory,Victoria,cancelled
+2010-11-17,Track circuit failure,12:47,Ashford,Victoria,terminated at Herne Hill
+2010-11-17,Track circuit failure,13:28,Ashford,Victoria,cancelled
+2010-11-17,Track circuit failure,14:25,Orpington,Victoria,delayed by 43 minutes
+2010-11-17,Track circuit failure,15:07,Victoria,Ashford,delayed by 58 minutes
+2010-11-17,Following late running freight train,14:45,Charing Cross,Hastings,terminated at Blackheath
+2010-11-17,Following late running freight train,16:50,Hastings,Charing Cross,delayed by 19 minutes
+2010-11-17,Following late running freight train,17:49,Tunbridge Wells,Charing Cross,delayed by 53 minutes
+2010-11-17,Following late running freight train,18:45,Charing Cross,Hastings,terminated at Charing Cross
+2010-11-17,Train fault,10:33,Ashford,Canterbury West,delayed by 53 minutes
+2010-11-17,Train scheduling error,07:29,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Track defect,08:17,Sevenoaks,Cannon St,delayed by 52 minutes
+2010-11-17,Track defect,14:24,Dover Priory,Charing Cross,cancelled
+2010-11-17,Track defect,14:54,Gillingham,Charing Cross,delayed by 51 minutes
+2010-11-17,Track defect,15:21,Tunbridge Wells,Charing Cross,delayed by 40 minutes
+2010-11-17,Track defect,15:33,Gravesend,Charing Cross,cancelled
+2010-11-17,Track defect,15:36,Sevenoaks,Charing Cross,delayed by 42 minutes
+2010-11-17,Track defect,15:38,Hayes,Charing Cross,cancelled
+2010-11-17,Track defect,15:38,Barnehurst,Cannon St,delayed by 43 minutes
+2010-11-17,Track defect,16:28,Charing Cross,Tunbridge Wells,delayed by 45 minutes
+2010-11-17,Track defect,16:42,Charing Cross,Orpington,terminated at Charing Cross
+2010-11-17,Track defect,17:22,Dartford,Cannon St,cancelled
+2010-11-17,Track defect,17:33,Gravesend,Charing Cross,""
+2010-11-17,Track defect,17:37,Orpington,Cannon St,delayed by 40 minutes
+2010-11-17,Track defect,17:38,Barnehurst,Cannon St,""
+2010-11-17,Track defect,17:52,Dartford,Charing Cross,delayed by 76 minutes
+2010-11-17,Track defect,18:21,Cannon St,Dartford,delayed by 18 minutes
+2010-11-17,Track defect,18:23,Cannon St,Sevenoaks,delayed by 17 minutes
+2010-11-17,Track defect,18:34,Cannon St,Barnehurst,delayed by 16 minutes
+2010-11-17,Track defect,18:39,Charing Cross,Barnehurst,cancelled
+2010-11-17,Track defect,18:40,Cannon St,Hayes,delayed by 33 minutes
+2010-11-17,Track defect,19:15,Dartford,Cannon St,delayed by 12 minutes
+2010-11-17,Track defect,19:22,Ramsgate,Ashford,terminated at Ramsgate
+2010-11-17,Track defect,19:40,Ramsgate,Charing Cross,delayed by 67 minutes
+2010-11-17,Track defect,19:40,Ramsgate,Charing Cross,delayed by 48 minutes
+2010-11-17,Track defect,20:27,Cannon St,Dartford,delayed by 14 minutes
+2010-11-17,Track defect,22:10,Charing Cross,Folkestone Central,delayed by 29 minutes
+2010-11-17,Following late running freight train,15:42,St Pancras International,Margate,delayed by 13 minutes
+2010-11-17,Fatality,07:40,Ramsgate,Charing Cross,started at Peckham Rye
+2010-11-17,Fatality,07:40,Ramsgate,Charing Cross,delayed by 15 minutes
+2010-11-17,Fatality,08:47,Hastings,Charing Cross,delayed by 35 minutes
+2010-11-17,Fatality,08:47,Hastings,Charing Cross,delayed by 72 minutes
+2010-11-17,Fatality,09:21,Tunbridge Wells,Charing Cross,terminated at Chislehurst
+2010-11-17,Fatality,09:21,Tunbridge Wells,Charing Cross,delayed by 25 minutes
+2010-11-17,Fatality,09:29,Hastings,Charing Cross,delayed by 10 minutes
+2010-11-17,Fatality,09:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-11-17,Fatality,09:45,Charing Cross,Hastings,cancelled
+2010-11-17,Fatality,09:50,Hastings,Charing Cross,delayed by 57 minutes
+2010-11-17,Fatality,09:51,Tunbridge Wells,Charing Cross,delayed by 15 minutes
+2010-11-17,Fatality,09:55,Victoria,Orpington,delayed by 15 minutes
+2010-11-17,Fatality,10:00,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,10:06,Sevenoaks,Charing Cross,cancelled
+2010-11-17,Fatality,10:06,Sevenoaks,Charing Cross,cancelled
+2010-11-17,Fatality,10:06,Charing Cross,Sevenoaks,delayed by 10 minutes
+2010-11-17,Fatality,10:10,Victoria,Orpington,delayed by 25 minutes
+2010-11-17,Fatality,10:10,Charing Cross,Dover Priory,cancelled
+2010-11-17,Fatality,10:30,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,10:33,Orpington,Cannon St,delayed by 16 minutes
+2010-11-17,Fatality,10:36,Sevenoaks,Charing Cross,started at Orpington
+2010-11-17,Fatality,10:36,Sevenoaks,Charing Cross,delayed by 37 minutes
+2010-11-17,Fatality,10:40,Ramsgate,Charing Cross,delayed by 51 minutes
+2010-11-17,Fatality,10:40,Charing Cross,Ramsgate,cancelled
+2010-11-17,Fatality,10:40,Orpington,Victoria,delayed by 15 minutes
+2010-11-17,Fatality,10:45,Charing Cross,Hastings,delayed by 16 minutes
+2010-11-17,Fatality,10:45,Charing Cross,Hastings,cancelled
+2010-11-17,Fatality,10:55,Orpington,Victoria,cancelled
+2010-11-17,Fatality,10:56,Charing Cross,Gravesend,cancelled
+2010-11-17,Fatality,11:00,Charing Cross,Tunbridge Wells,delayed by 22 minutes
+2010-11-17,Fatality,11:00,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,11:03,Orpington,Cannon St,started at Orpington
+2010-11-17,Fatality,11:06,Sevenoaks,Charing Cross,delayed by 46 minutes
+2010-11-17,Fatality,11:06,Charing Cross,Sevenoaks,delayed by 28 minutes
+2010-11-17,Fatality,11:06,Charing Cross,Sevenoaks,delayed by 22 minutes
+2010-11-17,Fatality,11:06,Charing Cross,Sevenoaks,cancelled
+2010-11-17,Fatality,11:15,Charing Cross,Hastings,delayed by 15 minutes
+2010-11-17,Fatality,11:21,Tunbridge Wells,Charing Cross,started at Tunbridge Wells
+2010-11-17,Fatality,11:25,Orpington,Victoria,delayed by 17 minutes
+2010-11-17,Fatality,11:30,Charing Cross,Tunbridge Wells,delayed by 11 minutes
+2010-11-17,Fatality,11:30,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,11:33,Ashford,Canterbury West,delayed by 36 minutes
+2010-11-17,Fatality,11:36,Sevenoaks,Charing Cross,cancelled
+2010-11-17,Fatality,11:36,Sevenoaks,Charing Cross,cancelled
+2010-11-17,Fatality,11:36,Charing Cross,Sevenoaks,cancelled
+2010-11-17,Fatality,11:36,Charing Cross,Sevenoaks,cancelled
+2010-11-17,Fatality,11:40,Charing Cross,Ramsgate,delayed by 10 minutes
+2010-11-17,Fatality,11:40,Charing Cross,Ramsgate,delayed by 16 minutes
+2010-11-17,Fatality,11:45,Charing Cross,Hastings,delayed by 11 minutes
+2010-11-17,Fatality,11:45,Charing Cross,Hastings,delayed by 16 minutes
+2010-11-17,Fatality,11:50,Cannon St,Orpington,delayed by 12 minutes
+2010-11-17,Fatality,11:51,Tunbridge Wells,Charing Cross,cancelled
+2010-11-17,Fatality,12:00,Charing Cross,Tunbridge Wells,delayed by 18 minutes
+2010-11-17,Fatality,12:00,Charing Cross,Tunbridge Wells,started at Tonbridge
+2010-11-17,Fatality,12:03,Orpington,Cannon St,cancelled
+2010-11-17,Fatality,12:03,Ashford,Ramsgate,cancelled
+2010-11-17,Fatality,12:03,Gravesend,Charing Cross,delayed by 14 minutes
+2010-11-17,Fatality,12:06,Sevenoaks,Charing Cross,delayed by 11 minutes
+2010-11-17,Fatality,12:10,Orpington,Victoria,cancelled
+2010-11-17,Fatality,12:10,Charing Cross,Dover Priory,cancelled
+2010-11-17,Fatality,12:10,Charing Cross,Dover Priory,delayed by 11 minutes
+2010-11-17,Fatality,12:15,Charing Cross,Hastings,delayed by 13 minutes
+2010-11-17,Fatality,12:21,Tunbridge Wells,Charing Cross,delayed by 12 minutes
+2010-11-17,Fatality,12:30,Charing Cross,Tunbridge Wells,delayed by 11 minutes
+2010-11-17,Fatality,12:32,Hastings,Charing Cross,cancelled
+2010-11-17,Fatality,12:33,Ashford,Canterbury West,delayed by 12 minutes
+2010-11-17,Fatality,12:36,Sevenoaks,Charing Cross,cancelled
+2010-11-17,Fatality,12:36,Charing Cross,Sevenoaks,terminated at London Bridge
+2010-11-17,Fatality,12:37,Cannon St,Slade Green,cancelled
+2010-11-17,Fatality,12:50,Cannon St,Orpington,cancelled
+2010-11-17,Fatality,12:51,Tunbridge Wells,Charing Cross,started at Tunbridge Wells
+2010-11-17,Fatality,12:51,Tunbridge Wells,Charing Cross,delayed by 13 minutes
+2010-11-17,Fatality,12:58,Victoria,Gillingham,delayed by 15 minutes
+2010-11-17,Fatality,13:00,Charing Cross,Tunbridge Wells,started at Charing Cross
+2010-11-17,Fatality,13:03,Ashford,Ramsgate,delayed by 24 minutes
+2010-11-17,Fatality,13:08,Dartford,Victoria,terminated at Dartford
+2010-11-17,Fatality,13:09,Charing Cross,Gillingham,delayed by 12 minutes
+2010-11-17,Fatality,13:10,Victoria,Orpington,delayed by 10 minutes
+2010-11-17,Fatality,13:15,Charing Cross,Hastings,cancelled
+2010-11-17,Fatality,13:21,Tunbridge Wells,Charing Cross,delayed by 11 minutes
+2010-11-17,Fatality,13:22,Ramsgate,Ashford,terminated at Ramsgate
+2010-11-17,Fatality,13:30,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,13:30,Charing Cross,Tunbridge Wells,cancelled
+2010-11-17,Fatality,13:32,Hastings,Charing Cross,delayed by 12 minutes
+2010-11-17,Fatality,13:33,Ashford,Canterbury West,delayed by 10 minutes
+2010-11-17,Fatality,13:40,Ramsgate,Charing Cross,terminated at Ramsgate
+2010-11-17,Fatality,13:45,Charing Cross,Hastings,delayed by 13 minutes
+2010-11-17,Fatality,13:50,Hastings,Charing Cross,delayed by 11 minutes
+2010-11-17,Fatality,14:00,Charing Cross,Tunbridge Wells,delayed by 18 minutes
+2010-11-17,Fatality,14:03,Ashford,Ramsgate,terminated at Ashford
+2010-11-17,Fatality,14:09,Victoria,Dartford,delayed by 11 minutes
+2010-11-17,Fatality,14:21,Tunbridge Wells,Charing Cross,started at Tunbridge Wells
+2010-11-17,Fatality,14:30,Charing Cross,Tunbridge Wells,delayed by 12 minutes
+2010-11-17,Fatality,14:50,Hastings,Charing Cross,delayed by 13 minutes
+2010-11-17,Fatality,14:51,Tunbridge Wells,Charing Cross,terminated at Tonbridge
+2010-11-17,Fatality,15:15,Charing Cross,Hastings,cancelled
+2010-11-17,Fatality,15:30,Charing Cross,Tunbridge Wells,started at Charing Cross
+2010-11-17,Fatality,16:41,Charing Cross,Hastings,delayed by 11 minutes
+2010-11-17,Fatality,16:53,Tunbridge Wells,Charing Cross,terminated at Tunbridge Wells
+2010-11-17,Fatality,17:06,Charing Cross,Slade Green,started at Charing Cross
+2010-11-17,Fatality,17:18,Hastings,Charing Cross,started at Hastings
+2010-11-17,Fatality,17:59,Charing Cross,Ashford,delayed by 10 minutes
+2010-11-17,Fatality,19:15,Charing Cross,Hastings,terminated at Charing Cross
+2010-11-17,Fatality,21:31,Dartford,Charing Cross,cancelled
+2010-11-17,Bridge strike,11:24,Dover Priory,Charing Cross,terminated at Tonbridge
+2010-11-17,Bridge strike,11:32,Hastings,Charing Cross,cancelled
+2010-11-17,Bridge strike,11:32,Hastings,Charing Cross,cancelled
+2010-11-17,Bridge strike,11:50,Hastings,Charing Cross,cancelled
+2010-11-17,Bridge strike,11:50,Hastings,Charing Cross,cancelled
+2010-11-17,Bridge strike,13:15,Charing Cross,Hastings,cancelled
+2010-11-17,Signal failure,12:45,Dover Priory,Victoria,cancelled
+2010-11-17,Signal failure,14:52,Victoria,Ramsgate,cancelled
+2010-11-17,Train fault,12:27,Cannon St,Dartford,cancelled
+2010-11-17,Train fault,13:31,Dartford,Cannon St,cancelled
+2010-11-17,Train fault,11:31,Dartford,Cannon St,cancelled
+2010-11-17,Track circuit failure,13:40,Charing Cross,Ramsgate,cancelled
+2010-11-17,Track circuit failure,15:03,Ashford,Ramsgate,cancelled
+2010-11-17,Train fault,13:32,Sevenoaks,Blackfriars,cancelled
+2010-11-17,Train fault,18:32,Sevenoaks,Blackfriars,cancelled
+2010-11-17,Train fault,19:37,Victoria,Ashford,cancelled
+2010-11-17,Train fault,14:45,Faversham,Dover Priory,delayed by 10 minutes
+2010-11-17,Train fault,15:39,Dover Priory,Victoria,started at Dover Priory
+2010-11-17,Train fault,17:57,Victoria,Ramsgate,cancelled
+2010-11-17,Train fault,18:14,Cannon St,Ramsgate,started at Gillingham
+2010-11-17,Train fault,18:24,Victoria,Gillingham,cancelled
+2010-11-17,Train fault,18:54,Gillingham,Charing Cross,cancelled
+2010-11-17,Train fault,19:20,Faversham,Dover Priory,cancelled
+2010-11-17,Train fault,19:33,Gravesend,Charing Cross,delayed by 57 minutes
+2010-11-17,Train fault,20:32,Charing Cross,Dartford,cancelled
+2010-11-17,Points failure,14:10,Cannon St,Cannon St,cancelled
+2010-11-17,Points failure,14:17,Cannon St,Cannon St,cancelled
+2010-11-17,Points failure,14:17,Cannon St,Cannon St,cancelled
+2010-11-17,Points failure,14:40,Cannon St,Cannon St,started at London Bridge
+2010-11-17,Points failure,14:45,Slade Green,Cannon St,delayed by 23 minutes
+2010-11-17,Points failure,14:47,Cannon St,Cannon St,cancelled
+2010-11-17,Points failure,14:50,Hayes,Cannon St,cancelled
+2010-11-17,Points failure,15:01,Dartford,Cannon St,cancelled
+2010-11-17,Points failure,15:03,Orpington,Cannon St,cancelled
+2010-11-17,Points failure,15:08,Barnehurst,Cannon St,started at London Bridge
+2010-11-17,Points failure,15:15,Slade Green,Cannon St,delayed by 16 minutes
+2010-11-17,Points failure,15:20,Hayes,Cannon St,delayed by 11 minutes
+2010-11-17,Points failure,15:37,Cannon St,Slade Green,delayed by 10 minutes
+2010-11-17,Points failure,15:47,Cannon St,Cannon St,delayed by 10 minutes
+2010-11-17,Points failure,15:54,Cannon St,Dartford,cancelled
+2010-11-17,Points failure,15:57,Cannon St,Dartford,delayed by 11 minutes
+2010-11-17,Points failure,16:00,Cannon St,Hayes,delayed by 11 minutes
+2010-11-17,Points failure,16:10,Cannon St,Cannon St,started at London Bridge
+2010-11-17,Points failure,16:17,Cannon St,Cannon St,delayed by 16 minutes
+2010-11-17,Points failure,16:20,Cannon St,Orpington,delayed by 10 minutes
+2010-11-17,Points failure,16:24,Cannon St,Barnehurst,delayed by 11 minutes
+2010-11-17,Points failure,17:43,Cannon St,Barnehurst,delayed by 11 minutes
+2010-11-17,Points failure,18:01,Charing Cross,Gravesend,delayed by 10 minutes
+2010-11-17,Points failure,18:08,Hayes,Charing Cross,delayed by 30 minutes
+2010-11-17,Points failure,18:38,Barnehurst,Cannon St,delayed by 18 minutes
+2010-11-17,Points failure,19:04,Gravesend,Charing Cross,delayed by 11 minutes
+2010-11-17,Driver error,15:24,Cannon St,Barnehurst,terminated at Cannon St
+2010-11-17,Driver error,16:44,Slade Green,Cannon St,delayed by 38 minutes
+2010-11-17,Power supply problems,17:24,Gillingham,Charing Cross,delayed by 14 minutes
+2010-11-17,Under investigation,15:10,Cannon St,Cannon St,started at London Bridge
+2010-11-17,Under investigation,16:07,Cannon St,Slade Green,delayed by 12 minutes
+2010-11-17,Under investigation,16:15,Slade Green,Cannon St,delayed by 16 minutes
+2010-11-17,Under investigation,16:17,Cannon St,Cannon St,delayed by 14 minutes
+2010-11-17,Under investigation,16:20,Cannon St,Orpington,cancelled
+2010-11-17,Under investigation,16:24,Cannon St,Barnehurst,cancelled
+2010-11-17,Under investigation,16:27,Cannon St,Dartford,cancelled
+2010-11-17,Under investigation,12:50,Hayes,Cannon St,cancelled
+2010-11-17,Under investigation,12:00,Cannon St,Hayes,cancelled
+2010-11-17,Under investigation,16:35,Cannon St,Dartford,delayed by 11 minutes
+2010-11-17,Under investigation,16:39,Cannon St,Cannon St,delayed by 29 minutes
+2010-11-17,Under investigation,16:39,Cannon St,Cannon St,delayed by 18 minutes
+2010-11-17,Under investigation,16:42,Charing Cross,Orpington,started at London Bridge
+2010-11-17,Under investigation,16:42,Cannon St,Crayford,delayed by 18 minutes
+2010-11-17,Under investigation,16:44,Cannon St,Gillingham,delayed by 11 minutes
+2010-11-17,Under investigation,16:50,Hayes,Cannon St,delayed by 16 minutes
+2010-11-17,Under investigation,16:51,Charing Cross,Dartford,delayed by 21 minutes
+2010-11-17,Under investigation,16:55,Charing Cross,Gravesend,delayed by 12 minutes
+2010-11-17,Under investigation,16:59,Charing Cross,Hayes,delayed by 11 minutes
+2010-11-17,Under investigation,17:03,Orpington,Cannon St,terminated at Orpington
+2010-11-17,Under investigation,17:03,Charing Cross,Orpington,delayed by 31 minutes
+2010-11-17,Under investigation,17:08,Barnehurst,Cannon St,delayed by 10 minutes
+2010-11-17,Under investigation,17:08,Cannon St,Ramsgate,delayed by 20 minutes
+2010-11-17,Under investigation,17:12,Charing Cross,Dartford,delayed by 20 minutes
+2010-11-17,Under investigation,17:15,Slade Green,Cannon St,delayed by 16 minutes
+2010-11-17,Under investigation,17:19,Charing Cross,Ore,delayed by 10 minutes
+2010-11-17,Under investigation,17:20,Hayes,Cannon St,cancelled
+2010-11-17,Under investigation,17:21,Charing Cross,Hayes,cancelled
+2010-11-17,Under investigation,17:22,Dartford,Cannon St,""
+2010-11-17,Under investigation,17:27,Victoria,Ramsgate,cancelled
+2010-11-17,Under investigation,17:34,Cannon St,Hayes,delayed by 11 minutes
+2010-11-17,Under investigation,17:35,Sevenoaks,Charing Cross,delayed by 10 minutes
+2010-11-17,Under investigation,17:38,Barnehurst,Cannon St,delayed by 14 minutes
+2010-11-17,Under investigation,17:39,Cannon St,Dartford,delayed by 11 minutes
+2010-11-17,Under investigation,17:45,Charing Cross,Tunbridge Wells,delayed by 10 minutes
+2010-11-17,Under investigation,17:45,Charing Cross,Tunbridge Wells,delayed by 19 minutes
+2010-11-17,Under investigation,17:47,Hayes,Cannon St,delayed by 10 minutes
+2010-11-17,Under investigation,17:47,Cannon St,Crayford,delayed by 18 minutes
+2010-11-17,Under investigation,17:50,Slade Green,Charing Cross,delayed by 15 minutes
+2010-11-17,Under investigation,17:52,Charing Cross,Dartford,delayed by 42 minutes
+2010-11-17,Under investigation,17:57,Victoria,Ramsgate,terminated at Beckenham Junction
+2010-11-17,Under investigation,18:03,Ashford,Ramsgate,started at Ashford
+2010-11-17,Under investigation,18:03,Cannon St,Sevenoaks,cancelled
+2010-11-17,Under investigation,18:03,Cannon St,Sevenoaks,cancelled
+2010-11-17,Under investigation,18:03,Gravesend,Charing Cross,cancelled
+2010-11-17,Under investigation,18:05,Cannon St,Cannon St,""
+2010-11-17,Under investigation,18:09,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,18:09,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,18:10,Cannon St,Barnehurst,""
+2010-11-17,Under investigation,18:12,Cannon St,Gillingham,""
+2010-11-17,Under investigation,18:12,Cannon St,Gillingham,""
+2010-11-17,Under investigation,18:18,Cannon St,Hayes,""
+2010-11-17,Under investigation,18:19,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,18:21,Hayes,Cannon St,""
+2010-11-17,Under investigation,18:26,Ashford,Victoria,""
+2010-11-17,Under investigation,18:27,Victoria,Ramsgate,""
+2010-11-17,Under investigation,18:27,Charing Cross,Hayes,""
+2010-11-17,Under investigation,18:28,Cannon St,Hastings,""
+2010-11-17,Under investigation,18:33,Tunbridge Wells,Hastings,""
+2010-11-17,Under investigation,18:34,Orpington,Cannon St,""
+2010-11-17,Under investigation,18:34,Charing Cross,Dartford,""
+2010-11-17,Under investigation,18:35,Ashford,Canterbury West,""
+2010-11-17,Under investigation,18:35,Sevenoaks,Charing Cross,""
+2010-11-17,Under investigation,18:38,Crayford,Cannon St,""
+2010-11-17,Under investigation,18:46,Cannon St,Slade Green,""
+2010-11-17,Under investigation,18:49,Faversham,Dover Priory,""
+2010-11-17,Under investigation,18:50,Cannon St,Slade Green,""
+2010-11-17,Under investigation,18:51,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,18:51,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,18:54,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,18:56,Slade Green,Cannon St,""
+2010-11-17,Under investigation,18:57,Cannon St,Dartford,""
+2010-11-17,Under investigation,19:06,Sevenoaks,Charing Cross,""
+2010-11-17,Under investigation,19:09,Charing Cross,Gillingham,""
+2010-11-17,Under investigation,19:10,Cannon St,Dartford,""
+2010-11-17,Under investigation,19:14,Hayes,Charing Cross,""
+2010-11-17,Under investigation,19:14,Hayes,Charing Cross,""
+2010-11-17,Under investigation,19:20,Cannon St,Orpington,""
+2010-11-17,Under investigation,19:21,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,19:22,Sevenoaks,Swanley,""
+2010-11-17,Under investigation,19:22,Ashford,Margate,""
+2010-11-17,Under investigation,19:24,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,19:25,Orpington,Victoria,""
+2010-11-17,Under investigation,19:27,Cannon St,Dartford,""
+2010-11-17,Under investigation,19:30,Charing Cross,Tunbridge Wells,""
+2010-11-17,Under investigation,19:36,Charing Cross,Sevenoaks,""
+2010-11-17,Under investigation,19:39,Charing Cross,Gillingham,""
+2010-11-17,Under investigation,19:39,Charing Cross,Gillingham,""
+2010-11-17,Under investigation,19:40,Ramsgate,Charing Cross,""
+2010-11-17,Under investigation,19:45,Charing Cross,Hastings,""
+2010-11-17,Under investigation,19:47,Cannon St,Slade Green,""
+2010-11-17,Under investigation,19:49,Faversham,Dover Priory,""
+2010-11-17,Under investigation,19:54,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,19:54,Cannon St,Barnehurst,""
+2010-11-17,Under investigation,20:00,Charing Cross,Tunbridge Wells,""
+2010-11-17,Under investigation,20:01,Dartford,Cannon St,""
+2010-11-17,Under investigation,20:03,Gravesend,Charing Cross,""
+2010-11-17,Under investigation,20:04,Ramsgate,Faversham,""
+2010-11-17,Under investigation,20:05,Dover Priory,Victoria,""
+2010-11-17,Under investigation,20:06,Charing Cross,Sevenoaks,""
+2010-11-17,Under investigation,20:06,Ashford,Ramsgate,""
+2010-11-17,Under investigation,20:06,Sevenoaks,Charing Cross,""
+2010-11-17,Under investigation,20:07,Victoria,Ashford,""
+2010-11-17,Under investigation,20:10,Victoria,Orpington,""
+2010-11-17,Under investigation,20:10,Orpington,Victoria,""
+2010-11-17,Under investigation,20:10,Charing Cross,Dover Priory,""
+2010-11-17,Under investigation,20:15,Faversham,Dover Priory,""
+2010-11-17,Under investigation,20:24,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,20:25,Dartford,Charing Cross,""
+2010-11-17,Under investigation,20:31,Dartford,Charing Cross,""
+2010-11-17,Under investigation,20:35,Ashford,Canterbury West,""
+2010-11-17,Under investigation,20:45,Dover Priory,Victoria,""
+2010-11-17,Under investigation,20:50,Hastings,Charing Cross,""
+2010-11-17,Under investigation,20:50,Hastings,Charing Cross,""
+2010-11-17,Under investigation,20:54,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,20:55,Victoria,Orpington,""
+2010-11-17,Under investigation,21:04,Ramsgate,Faversham,""
+2010-11-17,Under investigation,21:05,Strood,Maidstone West,""
+2010-11-17,Under investigation,21:15,Faversham,Dover Priory,""
+2010-11-17,Under investigation,21:17,Ashford,Victoria,""
+2010-11-17,Under investigation,21:21,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,21:22,Ramsgate,Tonbridge,""
+2010-11-17,Under investigation,21:22,Charing Cross,Gravesend,""
+2010-11-17,Under investigation,21:22,Charing Cross,Gravesend,""
+2010-11-17,Under investigation,21:24,Dover Priory,Charing Cross,""
+2010-11-17,Under investigation,21:24,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,21:24,Gillingham,Charing Cross,""
+2010-11-17,Under investigation,21:25,Dartford,Charing Cross,""
+2010-11-17,Under investigation,21:25,Dartford,Charing Cross,""
+2010-11-17,Under investigation,21:32,Maidstone West,Strood,""
+2010-11-17,Under investigation,21:40,Orpington,Victoria,""
+2010-11-17,Under investigation,21:50,Hastings,Charing Cross,""
+2010-11-17,Under investigation,21:51,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,21:51,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,21:56,Charing Cross,Dartford,""
+2010-11-17,Under investigation,22:04,Ramsgate,Victoria,""
+2010-11-17,Under investigation,22:10,Hastings,Charing Cross,""
+2010-11-17,Under investigation,22:21,Tunbridge Wells,Charing Cross,""
+2010-11-17,Under investigation,22:22,Charing Cross,Gravesend,""
+2010-11-17,Under investigation,22:22,Victoria,Ramsgate,""
+2010-11-17,Under investigation,22:33,Gravesend,Charing Cross,""
+2010-11-17,Under investigation,22:33,Gravesend,Charing Cross,""
+2010-11-17,Under investigation,22:45,Charing Cross,Hastings,""
+2010-11-17,Under investigation,22:55,Dartford,Charing Cross,""
+2010-11-17,Under investigation,22:56,Charing Cross,Dartford,""
+2010-11-17,Under investigation,23:00,Charing Cross,Tunbridge Wells,""
+2010-11-17,Under investigation,23:00,Charing Cross,Tunbridge Wells,""
+2010-11-17,Under investigation,23:07,Victoria,Ashford,""
+2010-11-17,Under investigation,23:30,Charing Cross,Tunbridge Wells,""
+2010-11-17,Under investigation,23:40,Charing Cross,Folkestone Central,""
+2010-11-17,Under investigation,23:52,Charing Cross,Hayes,""
+2010-11-17,Under investigation,18:50,Strood,Paddock Wood,""
+2010-11-17,Under investigation,19:40,Paddock Wood,Strood,""
+2010-11-17,Under investigation,20:35,Strood,Tonbridge,""
+2010-11-17,Under investigation,21:33,Tonbridge,Strood,""
+2010-11-17,Under investigation,22:35,Strood,Maidstone West,""
+2010-11-17,Waiting for passenger,18:06,Sevenoaks,Charing Cross,""
+2010-11-17,Waiting for passenger,19:06,Charing Cross,Sevenoaks,""
+2010-11-17,Passenger error,18:20,Sidcup,Cannon St,""
+2010-11-17,Passenger error,18:25,Slade Green,Cannon St,""
+2010-11-17,Passenger error,18:54,Cannon St,Barnehurst,""
+2010-11-17,Passenger error,19:00,Cannon St,Hayes,""
+2010-11-17,Passenger error,19:07,Cannon St,Slade Green,""
+2010-11-17,Passenger error,19:17,Cannon St,Slade Green,""
+2010-11-17,Under investigation,18:40,Paddock Wood,Strood,""
+2010-11-17,Under investigation,19:35,Strood,Tonbridge,""
+2010-11-17,Under investigation,20:33,Tonbridge,Strood,""
+2010-11-17,Driver error,16:06,Sevenoaks,Charing Cross,""
+2010-11-17,Driver error,16:33,Orpington,Charing Cross,""
+2010-11-17,Driver error,16:35,Sevenoaks,Charing Cross,""
+2010-11-17,Passenger disorder,21:39,Charing Cross,Gillingham,""
+2010-11-17,Passenger disorder,21:55,St Pancras International,Faversham,""
+2010-11-17,Driver error,17:50,Ramsgate,Charing Cross,""
+2010-11-17,Driver error,19:21,Tunbridge Wells,Charing Cross,""
+2010-11-17,Driver error,20:37,Victoria,Ashford,""
+2010-11-17,Driver error,20:40,Charing Cross,Ramsgate,""
+2010-11-17,Driver error,20:40,Charing Cross,Ramsgate,""
+2010-11-17,Driver error,22:03,Ashford,Ramsgate,""
+2010-11-17,Vandalism,22:17,Charing Cross,Hayes,""
+2010-11-17,Track circuit failure,21:40,Charing Cross,Ramsgate,""
+2010-11-17,Track circuit failure,22:30,Charing Cross,Tunbridge Wells,""
+2010-11-17,Track circuit failure,22:30,Charing Cross,Tunbridge Wells,""
+2010-11-17,Track circuit failure,22:40,Charing Cross,Folkestone Central,""
+2010-11-17,Track circuit failure,22:40,Charing Cross,Folkestone Central,""
+2010-11-17,Track circuit failure,22:45,Charing Cross,Hastings,""
+2010-11-17,Track circuit failure,22:45,Charing Cross,Hastings,""
+2010-11-17,Track circuit failure,23:03,Ashford,Ramsgate,""
+2010-11-17,Track circuit failure,23:33,Tunbridge Wells,Tonbridge,""
+2010-11-17,Under investigation,21:33,Tonbridge,Strood,""
+2010-11-17,Under investigation,22:40,Ramsgate,Ashford,""
+2010-11-17,Adhesion problems,19:37,Victoria,Ashford,""
+2010-11-17,Under investigation,20:15,Charing Cross,Hastings,""
+2010-11-17,Under investigation,18:45,Sevenoaks,Victoria,""

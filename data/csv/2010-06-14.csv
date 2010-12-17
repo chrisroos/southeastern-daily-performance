@@ -1,0 +1,123 @@
+2010-06-14,Train fault,06:07,Victoria,Ashford,terminated at Otford
+2010-06-14,Train fault,06:35,Maidstone East,Canterbury West,cancelled
+2010-06-14,Train fault,06:37,Victoria,Ashford,terminated at Otford
+2010-06-14,Train fault,07:07,Victoria,Ashford,did not call at Kemsing
+2010-06-14,Train fault,07:47,Ashford,Victoria,started at Otford
+2010-06-14,Train fault,08:00,Canterbury West,Charing Cross,started at Ashford
+2010-06-14,Train fault,08:26,Ashford,Victoria,started at Otford
+2010-06-14,Train fault at Ashford,06:26,Ramsgate,St Pancras International,terminated at Ashford
+2010-06-14,Train fault at Ashford,08:34,Ebbsfleet International,St Pancras International,delayed by 11 minutes
+2010-06-14,Points failure,07:23,Hayes,Cannon St,did not call at Lewisham
+2010-06-14,Points failure,07:43,Hayes,Cannon St,delayed by 21 minutes
+2010-06-14,Points failure,07:44,Charing Cross,Hayes and,terminated at Hither Green
+2010-06-14,Points failure,07:53,Hayes,Charing Cross,delayed by 21 minutes
+2010-06-14,Points failure,08:03,Hayes,Cannon St,delayed by 14 minutes
+2010-06-14,Points failure,08:13,Hayes,Charing Cross,delayed by 15 minutes
+2010-06-14,Points failure,08:33,Hayes,Charing Cross,cancelled
+2010-06-14,Points failure,08:41,Charing Cross,Gillingham,did not call at Woolwich Dockyard and delayed by 19 minutes
+2010-06-14,Points failure,08:54,Cannon St,Barnehurst,delayed by 12 minutes
+2010-06-14,Points failure,09:00,Cannon St,Hayes,cancelled
+2010-06-14,Points failure,09:09,Cannon St,Cannon St,delayed by 13 minutes
+2010-06-14,Points failure,09:27,Cannon St,Dartford,cancelled
+2010-06-14,Points failure,09:33,Ashford,Canterbury West,delayed by 10 minutes
+2010-06-14,Points failure,09:45,Slade Green,Cannon St,cancelled
+2010-06-14,Points failure,09:50,Hayes,Cannon St,started at New Beckenham
+2010-06-14,Points failure,10:22,Dartford,Charing Cross,started at Barnehurst
+2010-06-14,Points failure,10:24,Gillingham,Charing Cross,delayed by 10 minutes
+2010-06-14,Points failure,10:33,Gravesend,Charing Cross,delayed by 15 minutes and terminated at London Bridge
+2010-06-14,Points failure,11:28,Ashford,Victoria,delayed by 21 minutes
+2010-06-14,Points failure,11:39,Charing Cross,Gillingham,started at London Bridge
+2010-06-14,Points failure,11:56,Charing Cross,Gravesend,delayed by 16 minutes
+2010-06-14,Driver error,08:29,Crayford,Cannon St,delayed by 25 minutes
+2010-06-14,Driver error,09:18,Cannon St,Orpington,cancelled
+2010-06-14,Passenger taken ill at Swanley,08:20,London Bridge,Sevenoaks,terminated at Swanley
+2010-06-14,Passenger taken ill at Swanley,09:37,Victoria,Ashford,did not call at Otford
+2010-06-14,Passenger taken ill at Swanley,09:37,Victoria,Ashford,delayed by 39 minutes
+2010-06-14,Passenger taken ill at Swanley,10:22,Victoria,Ramsgate,delayed by 10 minutes
+2010-06-14,Passenger taken ill at Swanley,10:32,Sevenoaks,Kent House,delayed by 19 minutes
+2010-06-14,Passenger taken ill at Swanley,10:55,Orpington,Victoria,did not call at Shortlands
+2010-06-14,Passenger taken ill at Swanley,10:55,Orpington,Victoria,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,10:32,Charing Cross,Dartford,did not call at Kidbrooke and delayed by 17 minutes
+2010-06-14,Track circuit failure at Blackheath,10:32,Hastings,Charing Cross,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,10:38,Dartford,Victoria,delayed by 25 minutes and terminated at Lewisham
+2010-06-14,Track circuit failure at Blackheath,10:38,Barnehurst,Cannon St,delayed by 26 minutes
+2010-06-14,Track circuit failure at Blackheath,10:52,Dartford,Charing Cross,did not call at Bexleyheath and delayed by 22 minutes
+2010-06-14,Track circuit failure at Blackheath,11:03,Gravesend,Charing Cross,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,11:08,Barnehurst,Cannon St,did not call at Bexleyheath
+2010-06-14,Track circuit failure at Blackheath,11:08,Dartford,Victoria,did not call at Barnehurst and delayed by 16 minutes
+2010-06-14,Track circuit failure at Blackheath,11:08,Barnehurst,Cannon St,delayed by 21 minutes
+2010-06-14,Track circuit failure at Blackheath,11:22,Dartford,Charing Cross,did not call at Barnehurst
+2010-06-14,Track circuit failure at Blackheath,11:39,Victoria,Dartford,cancelled
+2010-06-14,Track circuit failure at Blackheath,11:47,Charing Cross,Hayes,cancelled
+2010-06-14,Track circuit failure at Blackheath,11:54,Cannon St,Barnehurst,delayed by 18 minutes
+2010-06-14,Track circuit failure at Blackheath,12:02,Charing Cross,Dartford,delayed by 20 minutes
+2010-06-14,Track circuit failure at Blackheath,12:09,Charing Cross,Gillingham,delayed by 17 minutes
+2010-06-14,Track circuit failure at Blackheath,12:17,Charing Cross,Hayes,delayed by 11 minutes
+2010-06-14,Track circuit failure at Blackheath,12:26,Charing Cross,Gravesend,delayed by 15 minutes
+2010-06-14,Track circuit failure at Blackheath,12:32,Charing Cross,Dartford,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,12:38,Dartford,Victoria,cancelled
+2010-06-14,Track circuit failure at Blackheath,12:38,Hayes,Charing Cross,cancelled
+2010-06-14,Track circuit failure at Blackheath,12:39,Charing Cross,Gillingham,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,12:45,Slade Green,Cannon St,cancelled
+2010-06-14,Track circuit failure at Blackheath,13:01,Dartford,Cannon St,delayed by 16 minutes and terminated at London Bridge
+2010-06-14,Track circuit failure at Blackheath,13:03,Gravesend,Charing Cross,started at Dartford
+2010-06-14,Track circuit failure at Blackheath,13:08,Hayes,Charing Cross,started at Elmers End
+2010-06-14,Track circuit failure at Blackheath,13:33,Gravesend,Charing Cross,did not call at Crayford and delayed by 12 minutes
+2010-06-14,Track circuit failure at Blackheath,13:39,Victoria,Dartford,cancelled
+2010-06-14,Track circuit failure at Blackheath,13:57,Cannon St,Dartford,started at London Bridge
+2010-06-14,Track circuit failure at Blackheath,14:32,Sheerness,Sittingbourne,delayed by 10 minutes
+2010-06-14,Track circuit failure at Blackheath,14:40,Sittingbourne,Sheerness,cancelled
+2010-06-14,Track circuit failure at Blackheath,15:02,Sheerness,Sittingbourne,delayed by 12 minutes
+2010-06-14,Bridge strike,12:06,Charing Cross,Sevenoaks,delayed by 11 minutes
+2010-06-14,Station issue,11:27,Cannon St,Dartford,cancelled
+2010-06-14,Station issue,12:22,Dartford,Charing Cross,started at Barnehurst and delayed by 11 minutes
+2010-06-14,Train fault,13:45,Slade Green,Cannon St,terminated at Plumstead
+2010-06-14,Train fault,14:37,Cannon St,Slade Green,cancelled
+2010-06-14,Train fault,15:01,Dartford,Cannon St,delayed by 11 minutes
+2010-06-14,Points fault,14:24,Dover Priory,Charing Cross,delayed by 11 minutes
+2010-06-14,No available stock,15:52,Dartford,Charing Cross,cancelled
+2010-06-14,No available stock,16:49,Charing Cross,Sidcup,cancelled
+2010-06-14,No available stock,18:18,Charing Cross,Dartford,cancelled
+2010-06-14,Points failure,15:45,Hastings,Cannon St,delayed by 10 minutes
+2010-06-14,Points failure,16:38,Hayes,Charing Cross,delayed by 26 minutes and terminated at London Bridge
+2010-06-14,Points failure,16:39,Cannon St,Cannon St,delayed by 13 minutes
+2010-06-14,Points failure,16:50,Hayes,Cannon St,delayed by 14 minutes
+2010-06-14,Points failure,16:55,Hither Green,Charing Cross,delayed by 30 minutes
+2010-06-14,Points failure,17:23,Charing Cross,Tunbridge Wells,cancelled
+2010-06-14,Points failure,17:26,Charing Cross,Orpington,did not call at Lewisham and delayed by 23 minutes
+2010-06-14,Points failure,17:29,Charing Cross,Slade Green,started at London Bridge
+2010-06-14,Points failure,17:31,Dartford,Cannon St,delayed by 11 minutes
+2010-06-14,Points failure,17:34,Charing Cross,Slade Green,started at London Bridge
+2010-06-14,Points failure,17:37,Orpington,Cannon St,delayed by 12 minutes
+2010-06-14,Points failure,17:38,Barnehurst,Cannon St,delayed by 10 minutes
+2010-06-14,Points failure,17:38,Crayford,Cannon St,delayed by 11 minutes
+2010-06-14,Points failure,17:39,Cannon St,Dartford,cancelled
+2010-06-14,Points failure,17:47,Hayes,Cannon St,delayed by 10 minutes
+2010-06-14,Points failure,17:47,Cannon St,Crayford,delayed by 17 minutes
+2010-06-14,Points failure,17:56,Cannon St,Hayes,delayed by 11 minutes
+2010-06-14,Points failure,18:03,Charing Cross,Ore,terminated at Hastings
+2010-06-14,Points failure,18:12,Cannon St,Gillingham,delayed by 10 minutes
+2010-06-14,Points failure,18:38,Crayford,Cannon St,cancelled
+2010-06-14,Points failure,18:40,Ramsgate,Charing Cross,delayed by 10 minutes
+2010-06-14,Points failure,18:48,Gravesend,Charing Cross,cancelled
+2010-06-14,Points failure,18:54,Cannon St,Barnehurst,cancelled
+2010-06-14,Points failure,18:56,Slade Green,Cannon St,delayed by 10 minutes
+2010-06-14,Points failure,19:21,Tunbridge Wells,Charing Cross,delayed by 10 minutes
+2010-06-14,Points failure,19:29,Ashford,Canterbury West,delayed by 15 minutes
+2010-06-14,Points failure,19:33,Gravesend,Charing Cross,started at Dartford
+2010-06-14,Points failure,19:56,Charing Cross,Gravesend,started at Dartford
+2010-06-14,Technical fault,18:01,Charing Cross,Gravesend,delayed by 32 minutes and terminated at New Cross
+2010-06-14,Technical fault,18:05,Charing Cross,Hayes,delayed by 34 minutes and terminated at Elmers End
+2010-06-14,Technical fault,18:12,Cannon St,Gillingham,terminated at Strood
+2010-06-14,Technical fault,19:04,Gravesend,Charing Cross,cancelled
+2010-06-14,Technical fault,19:05,Hayes,Charing Cross,started at Elmers End
+2010-06-14,Technical fault,19:32,Gillingham,Victoria,started at Rochester and delayed by 25 minutes
+2010-06-14,Tree on the line,16:50,Ramsgate,Charing Cross,delayed by 41 minutes and terminated at London Bridge
+2010-06-14,Tree on the line,17:40,Ramsgate,Charing Cross,delayed by 11 minutes
+2010-06-14,Tree on the line,19:40,Charing Cross,Ramsgate,started at London Bridge and delayed by 12 minutes
+2010-06-14,Tree on the line,20:10,Charing Cross,Dover Priory,delayed by 10 minutes
+2010-06-14,Tree on the line,21:03,Ashford,Ramsgate,delayed by 23 minutes
+2010-06-14,Technical fault,17:50,Cannon St,Gravesend,terminated at Slade Green
+2010-06-14,Train fault,17:02,Sevenoaks,Blackfriars,delayed by 11 minutes
+2010-06-14,Train crew error,20:24,Gillingham,Charing Cross,did not call at Abbey Wood and delayed by 19 minutes
+2010-06-14,Mechanical failure,15:21,Tunbridge Wells,Charing Cross,started at Tonbridge

@@ -1,0 +1,55 @@
+2010-08-18,Train fault at Faversham,05:28,Faversham,St Pancras International,cancelled
+2010-08-18,Train fault at Faversham,06:58,St Pancras International,Faversham,cancelled
+2010-08-18,Technical fault,05:56,Charing Cross,Gillingham,cancelled
+2010-08-18,Technical fault,07:38,Gillingham,Charing Cross,cancelled
+2010-08-18,Train failure at Maidstone East,06:16,Ashford,Victoria,terminated at Borough Green & Wrotham
+2010-08-18,Train failure at Maidstone East,06:25,Ashford,Blackfriars,delayed by 102 minutes
+2010-08-18,Train failure at Maidstone East,06:37,Victoria,Ashford,terminated at Borough Green & Wrotham
+2010-08-18,Train failure at Maidstone East,06:40,Ashford,Victoria,delayed by 91 minutes
+2010-08-18,Train failure at Maidstone East,06:58,Ashford,Victoria,terminated at Maidstone East
+2010-08-18,Train failure at Maidstone East,07:15,Ashford,Victoria,terminated at Lenham
+2010-08-18,Train failure at Maidstone East,07:47,Ashford,Victoria,did not call at Charing
+2010-08-18,Train failure at Maidstone East,08:07,Victoria,Ashford,cancelled
+2010-08-18,Train failure at Maidstone East,08:26,Ashford,Victoria,cancelled
+2010-08-18,Train failure at Maidstone East,09:07,Victoria,Ashford,delayed by 20 minutes
+2010-08-18,Train failure at Maidstone East,09:37,Victoria,Ashford,delayed by 12 minutes and did not call at Bromley South
+2010-08-18,Train failure at Maidstone East,09:47,Ashford,Victoria,cancelled
+2010-08-18,Train failure at Maidstone East,10:07,Victoria,Ashford,delayed by 10 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,07:29,Charing Cross,Tunbridge Wells,delayed by 16 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,07:47,Cannon St,Hastings,delayed by 19 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,08:00,Charing Cross,Tunbridge Wells,delayed by 17 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,08:17,Charing Cross,Hastings,delayed by 15 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,08:22,Tunbridge Wells,Charing Cross,delayed by 13 minutes and terminated at London Bridge
+2010-08-18,Signalling issue at Tunbridge Wells,08:27,Charing Cross,Tunbridge Wells,delayed by 10 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,08:42,Cannon St,Hastings,delayed by 10 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,09:21,Tunbridge Wells,Charing Cross,delayed by 12 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,09:30,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-08-18,Signalling issue at Tunbridge Wells,10:45,Charing Cross,Hastings,delayed by 14 minutes
+2010-08-18,Signalling issue at Tunbridge Wells,11:45,Charing Cross,Hastings,started at London Bridge
+2010-08-18,Signalling issue at Tunbridge Wells,12:32,Hastings,Charing Cross,delayed by 11 minutes and terminated at London Bridge
+2010-08-18,Signalling issue at Tunbridge Wells,14:15,Charing Cross,Hastings,started at London Bridge
+2010-08-18,Delayed by previous journey,10:32,Hastings,Charing Cross,did not call at Sevenoaks
+2010-08-18,Technical fault at Tunbridge Wells,07:15,Charing Cross,Hastings,terminated at Tunbridge Wells
+2010-08-18,Technical fault at Tunbridge Wells,09:29,Hastings,Charing Cross,cancelled
+2010-08-18,Technical fault at Tunbridge Wells,11:00,Charing Cross,Tunbridge Wells,delayed by 15 minutes
+2010-08-18,Technical fault at Tunbridge Wells,11:15,Charing Cross,Hastings,delayed by 16 minutes
+2010-08-18,Technical fault at Tunbridge Wells,11:51,Tunbridge Wells,Charing Cross,delayed by 18 minutes and terminated at London Bridge
+2010-08-18,Technical fault at Tunbridge Wells,12:21,Tunbridge Wells,Charing Cross,delayed by 14 minutes
+2010-08-18,Technical fault at Tunbridge Wells,13:00,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-08-18,Track circuit failure,09:50,Hastings,Charing Cross,terminated at London Bridge
+2010-08-18,Train fault,08:33,Ashford,Canterbury West,cancelled
+2010-08-18,Train fault,09:35,Canterbury West,Ashford,cancelled
+2010-08-18,Train fault,13:03,Ashford,Ramsgate,cancelled
+2010-08-18,Technical fault,11:28,Ashford,Victoria,cancelled
+2010-08-18,Technical fault,13:07,Victoria,Ashford,cancelled
+2010-08-18,Train fault,15:40,Victoria,Orpington,cancelled
+2010-08-18,Train fault,16:25,Orpington,Victoria,cancelled
+2010-08-18,Mechanical fault at Tonbridge,18:46,Hastings,Charing Cross,terminated at Tonbridge
+2010-08-18,Mechanical fault at Tonbridge,20:45,Charing Cross,Hastings,started at Tonbridge
+2010-08-18,Train crew delayed,20:22,Ramsgate,Ashford,delayed by 10 minutes
+2010-08-18,Train crew delayed,20:41,Ramsgate,Charing Cross,delayed by 10 minutes
+2010-08-18,Trespasser on the line,20:55,Victoria,Orpington,delayed by 30 minutes and terminated at Bromley South
+2010-08-18,Trespasser on the line,20:58,Victoria,Gillingham,delayed by 29 minutes
+2010-08-18,Trespasser on the line,21:40,Orpington,Victoria,started at Bromley South
+2010-08-18,Police assistance required,20:58,Faversham,St Pancras International,terminated at Ebbsfleet International
+2010-08-18,Police assistance required,22:25,St Pancras International,Faversham,started at Ebbsfleet International
