@@ -25,7 +25,18 @@
           
           var anchor = $('<a href="' + url + '" target="_blank">' + url + '</a>');
           $('#escapedQuery').html(anchor);
-        })
+        });
+        
+        $('.query').each(function() {
+          $(this).click(function() {
+            var querystring = this.search;
+            var escapedQuery = querystring.split('sql=')[1];
+            var unescapedQuery = decodeURIComponent(escapedQuery);
+            $('#rawQuery').val(unescapedQuery);
+            return false;
+          })
+        });
+        
       })
     </script>
   </head>
@@ -35,20 +46,29 @@
     <h2>Reference</h2>
     <ul>
       <li>
-        <a href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a>
+        <a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a>
       </li>
       <li>
-        <a href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
+        <a target="_blank" href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
       </li>
     </ul>
     
     <h2>Example queries</h2>
     <ul>
       <li>
-        <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station',%20count()%20as%20'number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%20order%20by%20count()%20desc">Stations with the most problems</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20FROM%20359310%20where%20Problem%20LIKE%20'%25Snow%25'">Problems caused by THE SNOW</a>
       </li>
       <li>
-        <a target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20FROM%20359310%20where%20Problem%20LIKE%20'%25Snow%25'">Problems caused by THE SNOW</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station',%20count()%20as%20'number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%20order%20by%20count()%20desc">Most problematic stations</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc">Most problematic routes</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20FROM%20359310%20group%20by%20Problem%20order%20by%20count()%20desc">Common problems</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20FROM%20359310%20group%20by%20Problem%20order%20by%20Problem%20asc">Alphabetical list of problems</a>
       </li>
     </ul>
     
