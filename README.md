@@ -25,7 +25,7 @@
     $ echo "Date,Problem,Scheduled departure time,Scheduled departure station,Scheduled arrival station,Affect on service" > combined.csv
     $ cat data/csv/*.csv >> combined.csv
     
-### Importing the data into mysql
+### Importing the combined data into mysql
   
     $ mysql -uroot -e"CREATE DATABASE sedpr;"
 
@@ -35,9 +35,27 @@
     
     $ mysql sedpr -uroot -e"SELECT COUNT(*) FROM problems;"
     
+### Stats
+
+    # Ten most disrupted days
+    # SELECT date, COUNT(*) FROM problems GROUP BY date ORDER BY COUNT(*) DESC LIMIT 10;
+    
+    # Ten most disrupted services
+    # SELECT departure_time, scheduled_departure_station, scheduled_arrival_station, COUNT(*) FROM problems GROUP BY departure_time, scheduled_departure_station, scheduled_arrival_station ORDER BY COUNT(*) DESC LIMIT 10;
+    
+    # Ten most disrupted routes
+    # SELECT scheduled_departure_station, scheduled_arrival_station, COUNT(*) FROM problems GROUP BY scheduled_departure_station, scheduled_arrival_station ORDER BY COUNT(*) DESC LIMIT 10;
+    
+    # Most disrupted months
+    # SELECT YEAR(date), MONTH(date), COUNT(*) FROM problems GROUP BY YEAR(date), MONTH(date) ORDER BY COUNT(*) DESC;
+    
+    # Most disruptive problems
+    # SELECT date, problem, COUNT(*) FROM problems GROUP BY date, problem ORDER BY COUNT(*) DESC LIMIT 20;
 
 ## TODO
 
 * 2010-04-21 breaks the parser...
 * Ensure that I'm generating valid CSV (specifically that I'm quoting columns that contain commas)
 * I currently have an empty file for 2010-11-30.csv.  Investigate the cause.
+* Republish the gem
+* Think about splitting the data out from the parser
