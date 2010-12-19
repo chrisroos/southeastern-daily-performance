@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Southeastern Daily Performance Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    
+      var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
+      var FusionTableID = 359310;
+    
+      $(function() {
+        $('.query').hide();
+        
+        $('.query').each(function() {
+          var queryContainer = $(this);
+          var rawQuery       = $(this).text();
+          var escapedQuery   = encodeURIComponent(rawQuery);
+          var url            = FusionApiUrl + escapedQuery;
+        
+          $.getJSON(url + '&jsonCallback=?', function(data) {
+            // Build the table
+            var table = $('<table>');
+            queryContainer.after(table);
+          
+            // Populate the headers
+            var tableHeader = $('<thead>');
+            var tableRow    = $('<tr>');
+            $(data.table.cols).each(function(columIndex, columnName) {
+              var tableData = $('<th>' + columnName + '</th>');
+              tableRow.append(tableData);
+            });
+            tableHeader.append(tableRow);
+            $(table).append(tableHeader);
+          
+            // Populate the data
+            var tableBody = $('<tbody>');
+            $(data.table.rows).each(function(rowIndex, rowValues) {
+              var tableRow = $('<tr>');
+              $(rowValues).each(function(columnIndex, columnValue) {
+                var tableData = $('<td>' + columnValue + '</td>');
+                tableRow.append(tableData);
+              });
+              tableBody.append(tableRow);
+            });
+            $(table).append(tableBody);
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    
+    <h1>Southeastern Daily Performance Dashboard</h1>
+    
+    <p id="options"></p>
+    
+    <h2>Overview</h2>
+    <div>
+      <pre class="query">
+SELECT minimum(Date) as 'First date', maximum(Date) as 'Last date', count() as 'Total problems'
+FROM 359310
+      </pre>
+    </div>
+    
+    <h2>Number of delays</h2>
+    <div>
+      <pre class="query">
+SELECT count() as 'Delays'
+FROM 359310
+where 'Affect on service'
+starts with 'delayed'
+      </pre>
+    </div>
+
+    <h2>Number of cancellations</h2>
+    <div>
+      <pre class="query">
+SELECT count() as 'Cancellations'
+FROM 359310 
+where 'Affect on service' 
+starts with 'cancelled'
+      </pre>
+    </div>
+    
+    <h2>Most affected services</h2>
+    <div>
+      <pre class="query">
+SELECT 'Scheduled departure time', 'Scheduled departure station', 'Scheduled arrival station', count() as 'Number of problems' 
+FROM 359310 
+group by 'Scheduled departure time', 'Scheduled departure station', 'Scheduled arrival station' 
+order by count() desc 
+limit 3
+      </pre>
+    </div>
+    
+    <h2>Most common problems</h2>
+    <div>
+      <pre class="query">
+SELECT Problem, count() as 'Number of problems'
+FROM 359310
+group by Problem
+order by count() desc
+limit 3
+      </pre>
+    </div>
+    
+    <h2>Most delayed services</h2>
+    <div>
+      <pre class="query">
+SELECT * 
+FROM 359310 
+where 'Affect on service' 
+starts with 'delayed' 
+order by 'Affect on service' desc 
+limit 3
+      </pre>
+    </div>
+    
+  </body>
+</html>
