@@ -5,4 +5,8 @@ A simple web form that allows you to execute queries against the Southeastern da
 ## TODO
 
 * Add a history of queries.
-* Clicking the examples should make the unencoded query appear in the textarea.
+* Add an option to open queries automatically, rather than having to click the link
+* Investigate most problematic services (i.e. route and departure time)
+* Work out what days are missing
+* Import all the data into mysql locally
+* Link to the querymalarky from the github readme
