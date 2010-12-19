@@ -4,11 +4,8 @@
   <head>
     <title>Southeastern Daily Performance Dashboard</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
-    
-      var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
-      var FusionTableID = 359310;
-    
       $(function() {
         $('.query').hide();
         
@@ -26,38 +23,22 @@
           queryAnchor.before(pre);
           
           $.getJSON(url + '&jsonCallback=?', function(data) {
-            // Build the table
-            var table = $('<table>');
-            queryAnchor.after(table);
-          
-            // Populate the headers
-            var tableHeader = $('<thead>');
-            var tableRow    = $('<tr>');
-            $(data.table.cols).each(function(columIndex, columnName) {
-              var tableData = $('<th>' + columnName + '</th>');
-              tableRow.append(tableData);
-            });
-            tableHeader.append(tableRow);
-            $(table).append(tableHeader);
-          
-            // Populate the data
-            var tableBody = $('<tbody>');
-            $(data.table.rows).each(function(rowIndex, rowValues) {
-              var tableRow = $('<tr>');
-              $(rowValues).each(function(columnIndex, columnValue) {
-                var tableData = $('<td>' + columnValue + '</td>');
-                tableRow.append(tableData);
-              });
-              tableBody.append(tableRow);
-            });
-            $(table).append(tableBody);
+            buildResultsTable(data, queryAnchor);
           });
         });
-
       });
     </script>
   </head>
   <body>
+    
+    <ul id="navigation">
+      <li>
+        <a href="/">Querymonkey</a>
+      </li>
+      <li>
+        <a href="/dashboard.html">Dashboard</a>
+      </li>
+    </ul>
     
     <h1>Southeastern Daily Performance Dashboard</h1>
 

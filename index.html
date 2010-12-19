@@ -4,6 +4,7 @@
   <head>
     <title>Southeastern Daily Performance Querymalarky</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
     
       var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
@@ -27,30 +28,8 @@
           $('#escapedQuery').html(anchor);
           
           $.getJSON(url + '&jsonCallback=?', function(data) {
-            // Clear the table
-            $('#results').html('');
-            
-            // Populate the headers
-            var tableHeader = $('<thead>');
-            var tableRow    = $('<tr>');
-            $(data.table.cols).each(function(columIndex, columnName) {
-              var tableData = $('<th>' + columnName + '</th>');
-              tableRow.append(tableData);
-            });
-            tableHeader.append(tableRow);
-            $('#results').append(tableHeader);
-            
-            // Populate the data
-            var tableBody = $('<tbody>');
-            $(data.table.rows).each(function(rowIndex, rowValues) {
-              var tableRow = $('<tr>');
-              $(rowValues).each(function(columnIndex, columnValue) {
-                var tableData = $('<td>' + columnValue + '</td>');
-                tableRow.append(tableData);
-              });
-              tableBody.append(tableRow);
-            });
-            $('#results').append(tableBody);
+            $('#queryResults').remove();
+            buildResultsTable(data, $('#escapedQuery'));
           });
         });
         
@@ -116,8 +95,6 @@
     
     <h2>Results</h2>
     <p id="escapedQuery"></p>
-    
-    <table id="results"></table>
     
   </body>
 </html>
