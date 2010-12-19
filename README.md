@@ -1,3 +1,9 @@
+## Intro
+
+Southeastern publish [Daily Performance reports](http://www.southeasternrailway.co.uk/your-journey/daily-performance/).  They're not very usable as they are.  This project currently contains the code I've used to parse that data and the parsed data itself.
+
+I've also popped the data into [this Google Fusion table](http://www.google.com/fusiontables/DataSource?dsrcid=359310) and added a bit of a [query tool](http://chrisroos.github.com/southeastern-daily-performance/) and [dashboard](http://chrisroos.github.com/southeastern-daily-performance/dashboard.html) (of sorts).
+
 ## Installation
 
     $ gem install southeastern-daily-performance -r http://gemcutter.org
