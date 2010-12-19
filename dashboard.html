@@ -13,15 +13,22 @@
         $('.query').hide();
         
         $('.query').each(function() {
-          var queryContainer = $(this);
-          var rawQuery       = $(this).text();
-          var escapedQuery   = encodeURIComponent(rawQuery);
-          var url            = FusionApiUrl + escapedQuery;
-        
+          var queryAnchor    = $(this);
+          var queryTitle     = queryAnchor.text();
+          var escapedQuery   = this.search.split('?sql=')[1];
+          var unescapedQuery = decodeURIComponent(escapedQuery);
+          var url            = queryAnchor.attr('href');
+
+          var h2  = $('<h2>' + queryTitle + '</h2>');
+          var pre = $('<pre>' + unescapedQuery + '</pre>');
+          pre.hide();
+          queryAnchor.before(h2);
+          queryAnchor.before(pre);
+          
           $.getJSON(url + '&jsonCallback=?', function(data) {
             // Build the table
             var table = $('<table>');
-            queryContainer.after(table);
+            queryAnchor.after(table);
           
             // Populate the headers
             var tableHeader = $('<thead>');
@@ -46,76 +53,34 @@
             $(table).append(tableBody);
           });
         });
+
       });
     </script>
   </head>
   <body>
     
     <h1>Southeastern Daily Performance Dashboard</h1>
-    
-    <p id="options"></p>
-    
-    <h2>Overview</h2>
-    <div>
-      <pre class="query">
-SELECT minimum(Date) as 'First date', maximum(Date) as 'Last date', count() as 'Total problems'
-FROM 359310
-      </pre>
-    </div>
-    
-    <h2>Number of delays</h2>
-    <div>
-      <pre class="query">
-SELECT count() as 'Delays'
-FROM 359310
-where 'Affect on service'
-starts with 'delayed'
-      </pre>
-    </div>
 
-    <h2>Number of cancellations</h2>
-    <div>
-      <pre class="query">
-SELECT count() as 'Cancellations'
-FROM 359310 
-where 'Affect on service' 
-starts with 'cancelled'
-      </pre>
-    </div>
-    
-    <h2>Most affected services</h2>
-    <div>
-      <pre class="query">
-SELECT 'Scheduled departure time', 'Scheduled departure station', 'Scheduled arrival station', count() as 'Number of problems' 
-FROM 359310 
-group by 'Scheduled departure time', 'Scheduled departure station', 'Scheduled arrival station' 
-order by count() desc 
-limit 3
-      </pre>
-    </div>
-    
-    <h2>Most common problems</h2>
-    <div>
-      <pre class="query">
-SELECT Problem, count() as 'Number of problems'
-FROM 359310
-group by Problem
-order by count() desc
-limit 3
-      </pre>
-    </div>
-    
-    <h2>Most delayed services</h2>
-    <div>
-      <pre class="query">
-SELECT * 
-FROM 359310 
-where 'Affect on service' 
-starts with 'delayed' 
-order by 'Affect on service' desc 
-limit 3
-      </pre>
-    </div>
+    <ul>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20minimum(Date)%20as%20'First%20date'%2C%20maximum(Date)%20as%20'Last%20date'%2C%20count()%20as%20'Total%20problems'%0AFROM%20359310">Overview</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Delays'%0AFROM%20359310%0Awhere%20'Affect%20on%20service'%0Astarts%20with%20'delayed'">Number of delays</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Cancellations'%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'cancelled'">Number of cancellations</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20problems'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20problems'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
+      </li>
+      <li>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'delayed'%20%0Aorder%20by%20'Affect%20on%20service'%20desc%20%0Alimit%203">Most delayed services</a>
+      </li>
+    </ul>
     
   </body>
 </html>
