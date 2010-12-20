@@ -4,9 +4,15 @@ require 'open-uri'
 require 'southeastern_daily_performance'
 
 unless html_location = ARGV[0]
-  puts "Usage: sedpr-to-csv location-of-html # file or uri"
+  msg = []
+  msg << "Usage: sedpr-to-csv location-of-html [overview]"
+  msg << " * location-of-html - Can be a file or url."
+  msg << " * overview         - Optional. Generate the overview data."
+  puts msg.join("\n")
   exit 1
 end
 
+format = ARGV[1]
+
 io = open(html_location)
-puts SoutheasternDailyPerformance::DailyPerformanceReport.new(io.read).to_csv
+puts SoutheasternDailyPerformance::DailyPerformanceReport.new(io.read).to_csv(format)

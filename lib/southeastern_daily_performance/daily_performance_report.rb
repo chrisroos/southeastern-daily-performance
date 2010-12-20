@@ -38,7 +38,7 @@ module SoutheasternDailyPerformance
     end
   
     def to_csv(type=nil)
-      if type == :overview
+      if "#{type}" == 'overview'
         CSV.generate_line [date, scheduled_services, actual_services, services_within_five_minutes_of_schedule]
       else
         affected_services.collect do |service|
