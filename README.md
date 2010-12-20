@@ -41,6 +41,19 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
     
     $ mysql sedpr -uroot -e"SELECT COUNT(*) FROM problems;"
     
+### Combining all csv overview files into one file
+
+    $ echo "Services scheduled,Services run,Services within 5 minutes of schedule" > combined.overview.csv
+    $ cat data/csv/*.overview.csv >> combined.overview.csv
+    
+### Importing the combined overview data into mysql
+
+    $ mysql -uroot -e"CREATE DATABASE sedpr;"
+    
+    $ mysql sedpr -uroot -e"CREATE TABLE overview (id INTEGER AUTO_INCREMENT, date DATE, services_scheduled INTEGER, actual_services INTEGER, services_within_five_minutes_of_schedule FLOAT, PRIMARY KEY(id));"
+    
+    $ mysql sedpr -uroot -e"LOAD DATA LOCAL INFILE 'combined.overview.csv' INTO TABLE overview FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"' IGNORE 1 LINES (date, services_scheduled, actual_services, services_within_five_minutes_of_schedule);"
+    
 ### Stats
 
     # Ten most disrupted days
