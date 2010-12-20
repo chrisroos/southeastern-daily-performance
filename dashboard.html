@@ -5,40 +5,6 @@
     <title>Southeastern Daily Performance Dashboard</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-      $(function() {
-        $('.query').hide();
-        
-        var p = $('<p>');
-        var a = $('<a href="">Toggle queries</a>');
-        a.click(function() {
-          $('.query').toggle();
-          $('pre').toggle();
-          return false;
-        });
-        p.append(a);
-        $('h1').after(p);
-        
-        $('.query').each(function() {
-          var queryAnchor    = $(this);
-          var queryTitle     = queryAnchor.text();
-          var escapedQuery   = this.search.split('?sql=')[1];
-          var unescapedQuery = decodeURIComponent(escapedQuery);
-          var url            = queryAnchor.attr('href');
-        
-          var h2  = $('<h2>' + queryTitle + '</h2>');
-          var pre = $('<pre>' + unescapedQuery + '</pre>');
-          pre.hide();
-          queryAnchor.before(h2);
-          queryAnchor.before(pre);
-          
-          $.getJSON(url + '&jsonCallback=?', function(data) {
-            buildResultsTable(data, queryAnchor);
-          });
-        });
-
-      });
-    </script>
   </head>
   <body>
     
@@ -82,6 +48,41 @@
         <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'delayed'%20%0Aorder%20by%20'Affect%20on%20service'%20desc%20%0Alimit%203">Most delayed services</a>
       </li>
     </ul>
+    
+    <script type="text/javascript">
+      $(function() {
+        $('.query').hide();
+        
+        var p = $('<p>');
+        var a = $('<a href="">Toggle queries</a>');
+        a.click(function() {
+          $('.query').toggle();
+          $('pre').toggle();
+          return false;
+        });
+        p.append(a);
+        $('h1').after(p);
+        
+        $('.query').each(function() {
+          var queryAnchor    = $(this);
+          var queryTitle     = queryAnchor.text();
+          var escapedQuery   = this.search.split('?sql=')[1];
+          var unescapedQuery = decodeURIComponent(escapedQuery);
+          var url            = queryAnchor.attr('href');
+        
+          var h2  = $('<h2>' + queryTitle + '</h2>');
+          var pre = $('<pre>' + unescapedQuery + '</pre>');
+          pre.hide();
+          queryAnchor.before(h2);
+          queryAnchor.before(pre);
+          
+          $.getJSON(url + '&jsonCallback=?', function(data) {
+            buildResultsTable(data, queryAnchor);
+          });
+        });
+
+      });
+    </script>
     
   </body>
 </html>
