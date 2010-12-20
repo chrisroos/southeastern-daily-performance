@@ -58,22 +58,22 @@
 
     <ul>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20minimum(Date)%20as%20'First%20date'%2C%20maximum(Date)%20as%20'Last%20date'%2C%20count()%20as%20'Total%20problems'%0AFROM%20359310">Overview</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20minimum(Date)%20as%20'First%20date'%2C%20maximum(Date)%20as%20'Last%20date'%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310">Overview</a>
       </li>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Delays'%0AFROM%20359310%0Awhere%20'Affect%20on%20service'%0Astarts%20with%20'delayed'">Number of delays</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Delays'%0AFROM%20359310%0Awhere%20'Affect%20on%20service'%0Astarts%20with%20'delayed'">Number of delayed services</a>
       </li>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Cancellations'%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'cancelled'">Number of cancellations</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Cancellations'%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'cancelled'">Number of cancelled services</a>
       </li>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20problems'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
       </li>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20problems'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc%20limit%203">Most affected routes</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc%20limit%203">Most affected routes</a>
       </li>
       <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20problems'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
+        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
       </li>
       <li>
         <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'delayed'%20%0Aorder%20by%20'Affect%20on%20service'%20desc%20%0Alimit%203">Most delayed services</a>
