@@ -43,7 +43,7 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
     
 ### Combining all csv overview files into one file
 
-    $ echo "Services scheduled,Services run,Services within 5 minutes of schedule" > combined.overview.csv
+    $ echo "Date,Services scheduled,Services run,Services within 5 minutes of schedule" > combined.overview.csv
     $ cat data/csv/*.overview.csv >> combined.overview.csv
     
 ### Importing the combined overview data into mysql
@@ -78,3 +78,4 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
 * I currently have an empty file for 2010-11-30.csv.  Investigate the cause.
 * Republish the gem
 * Think about splitting the data out from the parser
+* I'm getting 0s for the parsed overview from 2010-11-30.  Investigate the cause.
