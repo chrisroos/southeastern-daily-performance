@@ -37,10 +37,14 @@ module SoutheasternDailyPerformance
       AffectedServicesReport.new(report_container.inner_html).affected_services
     end
   
-    def to_csv
-      affected_services.collect do |service|
-        CSV.generate_line [date, service.reason_for_disruption, service.scheduled_start_time, service.scheduled_start_station, service.scheduled_destination_station, service.effect_on_service]
-      end.join("\n")
+    def to_csv(type=nil)
+      if type == :overview
+        CSV.generate_line [date, scheduled_services, actual_services, services_within_five_minutes_of_schedule]
+      else
+        affected_services.collect do |service|
+          CSV.generate_line [date, service.reason_for_disruption, service.scheduled_start_time, service.scheduled_start_station, service.scheduled_destination_station, service.effect_on_service]
+        end.join("\n")
+      end
     end
   
     private

@@ -18,4 +18,18 @@ class DailyPerformanceReportIntegrationTest < Test::Unit::TestCase
     end
   end
   
+  def test_should_generate_a_csv_summary_from_the_html_daily_performance_report
+    html_report      = File.read(File.join(FIXTURES_DIR, 'se-2010-01-27.html'))
+    csv_report       = File.read(File.join(FIXTURES_DIR, 'se-2010-01-27.overview.csv'))
+    generated_report = DailyPerformanceReport.new(html_report).to_csv(:overview)
+
+    original_lines  = csv_report.split("\n")
+    generated_lines = generated_report.split("\n")
+    
+    assert_equal original_lines.length, generated_lines.length
+    original_lines.each_with_index do |line, index|
+      assert_equal line, generated_lines[index]
+    end
+  end
+  
 end
