@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Analysing the data with mysql
+title: Southeastern daily performance - Mysql
 ---
-# {{ page.title }}
-
 ## Importing the full data into mysql
 
     $ curl "http://www.google.com/fusiontables/api/query?sql=select%20*%20from%20359310" \

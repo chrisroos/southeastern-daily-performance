@@ -1,93 +1,72 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Southeastern daily performance - Query tool
+---
+<h2>Reference</h2>
+<ul>
+  <li>
+    <a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a>
+  </li>
+  <li>
+    <a target="_blank" href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
+  </li>
+</ul>
 
-<html>
-  <head>
-    <title>Southeastern Daily Performance Querymalarky</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
-  </head>
-  <body>
+<h2>Query</h2>
+
+<h3>Table columns</h3>
+<p>Date, Problem, Scheduled departure time, Scheduled departure station, Scheduled arrival station, Affect on service</p>
+
+<form>
+  <p>
+    <textarea id="rawQuery" cols="100" rows="10"></textarea>
+  </p>
+  <p>
+    <input id="queryEncoder" type="button" value="Go go go" />
+    <input id="queryReset" type="button" value="Reset" />
+  </p>
+</form>
+
+<h2>Results</h2>
+<p id="escapedQuery"></p>
+
+<script type="text/javascript">
+
+  var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
+  var FusionTableID = 359310;
+  
+  var resetRawQuery = function() {
+    $('#rawQuery').val('SELECT * FROM ' + FusionTableID);
+  }
+
+  $(function() {
+    resetRawQuery();
     
-    <p>Navigation</p>
-    <ul id="navigation">
-      <li>
-        <a href="./index.html">Querymonkey</a>
-      </li>
-      <li>
-        <a href="./dashboard.html">Dashboard</a>
-      </li>
-    </ul>
+    $('#queryReset').click(resetRawQuery);
     
-    <h1>Southeastern Daily Performance Querymonkey</h1>
-    
-    <h2>Reference</h2>
-    <ul>
-      <li>
-        <a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a>
-      </li>
-      <li>
-        <a target="_blank" href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
-      </li>
-    </ul>
-    
-    <h2>Query</h2>
-    
-    <h3>Table columns</h3>
-    <p>Date, Problem, Scheduled departure time, Scheduled departure station, Scheduled arrival station, Affect on service</p>
-    
-    <form>
-      <p>
-        <textarea id="rawQuery" cols="100" rows="10"></textarea>
-      </p>
-      <p>
-        <input id="queryEncoder" type="button" value="Go go go" />
-        <input id="queryReset" type="button" value="Reset" />
-      </p>
-    </form>
-    
-    <h2>Results</h2>
-    <p id="escapedQuery"></p>
-    
-    <script type="text/javascript">
-    
-      var FusionApiUrl  = 'http://www.google.com/fusiontables/api/query?sql=';
-      var FusionTableID = 359310;
+    $('#queryEncoder').click(function() {
+      var rawQuery     = $('#rawQuery').val();
+      var escapedQuery = encodeURIComponent(rawQuery);
+      var url          = FusionApiUrl + escapedQuery;
       
-      var resetRawQuery = function() {
-        $('#rawQuery').val('SELECT * FROM ' + FusionTableID);
-      }
+      var anchor = $('<a href="' + url + '" target="_blank">View results as CSV</a>');
+      $('#escapedQuery').html(anchor);
+      
+      $.getJSON(url + '&jsonCallback=?', function(data) {
+        $('#queryResults').remove();
+        buildResultsTable(data, $('#escapedQuery'));
+      });
+    });
     
-      $(function() {
-        resetRawQuery();
-        
-        $('#queryReset').click(resetRawQuery);
-        
-        $('#queryEncoder').click(function() {
-          var rawQuery     = $('#rawQuery').val();
-          var escapedQuery = encodeURIComponent(rawQuery);
-          var url          = FusionApiUrl + escapedQuery;
-          
-          var anchor = $('<a href="' + url + '" target="_blank">View results as CSV</a>');
-          $('#escapedQuery').html(anchor);
-          
-          $.getJSON(url + '&jsonCallback=?', function(data) {
-            $('#queryResults').remove();
-            buildResultsTable(data, $('#escapedQuery'));
-          });
-        });
-        
-        $('.query').each(function() {
-          $(this).click(function() {
-            var querystring = this.search;
-            var escapedQuery = querystring.split('sql=')[1];
-            var unescapedQuery = decodeURIComponent(escapedQuery);
-            $('#rawQuery').val(unescapedQuery);
-            return false;
-          })
-        });
-        
+    $('.query').each(function() {
+      $(this).click(function() {
+        var querystring = this.search;
+        var escapedQuery = querystring.split('sql=')[1];
+        var unescapedQuery = decodeURIComponent(escapedQuery);
+        $('#rawQuery').val(unescapedQuery);
+        return false;
       })
-    </script>
+    });
     
-  </body>
-</html>
+  })
+</script>

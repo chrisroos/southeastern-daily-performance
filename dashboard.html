@@ -1,88 +1,67 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Southeastern daily performance - Dashboard
+---
+<p>It can take a while for these queries to run/return.</p>
 
-<html>
-  <head>
-    <title>Southeastern Daily Performance Dashboard</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
-  </head>
-  <body>
-    
-    <p>Navigation</p>
-    <ul id="navigation">
-      <li>
-        <a href="./index.html">Querymonkey</a>
-      </li>
-      <li>
-        <a href="./dashboard.html">Dashboard</a>
-      </li>
-    </ul>
-    
-    <h1>Southeastern Daily Performance Dashboard</h1>
-    
-    <p>It can take a while for these queries to run/return.</p>
+<ul>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20minimum(Date)%20as%20'First%20date'%2C%20maximum(Date)%20as%20'Last%20date'%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310">Overview</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Delays'%0AFROM%20359310%0Awhere%20'Affect%20on%20service'%0Astarts%20with%20'delayed'">Number of delayed services</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Cancellations'%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'cancelled'">Number of cancelled services</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc%20limit%203">Most affected routes</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Date%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20Date%20order%20by%20count()%20desc%20limit%203">Most problematic days</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
+  </li>
+  <li>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'delayed'%20%0Aorder%20by%20'Affect%20on%20service'%20desc%20%0Alimit%203">Most delayed services</a>
+  </li>
+</ul>
 
-    <ul>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20minimum(Date)%20as%20'First%20date'%2C%20maximum(Date)%20as%20'Last%20date'%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310">Overview</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Delays'%0AFROM%20359310%0Awhere%20'Affect%20on%20service'%0Astarts%20with%20'delayed'">Number of delayed services</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20count()%20as%20'Cancellations'%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'cancelled'">Number of cancelled services</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc%20limit%203">Most affected routes</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Date%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20Date%20order%20by%20count()%20desc%20limit%203">Most problematic days</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
-      </li>
-      <li>
-        <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20*%20%0AFROM%20359310%20%0Awhere%20'Affect%20on%20service'%20%0Astarts%20with%20'delayed'%20%0Aorder%20by%20'Affect%20on%20service'%20desc%20%0Alimit%203">Most delayed services</a>
-      </li>
-    </ul>
+<script type="text/javascript">
+  $(function() {
+    $('.query').hide();
     
-    <script type="text/javascript">
-      $(function() {
-        $('.query').hide();
-        
-        var p = $('<p>');
-        var a = $('<a href="">Toggle queries</a>');
-        a.click(function() {
-          $('.query').toggle();
-          $('pre').toggle();
-          return false;
-        });
-        p.append(a);
-        $('h1').after(p);
-        
-        $('.query').each(function() {
-          var queryAnchor    = $(this);
-          var queryTitle     = queryAnchor.text();
-          var escapedQuery   = this.search.split('?sql=')[1];
-          var unescapedQuery = decodeURIComponent(escapedQuery);
-          var url            = queryAnchor.attr('href');
-        
-          var h2  = $('<h2>' + queryTitle + '</h2>');
-          var pre = $('<pre>' + unescapedQuery + '</pre>');
-          pre.hide();
-          queryAnchor.before(h2);
-          queryAnchor.before(pre);
-          
-          $.getJSON(url + '&jsonCallback=?', function(data) {
-            buildResultsTable(data, queryAnchor);
-          });
-        });
-
+    var p = $('<p>');
+    var a = $('<a href="">Toggle queries</a>');
+    a.click(function() {
+      $('.query').toggle();
+      $('pre').toggle();
+      return false;
+    });
+    p.append(a);
+    $('h1').after(p);
+    
+    $('.query').each(function() {
+      var queryAnchor    = $(this);
+      var queryTitle     = queryAnchor.text();
+      var escapedQuery   = this.search.split('?sql=')[1];
+      var unescapedQuery = decodeURIComponent(escapedQuery);
+      var url            = queryAnchor.attr('href');
+    
+      var h2  = $('<h2>' + queryTitle + '</h2>');
+      var pre = $('<pre>' + unescapedQuery + '</pre>');
+      pre.hide();
+      queryAnchor.before(h2);
+      queryAnchor.before(pre);
+      
+      $.getJSON(url + '&jsonCallback=?', function(data) {
+        buildResultsTable(data, queryAnchor);
       });
-    </script>
-    
-  </body>
-</html>
+    });
+
+  });
+</script>

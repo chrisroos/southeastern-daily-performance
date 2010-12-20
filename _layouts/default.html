@@ -3,8 +3,19 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./javascripts/sedpr.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
+    <p>Navigation</p>
+    <ul id="navigation">
+      <li><a href="./index.html">Query tool</a></li>
+      <li><a href="./dashboard.html">Dashboard</a></li>
+      <li><a href="./mysql.html">Mysql</a></li>
+    </ul>
+    
+    <h1>{{ page.title }}</h1>
+    
     {{ content }}
   </body>
 </html>
