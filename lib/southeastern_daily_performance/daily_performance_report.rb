@@ -30,7 +30,7 @@ module SoutheasternDailyPerformance
     end
   
     def services_within_five_minutes_of_schedule
-      report[/(\d+)% of services ran within 5 minutes of schedule/, 1].to_i
+      report[/(\d+\.?\d+?)% of services ran within 5 minutes of schedule/, 1].to_f
     end
   
     def affected_services
