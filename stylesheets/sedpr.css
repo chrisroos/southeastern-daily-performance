@@ -39,6 +39,14 @@ td {
   padding-right: 1em;
 }
 
+#dashboardQueries {
+  padding-left: 0;
+}
+
+#dashboardQueries li {
+  list-style-type: none;
+}
+
 #queryResultsInPage {
   margin-left: 3em;
 }
