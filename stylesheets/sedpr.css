@@ -26,3 +26,8 @@ th {
   display: inline;
   padding-right: 1em;
 }
+
+.help {
+  margin-top: 0;
+  font-size: 0.9em;
+}

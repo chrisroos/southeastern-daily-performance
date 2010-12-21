@@ -2,14 +2,10 @@
 layout: default
 title: Southeastern daily performance - Query tool
 ---
-<h2>Reference</h2>
+<p>This is a simple tool that you can use to query the fusion tables containing the southeastern performance data. There are two main tables.</p>
 <ul>
-  <li>
-    <a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data in the Fusion table</a>
-  </li>
-  <li>
-    <a target="_blank" href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
-  </li>
+  <li><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data</a></li>
+  <li><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=363664">Overview data</a></li>
 </ul>
 
 <h2>Query</h2>
@@ -17,9 +13,12 @@ title: Southeastern daily performance - Query tool
 <h3>Table columns</h3>
 <p>Date, Problem, Scheduled departure time, Scheduled departure station, Scheduled arrival station, Affect on service</p>
 
-<form>
-  <p>
+<form id="queryTool">
+  <div>
     <textarea id="rawQuery" cols="100" rows="10"></textarea>
+  </div>
+  <p class="help">
+    <a target="_blank" href="http://code.google.com/apis/fusiontables/docs/developers_reference.html#Select">Fusion table query reference</a>
   </p>
   <p>
     <input id="queryEncoder" type="button" value="Go go go" />
