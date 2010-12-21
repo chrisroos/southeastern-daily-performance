@@ -1,14 +1,23 @@
 body {
   font-family: sans-serif;
-  margin: 1em 3em;
-}
-
-#navigation li {
-  display: inline;
+  margin: 1em 4em;
+  color: #444;
 }
 
 pre {
   padding: 1em;
   background-color: #eee;
   line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+#navigation {
+  padding-left: 0;
+}
+#navigation li {
+  display: inline;
+  padding-right: 1em;
 }
