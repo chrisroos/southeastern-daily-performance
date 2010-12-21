@@ -14,8 +14,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
+th, td {
+  padding: 0.3em 0.7em;
+  font-size: 0.9em;
+}
+
+
 th {
   text-align: left;
+  background-color: #6A8099;
+  color: #ddd;
+}
+
+td {
+  background-color: #C9D6FF;
 }
 
 #navigation {
