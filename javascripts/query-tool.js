@@ -11,6 +11,8 @@ $(function() {
   $('#queryReset').click(resetRawQuery);
   
   $('#queryEncoder').click(function() {
+    $('#queryResults').remove();
+        
     var rawQuery     = $('#rawQuery').val();
     var escapedQuery = encodeURIComponent(rawQuery);
     var url          = FusionApiUrl + escapedQuery;
@@ -18,10 +20,12 @@ $(function() {
     var anchor = $('<a href="' + url + '" target="_blank">View results as CSV</a>');
     $('#escapedQuery').html(anchor);
     
-    $.getJSON(url + '&jsonCallback=?', function(data) {
-      $('#queryResults').remove();
-      buildResultsTable(data, $('#escapedQuery'));
-    });
+    var displayResultsInPage = $('#queryResultsInPage').attr('checked');
+    if (displayResultsInPage) {
+      $.getJSON(url + '&jsonCallback=?', function(data) {
+        buildResultsTable(data, $('#escapedQuery'));
+      });
+    };
   });
   
   $('.query').each(function() {
