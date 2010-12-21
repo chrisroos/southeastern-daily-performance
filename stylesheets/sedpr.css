@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  margin: 1em 3em;
+}
+
+#navigation li {
+  display: inline;
+}
+
+pre {
+  padding: 1em;
+  background-color: #eee;
+  line-height: 1.5em;
+}
