@@ -36,7 +36,7 @@ title: Southeastern daily performance - Query tool
   var FusionTableID = 359310;
   
   var resetRawQuery = function() {
-    $('#rawQuery').val('SELECT * FROM ' + FusionTableID);
+    $('#rawQuery').val('SELECT * FROM ' + FusionTableID + ' LIMIT 5');
   }
 
   $(function() {
