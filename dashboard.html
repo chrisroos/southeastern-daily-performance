@@ -52,14 +52,17 @@ title: Southeastern daily performance - Dashboard
       var unescapedQuery = decodeURIComponent(escapedQuery);
       var url            = queryAnchor.attr('href');
     
-      var h2  = $('<h2>' + queryTitle + '</h2>');
-      var pre = $('<pre>' + unescapedQuery + '</pre>');
+      var h2      = $('<h2>' + queryTitle + '</h2>');
+      var pre     = $('<pre>' + unescapedQuery + '</pre>');
+      var loading = $('<p>Loading...</p>');
       pre.hide();
       queryAnchor.before(h2);
       queryAnchor.before(pre);
+      queryAnchor.before(loading);
       
       $.getJSON(url + '&jsonCallback=?', function(data) {
         buildResultsTable(data, queryAnchor);
+        loading.remove();
       });
     });
 
