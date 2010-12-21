@@ -3,15 +3,30 @@ layout: default
 title: Southeastern daily performance - Query tool
 ---
 <p>This is a simple tool that you can use to query the fusion tables containing the southeastern performance data. There are two main tables.</p>
-<ul>
-  <li><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data</a></li>
-  <li><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=363664">Overview data</a></li>
-</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Columns</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>359310</td>
+      <td><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=359310">Raw data</a></td>
+      <td>Date, Problem, 'Scheduled departure time', 'Scheduled departure station', 'Scheduled arrival station', 'Affect on service'</td>
+    </tr>
+    <tr>
+      <td>363664</td>
+      <td><a target="_blank" href="http://www.google.com/fusiontables/DataSource?dsrcid=363664">Overview data</a></td>
+      <td>Date, 'Services scheduled', 'Services run', 'Services within 5 minutes of schedule'</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Query</h2>
-
-<h3>Table columns</h3>
-<p>Date, Problem, Scheduled departure time, Scheduled departure station, Scheduled arrival station, Affect on service</p>
 
 <form id="queryTool">
   <div>
