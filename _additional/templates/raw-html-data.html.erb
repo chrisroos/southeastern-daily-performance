@@ -3,6 +3,7 @@ layout: default
 title: Southeastern daily performance - Raw HTML archive
 ---
 <p>An archive of all the raw daily performance reports in their original format.  These will look crappy because of the lack of css/javascript assets.</p>
+<p><strong>NOTE.</strong> If a date isn't linked then it indicates that the data is missing for that date.</p>
 
 <% current_month = '' %>
 <ul id="dates">
@@ -15,7 +16,7 @@ title: Southeastern daily performance - Raw HTML archive
       <% if raw_file[:html_exists] %>
         <a href="<%= raw_file[:html_href] %>"><%= date %></a>
       <% else %>
-        <%= date %> (raw data is unavailable)
+        <%= date %>
       <% end %>
     </li>
   <% end %>

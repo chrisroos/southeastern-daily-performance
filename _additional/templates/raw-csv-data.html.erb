@@ -3,20 +3,19 @@ layout: default
 title: Southeastern daily performance - Raw CSV archive
 ---
 <p>An archive of all the raw daily performance reports in the parsed CSV format.</p>
+<p><strong>NOTE.</strong> If a date isn't linked then it indicates that the data is missing for that date.</p>
 
 <ul id="dates">
   <% dates.sort.each do |(date, raw_file)| %>
     <% unless date.strftime('%B %Y') == current_month %>
       <% current_month = date.strftime('%B %Y') %>
-      <li><h2><%= current_month %></h2></li>
+      <li class="dateHeading"><h2><%= current_month %></h2></li>
     <% end %>
     <li>
       <% if raw_file[:csv_exists] %>
         <a href="<%= raw_file[:csv_href] %>"><%= date %></a>
       <% else %>
-        <% msg =  'csv data is unavailable' %>
-        <% msg += ' but html data is available so this just needs to be parsed' if raw_file[:html_exists] %>
-        <%= date %> (<%= msg %>)
+        <%= date %>
       <% end %>
     </li>
   <% end %>

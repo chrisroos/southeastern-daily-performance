@@ -30,17 +30,21 @@ td {
   background-color: #C9D6FF;
 }
 
-#navigation, #dashboardQueries {
+#navigation, #dashboardQueries, #dates {
   padding-left: 0;
 }
 
-#navigation li {
+#navigation li, #dates li {
   display: inline;
   padding-right: 1em;
 }
 
 #dashboardQueries li {
   list-style-type: none;
+}
+
+#dates li.dateHeading {
+  padding-right: 0;
 }
 
 #queryResultsInPage {
