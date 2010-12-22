@@ -6,6 +6,10 @@ title: Southeastern daily performance - Raw CSV archive
 
 <ul id="dates">
   <% dates.sort.each do |(date, raw_file)| %>
+    <% unless date.strftime('%B %Y') == current_month %>
+      <% current_month = date.strftime('%B %Y') %>
+      <li><h2><%= current_month %></h2></li>
+    <% end %>
     <li>
       <% if raw_file[:csv_exists] %>
         <a href="<%= raw_file[:csv_href] %>"><%= date %></a>

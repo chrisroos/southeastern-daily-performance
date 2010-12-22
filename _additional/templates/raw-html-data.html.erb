@@ -4,8 +4,13 @@ title: Southeastern daily performance - Raw HTML archive
 ---
 <p>An archive of all the raw daily performance reports in their original format.  These will look crappy because of the lack of css/javascript assets.</p>
 
+<% current_month = '' %>
 <ul id="dates">
   <% dates.sort.each do |(date, raw_file)| %>
+    <% unless date.strftime('%B %Y') == current_month %>
+      <% current_month = date.strftime('%B %Y') %>
+      <li><h2><%= current_month %></h2></li>
+    <% end %>
     <li>
       <% if raw_file[:html_exists] %>
         <a href="<%= raw_file[:html_href] %>"><%= date %></a>
