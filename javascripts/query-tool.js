@@ -22,8 +22,11 @@ $(function() {
     
     var displayResultsInPage = $('#queryResultsInPage').attr('checked');
     if (displayResultsInPage) {
+      var loading = $('<p>Loading...</p>');
+      $('#escapedQuery').after(loading);
       $.getJSON(url + '&jsonCallback=?', function(data) {
         buildResultsTable(data, $('#escapedQuery'));
+        loading.remove();
       });
     };
   });
