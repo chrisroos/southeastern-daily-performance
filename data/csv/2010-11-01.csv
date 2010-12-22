@@ -1,0 +1,31 @@
+2010-11-01,Driver unavailable at Gillingham,05:00,Gillingham,Sheerness,cancelled
+2010-11-01,Driver unavailable at Gillingham,05:31,Sheerness,Sittingbourne,cancelled
+2010-11-01,Driver unavailable at Gillingham,06:03,Sittingbourne,Sheerness,cancelled
+2010-11-01,Driver unavailable at Gillingham,06:29,Sheerness,Sittingbourne,cancelled
+2010-11-01,Overrunning engineering work between Swanley and Rochester,04:33,Swanley,Victoria,"started at Bickley, and delayed by 17 minutes"
+2010-11-01,Signal fault at Sevenoaks,08:33,Ashford,Canterbury West,delayed by 12 minutes
+2010-11-01,Driver unavailable at Bedford,06:40,Blackfriars,Orpington,delayed by 13 minutes
+2010-11-01,Driver unavailable at Blackfriars,06:25,Ashford,Blackfriars,terminated at Blackfriars
+2010-11-01,Driver unavailable at Blackfriars,16:22,Blackfriars,Rochester,started at City Thameslink
+2010-11-01,Train fault between St Albans and West Hampsted,07:28,Orpington,Blackfriars,delayed by 10 minutes
+2010-11-01,Driver unavailable at Tunbridge Wells,07:47,Cannon St,Hastings,delayed by 11 minutes
+2010-11-01,Driver unavailable at Tunbridge Wells,08:00,Charing Cross,Tunbridge Wells,delayed by 13 minutes
+2010-11-01,Signalling fault at Tunbridge Wells,08:51,Tunbridge Wells,Charing Cross,cancelled
+2010-11-01,Signalling fault at Tunbridge Wells,10:00,Charing Cross,Tunbridge Wells,cancelled
+2010-11-01,Train fault at Gillingham,10:24,Gillingham,Charing Cross,delayed by 16 minutes
+2010-11-01,Signalling error in North Kent,08:38,Barnehurst,Cannon St,delayed by 12 minutes
+2010-11-01,Signalling error in North Kent,09:50,Cannon St,Orpington,did not call at New Cross
+2010-11-01,Delayed behind freight train,13:40,Cannon St,Cannon St,did not call at Plumstead
+2010-11-01,Train fault at Dartford,12:47,Cannon St,Cannon St,""
+2010-11-01,Train fault at Dartford,14:30,Cannon St,Hayes,cancelled
+2010-11-01,Train fault at Dartford,15:20,Hayes,Cannon St,cancelled
+2010-11-01,Radio fault on train at Ashford,16:12,St Pancras International,Dover Priory,delayed by 10 minutes
+2010-11-01,Radio fault on train at Ashford,17:44,Dover Priory,St Pancras International,started at Ashford
+2010-11-01,Door fault between Dover Priory and Canterbury East,18:57,Victoria,Ramsgate,delayed by 13 minutes
+2010-11-01,Door fault between Dover Priory and Canterbury East,20:15,Faversham,Dover Priory,delayed by 17 minutes
+2010-11-01,Brake fault at Sevenoaks,20:06,Sevenoaks,Charing Cross,delayed by 11 minutes
+2010-11-01,Brake fault at Sevenoaks,21:05,Sevenoaks,Charing Cross,delayed by 14 minutes
+2010-11-01,Brake fault at Sevenoaks,21:05,Sevenoaks,Charing Cross,terminated at London Bridge
+2010-11-01,Overrunning engineering work,22:09,Charing Cross,Gillingham,started at London Bridge
+2010-11-01,"Delayed between Paddock Wood and Headcorn, high passenger volumes",17:31,Dartford,Cannon St,did not call at Westcombe Park
+2010-11-01,Train fault between Grove Park and Sidcup,10:24,Gillingham,Charing Cross,did not call at Woolwich Arsenal

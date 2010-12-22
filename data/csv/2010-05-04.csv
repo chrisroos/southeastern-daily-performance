@@ -1,0 +1,36 @@
+2010-05-04,Train fault at Swanley,04:33,Swanley,Victoria,cancelled
+2010-05-04,Train fault at Swanley,05:52,Victoria,Ramsgate,started at Gillingham and delayed by 32 minutes
+2010-05-04,Train fault at Gillingham,05:00,Gillingham,Sheerness,cancelled
+2010-05-04,Train fault at Gillingham,05:31,Sheerness,Sittingbourne,cancelled
+2010-05-04,Train fault at Gillingham,06:03,Sittingbourne,Sheerness,cancelled
+2010-05-04,Train fault at Gillingham,06:29,Sheerness,Sittingbourne,cancelled
+2010-05-04,Train fault at Ramsgate,05:36,Ramsgate,Charing Cross,cancelled
+2010-05-04,Train fault at Ramsgate,07:52,Charing Cross,Tonbridge,cancelled
+2010-05-04,Train fault at Ramsgate,08:44,Tonbridge,Cannon St,cancelled
+2010-05-04,Points failure at Hastings,06:03,Hastings,Charing Cross,cancelled
+2010-05-04,Points failure at Hastings,08:00,Charing Cross,Tunbridge Wells,cancelled
+2010-05-04,Train fault at Slade Green,06:57,Strood,Cannon St,started at Abbey Wood
+2010-05-04,Planning error,06:31,Dartford,Cannon St,cancelled
+2010-05-04,Planning error,07:27,Cannon St,Barnehurst,cancelled
+2010-05-04,Driver delayed,07:38,Gillingham,Charing Cross,delayed by 15 minutes
+2010-05-04,Driver delayed,07:38,Gillingham,Charing Cross,terminated at Dartford
+2010-05-04,Driver delayed,09:02,Charing Cross,Dartford,cancelled
+2010-05-04,Passenger taken ill,08:10,Victoria,Dartford,did not call at Denmark Hill
+2010-05-04,Signalling issue at Tunbridge Wells,08:22,Tunbridge Wells,Charing Cross,terminated at London Bridge
+2010-05-04,Signalling issue at Tunbridge Wells,09:30,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-05-04,Train fault at Ramsgate,07:00,Broadstairs,St Pancras International,cancelled
+2010-05-04,Track circuit failure,11:40,Charing Cross,Ramsgate,delayed by 22 minutes
+2010-05-04,Technical fault at Dartford,11:31,Dartford,Cannon St,cancelled
+2010-05-04,Technical fault at Dartford,12:27,Cannon St,Dartford,cancelled
+2010-05-04,Technical fault at Dartford,15:52,Dartford,Charing Cross,cancelled
+2010-05-04,Technical fault at Dartford,16:49,Charing Cross,Sidcup,cancelled
+2010-05-04,Technical fault at Dartford,18:18,Charing Cross,Dartford,cancelled
+2010-05-04,Trespasser on the line,15:52,Victoria,Ramsgate,delayed by 10 minutes
+2010-05-04,Signalling issue,17:12,Blackfriars,Kent House,delayed by 11 minutes
+2010-05-04,Train fault at Sittingbourne,17:25,St Pancras International,Broadstairs,delayed by 11 minutes
+2010-05-04,Train fault at Sittingbourne,18:14,Sittingbourne,Sheerness,cancelled
+2010-05-04,Train fault at Sittingbourne,18:42,Sheerness,Sittingbourne,cancelled
+2010-05-04,Train fault at Sittingbourne,19:23,Sittingbourne,Sheerness,cancelled
+2010-05-04,Train fault at Sittingbourne,19:46,Sheerness,Sittingbourne,cancelled
+2010-05-04,Signal failure,18:19,Hastings,Charing Cross,delayed by 14 minutes and did not call at Sevenoaks
+2010-05-04,Signal failure,18:28,Cannon St,Hastings,delayed by 10 minutes

@@ -1,0 +1,85 @@
+2010-07-09,Points fault at Swanley,15:45,Faversham,Dover Priory,delayed by 57 minutes and terminated at Canterbury East
+2010-07-09,Points fault at Swanley,16:15,Faversham,Dover Priory,cancelled
+2010-07-09,Points fault at Swanley,16:34,Ramsgate,Faversham,cancelled
+2010-07-09,Points fault at Swanley,16:39,Dover Priory,Victoria,started at Canterbury East and delayed by 30 minutes
+2010-07-09,Points fault at Swanley,16:40,Sittingbourne,Sheerness,delayed by 13 minutes
+2010-07-09,Points fault at Swanley,16:45,Faversham,Dover Priory,delayed by 21 minutes
+2010-07-09,Points fault at Swanley,17:02,Sheerness,Sittingbourne,delayed by 10 minutes
+2010-07-09,Points fault at Swanley,17:05,Dover Priory,Victoria,started at Faversham and delayed by 13 minutes
+2010-07-09,Points fault at Swanley,17:34,Ramsgate,Faversham,delayed by 15 minutes
+2010-07-09,Points fault at Swanley,17:39,Dover Priory,Victoria,delayed by 13 minutes
+2010-07-09,Points fault at Swanley,17:49,Faversham,Dover Priory,delayed by 19 minutes
+2010-07-09,Points fault at Swanley,18:39,Dover Priory,Victoria,delayed by 14 minutes
+2010-07-09,Train fault at Slade Green,06:48,Gravesend,Cannon St,started at Abbey Wood
+2010-07-09,Train fault at Slade Green,07:51,Cannon St,Orpington,cancelled
+2010-07-09,Train fault at Slade Green,08:43,Orpington,Cannon St,cancelled
+2010-07-09,Driver error,06:17,Charing Cross,Hayes,did not call at St Johns
+2010-07-09,Passenger disorder at Rochester,05:40,Ramsgate,Victoria,delayed by 10 minutes
+2010-07-09,Passenger disorder at Rochester,06:08,Faversham,Cannon St,delayed by 14 minutes
+2010-07-09,Passenger disorder at Rochester,08:05,Charing Cross,Sevenoaks,delayed by 11 minutes and terminated at Orpington
+2010-07-09,Passenger disorder at Rochester,09:06,Sevenoaks,Charing Cross,started at Orpington
+2010-07-09,Train fault,07:19,Ramsgate,Cannon St,delayed by 10 minutes
+2010-07-09,Train fault,10:26,Charing Cross,Gravesend,did not call at Hither Green
+2010-07-09,Signalling issue,11:36,Sevenoaks,Charing Cross,did not call at Petts Wood
+2010-07-09,Following previous late running train,08:55,Charing Cross,Gravesend,terminated at Dartford
+2010-07-09,Following previous late running train,10:03,Gravesend,Charing Cross,started at Dartford
+2010-07-09,Following previous late running train,10:33,Ashford,Canterbury West,delayed by 11 minutes
+2010-07-09,Staff shortage,10:24,Cannon St,Barnehurst,cancelled
+2010-07-09,Technical fault,10:47,Cannon St,Cannon St,did not call at New Eltham
+2010-07-09,Emergency speed restriction,18:40,Ramsgate,Charing Cross,delayed by 12 minutes
+2010-07-09,Train fault at Gillingham,14:32,Gillingham,Victoria,delayed by 10 minutes
+2010-07-09,Technical fault,15:24,Gillingham,Charing Cross,terminated at Rochester
+2010-07-09,Technical fault,16:57,Charing Cross,Ashford,cancelled
+2010-07-09,Train fault,16:44,Cannon St,Gillingham,cancelled
+2010-07-09,Train fault,18:09,Gillingham,Charing Cross,started at Dartford
+2010-07-09,Train fault,15:40,Blackfriars,Beckenham Junction,delayed by 21 minutes
+2010-07-09,Points failure,15:40,Cannon St,Cannon St,did not call at Slade Green
+2010-07-09,Points failure,15:54,Gillingham,Cannon St,did not call at Abbey Wood
+2010-07-09,Points failure,16:31,Dartford,Cannon St,did not call at Charlton
+2010-07-09,Driver error,16:26,Ashford,Victoria,did not call at West Malling and delayed by 27 minutes
+2010-07-09,Driver error,16:47,Ashford,Victoria,delayed by 29 minutes
+2010-07-09,Driver error,18:03,Victoria,Ashford,did not call at Otford and delayed by 14 minutes
+2010-07-09,Driver error,18:26,Ashford,Victoria,delayed by 10 minutes
+2010-07-09,Delayed from depot,16:44,Slade Green,Cannon St,cancelled
+2010-07-09,Bridge strike at Grove Park,16:56,Cannon St,Sevenoaks,terminated at Orpington
+2010-07-09,Bridge strike at Grove Park,17:08,Cannon St,Ramsgate,delayed by 10 minutes
+2010-07-09,Bridge strike at Grove Park,17:50,Cannon St,Gravesend,delayed by 13 minutes and terminated at Dartford
+2010-07-09,Bridge strike at Grove Park,17:50,Hastings,Charing Cross,terminated at London Bridge
+2010-07-09,Bridge strike at Grove Park,18:03,Charing Cross,Ore,terminated at Hastings
+2010-07-09,Bridge strike at Grove Park,18:06,Sevenoaks,Charing Cross,started at Orpington
+2010-07-09,Bridge strike at Grove Park,18:35,Ashford,Canterbury West,delayed by 19 minutes
+2010-07-09,Bridge strike at Grove Park,18:44,Cannon St,Ramsgate,delayed by 11 minutes
+2010-07-09,Bridge strike at Grove Park,18:46,Hastings,Charing Cross,delayed by 24 minutes and terminated at London Bridge
+2010-07-09,Bridge strike at Grove Park,18:48,Gravesend,Charing Cross,started at Dartford
+2010-07-09,Bridge strike at Grove Park,18:49,Ashford,Victoria,delayed by 11 minutes
+2010-07-09,Bridge strike at Grove Park,19:29,Ashford,Canterbury West,delayed by 11 minutes
+2010-07-09,Bridge strike at Grove Park,19:45,Charing Cross,Hastings,started at London Bridge
+2010-07-09,Bridge strike at Grove Park,20:45,Charing Cross,Hastings,started at London Bridge
+2010-07-09,Technical fault,14:52,Victoria,Ramsgate,terminated at Gillingham
+2010-07-09,Train fault,16:58,Victoria,Ashford,cancelled
+2010-07-09,Passenger alarm activated,13:47,Ashford,Victoria,delayed by 15 minutes
+2010-07-09,Passenger alarm activated,14:40,Orpington,Victoria,delayed by 20 minutes
+2010-07-09,Points failure,13:26,Kent House,Sevenoaks,delayed by 13 minutes
+2010-07-09,Points failure,13:59,Victoria,Gillingham,terminated at Swanley
+2010-07-09,Points failure,14:07,Victoria,Ashford,delayed by 10 minutes
+2010-07-09,Points failure,14:22,Victoria,Ramsgate,did not call at Whitstable and delayed by 48 minutes
+2010-07-09,Points failure,14:58,Victoria,Gillingham,delayed by 20 minutes
+2010-07-09,Technical fault,18:03,Orpington,Cannon St,delayed by 12 minutes
+2010-07-09,Train maintenance required,19:22,Ramsgate,Ashford,delayed by 14 minutes
+2010-07-09,Train maintenance required,19:40,Ramsgate,Charing Cross,delayed by 15 minutes
+2010-07-09,Train maintenance required,20:30,Charing Cross,Tunbridge Wells,delayed by 11 minutes
+2010-07-09,Passenger taken ill at Rochester,18:44,Cannon St,Ramsgate,delayed by 14 minutes and terminated at Faversham
+2010-07-09,Signalling issue,14:05,Dover Priory,Victoria,delayed by 14 minutes
+2010-07-09,Signalling issue,14:47,Ashford,Victoria,delayed by 15 minutes
+2010-07-09,Signalling issue,15:40,Orpington,Victoria,delayed by 12 minutes
+2010-07-09,Signalling issue,16:22,Victoria,Ramsgate,delayed by 22 minutes
+2010-07-09,Signalling issue,16:25,Victoria,Orpington,did not call at Brixton and delayed by 11 minutes
+2010-07-09,Train fault,19:31,Dartford,Cannon St,cancelled
+2010-07-09,Passenger taken ill,20:10,Sittingbourne,Sheerness,cancelled
+2010-07-09,Passenger taken ill,20:32,Sheerness,Sittingbourne,cancelled
+2010-07-09,Passenger taken ill,21:02,Sheerness,Sittingbourne,cancelled
+2010-07-09,Passenger taken ill,21:40,Sittingbourne,Sheerness,cancelled
+2010-07-09,Under investigation,15:32,Gillingham,Victoria,delayed by 11 minutes
+2010-07-09,Under investigation,18:42,Victoria,Ashford,delayed by 17 minutes
+2010-07-09,Ambulance required at Sevenoaks,21:21,Tunbridge Wells,Charing Cross,delayed by 20 minutes and terminated at London Bridge
+2010-07-09,Ambulance required at Sevenoaks,22:30,Charing Cross,Tunbridge Wells,started at London Bridge

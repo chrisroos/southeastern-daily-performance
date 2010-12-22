@@ -1,0 +1,116 @@
+2010-08-12,Train defect,05:52,Charing Cross,Dartford,cancelled
+2010-08-12,Train defect,07:02,Dartford,Charing Cross,cancelled
+2010-08-12,Train defect,07:59,Charing Cross,Gravesend,started at New Eltham
+2010-08-12,Track fault at Kentish Town,05:54,Blackfriars,Sevenoaks,terminated at Blackfriars
+2010-08-12,Track fault at Kentish Town,08:24,Sevenoaks,Blackfriars,cancelled
+2010-08-12,Door fault at Gillingham,07:08,Gillingham,Victoria,delayed by 18 minutes
+2010-08-12,Train fault at St. Pancras,08:58,Blackfriars,Sevenoaks,cancelled
+2010-08-12,Train fault at St. Pancras,11:02,Sevenoaks,Blackfriars,cancelled
+2010-08-12,Door problem at Gillingham,08:08,Gillingham,Charing Cross,cancelled
+2010-08-12,Door problem at Gillingham,09:47,Charing Cross,Hayes,""
+2010-08-12,Door problem at Gillingham,09:47,Charing Cross,Hayes,delayed by 10 minutes
+2010-08-12,Door problem at Gillingham,09:47,Charing Cross,Hayes,""
+2010-08-12,Door problem at Gillingham,10:38,Hayes,Charing Cross,started at New Beckenham
+2010-08-12,Train fault at Charing Cross,08:27,Charing Cross,Tunbridge Wells,delayed by 14 minutes
+2010-08-12,Train fault at Charing Cross,08:27,Charing Cross,Tunbridge Wells,terminated at Tonbridge
+2010-08-12,Train fault at Charing Cross,09:51,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-08-12,Train fault at Grove Park,08:46,Grove Park,Bromley North,cancelled
+2010-08-12,Train fault at Grove Park,08:55,Bromley North,Grove Park,cancelled
+2010-08-12,Train fault at Grove Park,09:07,Grove Park,Bromley North,cancelled
+2010-08-12,Train fault at Grove Park,09:23,Bromley North,Grove Park,cancelled
+2010-08-12,Train fault at Bedford,08:42,Kent House,Blackfriars,delayed by 14 minutes
+2010-08-12,Attaching problems at Charing Cross,10:39,Charing Cross,Gillingham,delayed by 12 minutes
+2010-08-12,Train failure,10:05,Dover Priory,Victoria,delayed by 49 minutes
+2010-08-12,Train failure,10:45,Dover Priory,Victoria,delayed by 10 minutes
+2010-08-12,Train failure,10:52,Victoria,Ramsgate,delayed by 42 minutes
+2010-08-12,Train failure,10:58,Victoria,Gillingham,delayed by 31 minutes
+2010-08-12,Train failure,10:58,Faversham,St Pancras International,terminated at Rochester
+2010-08-12,Train failure,11:22,Victoria,Ramsgate,delayed by 24 minutes
+2010-08-12,Train failure,11:24,Gillingham,Charing Cross,terminated at Chatham
+2010-08-12,Train failure,11:28,Faversham,St Pancras International,delayed by 20 minutes
+2010-08-12,Train failure,11:32,Gillingham,Victoria,delayed by 13 minutes
+2010-08-12,Train failure,11:32,Gillingham,Victoria,delayed by 25 minutes
+2010-08-12,Train failure,11:35,Strood,Maidstone West,cancelled
+2010-08-12,Train failure,11:54,Gillingham,Charing Cross,delayed by 20 minutes
+2010-08-12,Train failure,11:54,Gillingham,Charing Cross,terminated at London Bridge
+2010-08-12,Train failure,11:58,Faversham,St Pancras International,delayed by 14 minutes
+2010-08-12,Train failure,12:02,Maidstone West,Strood,cancelled
+2010-08-12,Train failure,12:15,Faversham,Dover Priory,delayed by 34 minutes
+2010-08-12,Train failure,12:22,Victoria,Ramsgate,delayed by 36 minutes
+2010-08-12,Train failure,12:32,Gillingham,Victoria,delayed by 22 minutes
+2010-08-12,Train failure,12:45,Faversham,Dover Priory,delayed by 27 minutes
+2010-08-12,Train failure,12:52,Victoria,Ramsgate,delayed by 18 minutes
+2010-08-12,Train failure,12:56,Charing Cross,Gravesend,started at Dartford
+2010-08-12,Train failure,13:05,Dover Priory,Victoria,delayed by 15 minutes
+2010-08-12,Train failure,13:07,Victoria,Ashford,delayed by 12 minutes
+2010-08-12,Train failure,13:26,Charing Cross,Gravesend,started at London Bridge
+2010-08-12,Train failure,13:40,Ramsgate,Faversham,delayed by 16 minutes
+2010-08-12,Train failure,13:45,Faversham,Dover Priory,delayed by 28 minutes
+2010-08-12,Awaiting conductor at Victoria,12:58,Victoria,Gillingham,delayed by 15 minutes
+2010-08-12,Passenger taken ill at Slade Green,14:39,Charing Cross,Gillingham,delayed by 33 minutes
+2010-08-12,Passenger taken ill at Slade Green,14:47,Cannon St,Cannon St,delayed by 29 minutes
+2010-08-12,Passenger taken ill at Slade Green,14:57,Cannon St,Dartford,delayed by 21 minutes
+2010-08-12,Passenger taken ill at Slade Green,15:07,Cannon St,Slade Green,delayed by 16 minutes
+2010-08-12,Passenger taken ill at Slade Green,15:09,Charing Cross,Gillingham,delayed by 16 minutes
+2010-08-12,Passenger taken ill at Slade Green,15:40,Ramsgate,Charing Cross,delayed by 11 minutes
+2010-08-12,Passenger taken ill at Slade Green,16:24,Gillingham,Charing Cross,delayed by 12 minutes
+2010-08-12,Passenger taken ill at Slade Green,16:38,Barnehurst,Cannon St,started at Blackheath
+2010-08-12,Passenger taken ill at Slade Green,16:53,Tunbridge Wells,Charing Cross,delayed by 10 minutes
+2010-08-12,Passenger taken ill at Slade Green,17:05,Sevenoaks,Charing Cross,delayed by 10 minutes
+2010-08-12,Passenger taken ill at Slade Green,17:54,Charing Cross,Sidcup,delayed by 11 minutes
+2010-08-12,Passenger taken ill at Slade Green,18:51,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-08-12,Passenger taken ill at Slade Green,19:04,Gravesend,Charing Cross,delayed by 16 minutes
+2010-08-12,Passenger taken ill at Slade Green,19:21,Tunbridge Wells,Charing Cross,delayed by 10 minutes
+2010-08-12,Passenger taken ill at Slade Green,20:17,Charing Cross,Hayes,delayed by 10 minutes
+2010-08-12,Train fault at London Bridge,16:58,Cannon St,Cannon St,cancelled
+2010-08-12,Train fault at London Bridge,18:34,Cannon St,Barnehurst,cancelled
+2010-08-12,Train fault at London Bridge,15:17,Cannon St,Cannon St,delayed by 12 minutes
+2010-08-12,Train fault at London Bridge,15:17,Cannon St,Cannon St,terminated at Slade Green
+2010-08-12,Trespasser at Waterloo East,15:37,Cannon St,Slade Green,terminated at Barnehurst
+2010-08-12,Trespasser at Waterloo East,16:21,Slade Green,Cannon St,cancelled
+2010-08-12,Trespasser at Waterloo East,16:22,Dartford,Charing Cross,delayed by 22 minutes
+2010-08-12,Trespasser at Waterloo East,16:24,Gillingham,Charing Cross,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,16:33,Orpington,Charing Cross,delayed by 21 minutes
+2010-08-12,Trespasser at Waterloo East,16:55,Hither Green,Charing Cross,delayed by 19 minutes
+2010-08-12,Trespasser at Waterloo East,17:03,Charing Cross,Orpington,delayed by 23 minutes
+2010-08-12,Trespasser at Waterloo East,17:06,Charing Cross,Slade Green,delayed by 22 minutes
+2010-08-12,Trespasser at Waterloo East,17:12,Charing Cross,Dartford,delayed by 19 minutes
+2010-08-12,Trespasser at Waterloo East,17:17,Charing Cross,Gillingham,delayed by 26 minutes
+2010-08-12,Trespasser at Waterloo East,17:21,Charing Cross,Hayes,delayed by 13 minutes
+2010-08-12,Trespasser at Waterloo East,17:26,Charing Cross,Orpington,delayed by 13 minutes
+2010-08-12,Trespasser at Waterloo East,17:32,Charing Cross,Sidcup,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,17:34,Charing Cross,Slade Green,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,17:41,Charing Cross,Ramsgate,delayed by 10 minutes
+2010-08-12,Trespasser at Waterloo East,17:43,Charing Cross,Hayes,delayed by 10 minutes
+2010-08-12,Trespasser at Waterloo East,17:45,Charing Cross,Tunbridge Wells,terminated at Tonbridge
+2010-08-12,Trespasser at Waterloo East,17:47,Hayes,Cannon St,cancelled
+2010-08-12,Trespasser at Waterloo East,17:50,Slade Green,Charing Cross,cancelled
+2010-08-12,Trespasser at Waterloo East,17:50,Hastings,Charing Cross,terminated at London Bridge
+2010-08-12,Trespasser at Waterloo East,17:50,Cannon St,Gravesend,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,18:03,Orpington,Cannon St,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,18:03,Charing Cross,Ore,terminated at Hastings
+2010-08-12,Trespasser at Waterloo East,18:08,Hayes,Charing Cross,delayed by 17 minutes
+2010-08-12,Trespasser at Waterloo East,18:20,Sidcup,Cannon St,delayed by 15 minutes
+2010-08-12,Trespasser at Waterloo East,18:38,Hayes,Charing Cross,delayed by 18 minutes
+2010-08-12,Trespasser at Waterloo East,18:38,Hayes,Charing Cross,terminated at London Bridge
+2010-08-12,Trespasser at Waterloo East,18:40,Cannon St,Hayes,cancelled
+2010-08-12,Trespasser at Waterloo East,18:40,Ramsgate,Charing Cross,delayed by 11 minutes
+2010-08-12,Trespasser at Waterloo East,18:48,Gravesend,Charing Cross,delayed by 15 minutes
+2010-08-12,Trespasser at Waterloo East,18:52,Charing Cross,Hayes,cancelled
+2010-08-12,Trespasser at Waterloo East,18:54,Gillingham,Charing Cross,delayed by 14 minutes
+2010-08-12,Trespasser at Waterloo East,18:54,Gillingham,Charing Cross,terminated at London Bridge
+2010-08-12,Trespasser at Waterloo East,19:00,Cannon St,Hayes,delayed by 12 minutes
+2010-08-12,Trespasser at Waterloo East,19:09,Charing Cross,Gillingham,delayed by 10 minutes
+2010-08-12,Trespasser at Waterloo East,19:29,Ashford,Canterbury West,delayed by 16 minutes
+2010-08-12,Trespasser at Waterloo East,19:32,Charing Cross,Dartford,started at London Bridge
+2010-08-12,Trespasser at Waterloo East,19:44,Hayes,Charing Cross,started at Lewisham
+2010-08-12,Trespasser at Waterloo East,19:45,Charing Cross,Hastings,started at London Bridge
+2010-08-12,Trespasser at Waterloo East,20:32,Charing Cross,Dartford,started at London Bridge
+2010-08-12,Door fault at Charing Cross,16:59,Charing Cross,Hayes,delayed by 22 minutes
+2010-08-12,Track problem at Luton,16:32,Sevenoaks,Blackfriars,terminated at Blackfriars
+2010-08-12,Track problem at Luton,18:44,Blackfriars,Sevenoaks,delayed by 18 minutes
+2010-08-12,Track problem at Luton,19:14,Blackfriars,Sevenoaks,delayed by 15 minutes
+2010-08-12,Door problems at Kent House,19:00,Victoria,Orpington,terminated at Kent House
+2010-08-12,Passenger disorder at Tunbridge Wells,22:21,Tunbridge Wells,Charing Cross,delayed by 16 minutes
+2010-08-12,Trespasser at St Mary Cray,22:32,Sevenoaks,Victoria,terminated at St Mary Cray
+2010-08-12,Trespasser at St Mary Cray,23:43,Victoria,Orpington,cancelled
