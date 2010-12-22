@@ -10,7 +10,7 @@ title: Southeastern daily performance - Raw HTML archive
   <% dates.sort.each do |(date, raw_file)| %>
     <% unless date.strftime('%B %Y') == current_month %>
       <% current_month = date.strftime('%B %Y') %>
-      <li><h2><%= current_month %></h2></li>
+      <li class="dateHeading"><h2><%= current_month %></h2></li>
     <% end %>
     <li>
       <% if raw_file[:html_exists] %>
