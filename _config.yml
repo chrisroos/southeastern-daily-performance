@@ -1,1 +1,1 @@
-exclude: [README.md, tmp]
+exclude: [README.md, tmp, Rakefile]
