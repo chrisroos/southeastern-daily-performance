@@ -11,10 +11,7 @@ format, html_input_dir, csv_output_dir = ARGV
 print_usage_instruction_and_exit unless format         && FORMATS.include?(format)
 print_usage_instruction_and_exit unless html_input_dir && File.directory?(html_input_dir)
 print_usage_instruction_and_exit unless csv_output_dir && File.directory?(csv_output_dir)
-  
-ROOT          = File.expand_path('../../', __FILE__)
-LIB_DIR       = File.join(ROOT, 'lib')
-CONVERTOR     = File.join(ROOT, 'bin', 'sedpr-to-csv')
+
 OPTIONAL_ARGS = (format == 'overview') ? 'overview' : ''
 
 Dir[File.join(html_input_dir, '*.html')].each do |file|
@@ -24,6 +21,6 @@ Dir[File.join(html_input_dir, '*.html')].each do |file|
   csv_filename  = html_filename.sub(/\.html/, '.csv')
   csv_filename  = csv_filename.sub(/\.csv/, '.overview.csv') if format == 'overview'
   
-  cmd = "ruby -I#{LIB_DIR} #{CONVERTOR} #{file} #{OPTIONAL_ARGS} > #{File.join(csv_output_dir, csv_filename)}"
+  cmd = "sedpr-to-csv #{file} #{OPTIONAL_ARGS} > #{File.join(csv_output_dir, csv_filename)}"
   `#{cmd}`
 end

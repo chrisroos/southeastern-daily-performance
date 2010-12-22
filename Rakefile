@@ -20,7 +20,7 @@ spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
   s.name              = "southeastern-daily-performance"
-  s.version           = "0.0.4"
+  s.version           = "0.0.5"
   s.summary           = "Converts Southeaster Daily Performance reports from HTML to CSV"
   s.author            = "Chris Roos"
   s.email             = "chris@seagul.co.uk"
@@ -40,7 +40,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency('hpricot')
 
   # If your tests use any gems, include them here
-  # s.add_development_dependency("mocha") # for example
+  s.add_development_dependency("mocha") # for example
 
   # If you want to publish automatically to rubyforge, you'll may need
   # to tweak this, and the publishing task below too.
