@@ -22,11 +22,11 @@ dates = (first_date..last_date).inject({}) do |hash, date|
 end
 
 template = File.read(File.expand_path('../templates/raw-html-data.html.erb', __FILE__))
-File.open('../raw-html-data.html', 'w') do |file|
+File.open(File.join(site_root, 'raw-html-data.html'), 'w') do |file|
   file.puts ERB.new(template, nil, '>').result
 end
 
 template = File.read(File.expand_path('../templates/raw-csv-data.html.erb', __FILE__))
-File.open('../raw-csv-data.html', 'w') do |file|
+File.open(File.join(site_root, 'raw-csv-data.html'), 'w') do |file|
   file.puts ERB.new(template, nil, '>').result
 end
