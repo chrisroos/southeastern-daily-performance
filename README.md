@@ -6,7 +6,7 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
 
 ## Installation
 
-    $ gem install southeastern-daily-performance -r http://gemcutter.org
+    $ gem install southeastern-daily-performance
 
 ## Usage
 
