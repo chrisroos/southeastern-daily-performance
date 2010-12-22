@@ -18,10 +18,10 @@ title: Southeastern daily performance - Dashboard
     <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20time'%2C%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected services</a>
   </li>
   <li>
-    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20order%20by%20count()%20desc%20limit%203">Most affected routes</a>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20'Scheduled%20departure%20station'%2C%20'Scheduled%20arrival%20station'%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most affected routes</a>
   </li>
   <li>
-    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Date%2C%20count()%20as%20'Number%20of%20services%20affected'%20FROM%20359310%20group%20by%20Date%20order%20by%20count()%20desc%20limit%203">Most problematic days</a>
+    <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Date%2C%20count()%20as%20'Number%20of%20services%20affected'%20%0AFROM%20359310%20%0Agroup%20by%20Date%20%0Aorder%20by%20count()%20desc%20%0Alimit%203">Most problematic days</a>
   </li>
   <li>
     <a class="query" target="_blank" href="http://www.google.com/fusiontables/api/query?sql=SELECT%20Problem%2C%20count()%20as%20'Number%20of%20services%20affected'%0AFROM%20359310%0Agroup%20by%20Problem%0Aorder%20by%20count()%20desc%0Alimit%203">Most common problems</a>
