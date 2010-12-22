@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Raw data archive
+title: Raw HTML data archive
 ---
-<p>An archive of all the raw daily performance reports.  These will look crappy because of the lack of css/javascript assets.</p>
+<p>An archive of all the raw daily performance reports in their original format.  These will look crappy because of the lack of css/javascript assets.</p>
 
 <ul id="dates">
   <% dates.sort.each do |(date, raw_file)| %>
     <li>
-      <% if raw_file[:exists] %>
-        <a href="<%= raw_file[:href] %>"><%= date %></a>
+      <% if raw_file[:html_exists] %>
+        <a href="<%= raw_file[:html_href] %>"><%= date %></a>
       <% else %>
         <%= date %> (raw data is unavailable)
       <% end %>
