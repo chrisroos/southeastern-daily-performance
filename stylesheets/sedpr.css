@@ -30,17 +30,13 @@ td {
   background-color: #C9D6FF;
 }
 
-#navigation {
+#navigation, #dashboardQueries {
   padding-left: 0;
 }
 
 #navigation li {
   display: inline;
   padding-right: 1em;
-}
-
-#dashboardQueries {
-  padding-left: 0;
 }
 
 #dashboardQueries li {
