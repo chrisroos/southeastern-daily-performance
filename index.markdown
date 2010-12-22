@@ -15,3 +15,7 @@ The [dashboard](./dashboard.html) contains some 'interesting' queries made again
 The [query tool](./query-tool.html) contains a simple tool that you can use to run queries against the data in the fusion tables.
 
 The [mysql](./mysql.html) page contains some commands you can use to export the fusion table data and import it into mysql to query locally.
+
+The [raw html data](./raw-html-data.html) page contains an index of all the raw performance data that I've grabbed from the southeastern website.
+
+The [raw csv data](./raw-csv-data.html) page contains an index of all the raw data in csv format.
