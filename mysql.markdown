@@ -82,3 +82,30 @@ title: Southeastern daily performance - Mysql
     GROUP BY date, problem \
     ORDER BY COUNT(*) DESC \
     LIMIT 10;"
+    
+    # Number of services affected vs month
+    $ mysql sedpr -uroot -e \
+    "select monthname(date) as month, count(*) as 'services affected' \
+    from problems \
+    group by monthname(date) \
+    order by month(date)"
+
+    # Number of services affected vs weekday
+    $ mysql sedpr -uroot -e \
+    "select dayname(date) as day, count(*) as 'services affected' \
+    from problems \
+    group by dayname(date) \
+    order by weekday(date)"
+
+    # Number of services affected vs day of month
+    $ mysql sedpr -uroot -e \
+    "select day(date) as day, count(*) as 'services affected' \
+    from problems \
+    group by day(date) \
+    order by day(date)"
+
+    # Number of services affected vs hour of day
+    $ mysql sedpr -uroot -e \
+    "select hour(departure_time), count(*) as 'services affected' \
+    from problems \
+    group by hour(departure_time)"
