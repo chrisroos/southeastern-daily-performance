@@ -42,5 +42,11 @@ If you're interested in analysing the data (rather than using this library to co
 ## TODO
 
 * 2010-04-21 breaks the parser...
+
 * I currently have an empty file for 2010-11-30.csv.  Investigate the cause.
+
 * I'm getting 0s for the parsed overview from 2010-11-30.  Investigate the cause.
+
+* I should now be in a position to use origin and destination stations rather than using the affect on service to parse the routes.  This should remove these warnings: "Warning. Unknown, or missing, affect on service: '10:24 Dover Priory - Charing Cross'"
+
+* Don't generate empty csv files when the data doesn't exist (e.g 1st-5th dec 2010)
