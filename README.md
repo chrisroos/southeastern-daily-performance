@@ -47,4 +47,4 @@ If you're interested in analysing the data (rather than using this library to co
 
 * Don't generate empty csv files when the data doesn't exist (e.g 1st-5th dec 2010)
 
-* Don't generate csv overview files containing 0s when the data doesn't exist (e.g. 1st-5th dec 2010)
+* Don't generate csv overview files containing 0s when the data doesn't exist (e.g. 1st-5th dec 2010) - i.e. emit a warning if the necessary data can't be found.
