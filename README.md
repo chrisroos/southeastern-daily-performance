@@ -27,6 +27,11 @@ To generate/view it locally you'll need [jekyll](https://github.com/mojombo/jeky
 
 * Make it easy to query the raw data from both tables
 
-* Find journeys that took over 30 minutes as they're refundable (i think)
+* Find journeys that took over 30 minutes as they're refundable (i think).
 
 * Add a history of queries.
+
+* Think about displaying the raw data in a table (and therefore get rid of the two separate pages), e.g.
+
+    | date       | html | csv | csv overview |
+    | 2010-01-01 | yes  | yes | no           |
