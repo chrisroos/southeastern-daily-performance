@@ -1,8 +1,8 @@
 ## Intro
 
-Southeastern publish [Daily Performance reports](http://www.southeasternrailway.co.uk/your-journey/daily-performance/).  They're not very usable as they are.  This project currently contains the code I've used to parse that data and the parsed data itself.
+Southeastern publish [Daily Performance reports](http://www.southeasternrailway.co.uk/your-journey/daily-performance/).  They're not very usable as they are.  This project contains a library, and some tools, to convert that data to splendid CSV.
 
-I've also popped the data into [this Google Fusion table](http://www.google.com/fusiontables/DataSource?dsrcid=359310) and added a bit of a [query tool](http://chrisroos.github.com/southeastern-daily-performance/) and [dashboard](http://chrisroos.github.com/southeastern-daily-performance/dashboard.html) (of sorts).
+If you're interested in analysing the data (rather than using this library to convert it) then checkout the [southeastern daily performance website](http://chrisroos.github.com/southeastern-daily-performance/).
 
 ## Installation
 
@@ -10,7 +10,11 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
 
 ## Usage
 
+    # To convert a single html report to csv
     $ sedpr-to-csv <location-of-html>
+    
+    # To convert a directory containing multiple html reports to multiple csv reports
+    $ convert-all-html-data <location-of-html-reports> <location-of-csv-output>
 
 ## Examples
 
@@ -38,7 +42,5 @@ I've also popped the data into [this Google Fusion table](http://www.google.com/
 ## TODO
 
 * 2010-04-21 breaks the parser...
-* Ensure that I'm generating valid CSV (specifically that I'm quoting columns that contain commas)
 * I currently have an empty file for 2010-11-30.csv.  Investigate the cause.
-* Republish the gem
 * I'm getting 0s for the parsed overview from 2010-11-30.  Investigate the cause.
