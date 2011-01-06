@@ -1,0 +1,82 @@
+2010-12-18,Severe weather conditions,00:03,Ashford,Ramsgate,delayed by 26 minutes
+2010-12-18,Severe weather conditions,07:00,Dartford,Cannon St,delayed by 17 minutes
+2010-12-18,Severe weather conditions,07:00,Dartford,Cannon St,terminated at London Bridge
+2010-12-18,Severe weather conditions,07:24,Cannon St,Dartford,delayed by 30 minutes
+2010-12-18,Severe weather conditions,07:24,Cannon St,Dartford,did not call at New Cross
+2010-12-18,Severe weather conditions,07:54,Cannon St,Dartford,started at London Bridge
+2010-12-18,Severe weather conditions,08:25,Hastings,Tonbridge,delayed by 17 minutes
+2010-12-18,Severe weather conditions,08:55,Hastings,Tonbridge,delayed by 11 minutes
+2010-12-18,Severe weather conditions,10:55,Hastings,Tonbridge,delayed by 16 minutes
+2010-12-18,Severe weather conditions,12:10,Tonbridge,Hastings,delayed by 28 minutes
+2010-12-18,Severe weather conditions,10:45,Charing Cross,Ashford,delayed by 19 minutes
+2010-12-18,Severe weather conditions,10:45,Charing Cross,Ashford,delayed by 12 minutes
+2010-12-18,Severe weather conditions,11:15,Charing Cross,Ashford,delayed by 31 minutes
+2010-12-18,Severe weather conditions,11:15,Charing Cross,Ashford,delayed by 12 minutes
+2010-12-18,Severe weather conditions,11:45,Charing Cross,Ashford,delayed by 10 minutes
+2010-12-18,Severe weather conditions,12:03,Ashford,Charing Cross,delayed by 28 minutes
+2010-12-18,Severe weather conditions,12:10,Tonbridge,Hastings,terminated at Tunbridge Wells
+2010-12-18,Severe weather conditions,12:15,Charing Cross,Ashford,delayed by 30 minutes
+2010-12-18,Severe weather conditions,12:30,Tunbridge Wells,Charing Cross,cancelled
+2010-12-18,Severe weather conditions,12:40,Tonbridge,Hastings,delayed by 17 minutes
+2010-12-18,Severe weather conditions,12:40,Tonbridge,Hastings,delayed by 40 minutes
+2010-12-18,Severe weather conditions,13:30,Tunbridge Wells,Charing Cross,cancelled
+2010-12-18,Severe weather conditions,14:00,Tunbridge Wells,Charing Cross,cancelled
+2010-12-18,Severe weather conditions,14:25,Hastings,Tonbridge,delayed by 12 minutes
+2010-12-18,Severe weather conditions,17:45,Charing Cross,Ashford,delayed by 12 minutes
+2010-12-18,Severe weather conditions,18:15,Charing Cross,Ashford,started at Tonbridge
+2010-12-18,Severe weather conditions,18:15,Charing Cross,Ashford,delayed by 61 minutes
+2010-12-18,Severe weather conditions,18:40,Tonbridge,Hastings,delayed by 13 minutes
+2010-12-18,Train fault,08:22,Victoria,Faversham,delayed by 15 minutes
+2010-12-18,Train fault,09:22,Dartford,Charing Cross,delayed by 20 minutes
+2010-12-18,Train fault,09:22,Dartford,Charing Cross,delayed by 15 minutes
+2010-12-18,Train fault,09:22,Dartford,Charing Cross,terminated at Barnehurst
+2010-12-18,Train fault,10:32,Charing Cross,Dartford,cancelled
+2010-12-18,Train fault,12:37,Victoria,Ashford,delayed by 13 minutes
+2010-12-18,Train fault,11:55,Hastings,Tonbridge,delayed by 10 minutes
+2010-12-18,Train planning error,07:05,Dover Priory,Faversham,cancelled
+2010-12-18,Train planning error,07:22,Dartford,Charing Cross,cancelled
+2010-12-18,Train planning error,08:08,Ashford,Victoria,cancelled
+2010-12-18,Train planning error,09:30,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-12-18,Train planning error,10:00,Tunbridge Wells,Charing Cross,cancelled
+2010-12-18,Train planning error,10:07,Victoria,Ashford,cancelled
+2010-12-18,Train planning error,10:37,Victoria,Ashford,cancelled
+2010-12-18,Train planning error,12:36,Faversham,Victoria,cancelled
+2010-12-18,Train planning error,13:36,Faversham,Victoria,cancelled
+2010-12-18,Train planning error,06:08,Ashford,Victoria,delayed by 37 minutes
+2010-12-18,Train planning error,08:07,Victoria,Ashford,delayed by 20 minutes
+2010-12-18,Train planning error,10:08,Ashford,Victoria,delayed by 12 minutes
+2010-12-18,Train planning error,06:05,Dover Priory,Faversham,delayed by 41 minutes
+2010-12-18,Train planning error,07:10,Faversham,Victoria,delayed by 26 minutes
+2010-12-18,Train planning error,08:52,Victoria,Faversham,delayed by 26 minutes
+2010-12-18,Train planning error,10:05,Dover Priory,Faversham,delayed by 20 minutes
+2010-12-18,Train planning error,10:35,Ramsgate,Faversham,delayed by 11 minutes
+2010-12-18,Train planning error,10:40,Faversham,Ramsgate,delayed by 14 minutes
+2010-12-18,Train planning error,11:10,Faversham,Dover Priory,delayed by 14 minutes
+2010-12-18,Points failure,11:10,Paddock Wood,Strood,delayed by 16 minutes
+2010-12-18,Points failure,11:10,Paddock Wood,Strood,delayed by 13 minutes
+2010-12-18,Points failure,12:05,Strood,Paddock Wood,delayed by 44 minutes
+2010-12-18,Points failure,12:10,Paddock Wood,Strood,did not call at Maidstone Barracks
+2010-12-18,Points failure,13:10,Paddock Wood,Strood,did not call at Beltring
+2010-12-18,Points failure,11:22,Dartford,Charing Cross,delayed by 22 minutes
+2010-12-18,Points failure,11:46,Dartford,Charing Cross,delayed by 16 minutes
+2010-12-18,Points failure,12:03,Orpington,Charing Cross,delayed by 11 minutes
+2010-12-18,Points failure,12:20,Hayes,Cannon St,delayed by 11 minutes
+2010-12-18,Operational incident,01:03,Ashford,Canterbury West,delayed by 21 minutes
+2010-12-18,Operational incident,05:33,Orpington,Charing Cross,delayed by 14 minutes
+2010-12-18,Operational incident,06:30,Dartford,Cannon St,delayed by 29 minutes
+2010-12-18,Operational incident,07:03,Ashford,Charing Cross,delayed by 12 minutes
+2010-12-18,Operational incident,07:38,Ashford,Victoria,delayed by 27 minutes
+2010-12-18,Operational incident,09:37,Victoria,Ashford,delayed by 17 minutes
+2010-12-18,Operational incident,07:30,Dartford,Cannon St,delayed by 10 minutes
+2010-12-18,Operational incident,07:05,Cannon St,Gillingham,delayed by 12 minutes
+2010-12-18,Operational incident,08:05,Dover Priory,Faversham,delayed by 15 minutes
+2010-12-18,Operational incident,08:05,Cannon St,Gillingham,delayed by 17 minutes
+2010-12-18,Operational incident,09:03,Ashford,Charing Cross,delayed by 34 minutes
+2010-12-18,Operational incident,09:40,Tonbridge,Hastings,delayed by 37 minutes
+2010-12-18,Operational incident,10:45,Charing Cross,Ashford,delayed by 24 minutes
+2010-12-18,Operational incident,14:35,Cannon St,Gillingham,delayed by 12 minutes
+2010-12-18,Trespasser on the line,00:35,Victoria,Gillingham,delayed by 18 minutes
+2010-12-18,Under investigation,07:36,Faversham,Victoria,delayed by 16 minutes
+2010-12-18,Under investigation,08:35,Cannon St,Gillingham,delayed by 23 minutes
+2010-12-18,Under investigation,09:05,Cannon St,Gillingham,started at London Bridge
+2010-12-18,Under investigation,11:05,Cannon St,Gillingham,delayed by 10 minutes

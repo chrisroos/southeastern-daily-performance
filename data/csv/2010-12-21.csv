@@ -1,0 +1,85 @@
+2010-12-21,Fault on the train,13:52,Victoria,Ramsgate,did not call at Bromley South
+2010-12-21,Fault on the train,06:23,Hayes,Cannon St,cancelled
+2010-12-21,Fault on the train,07:32,Cannon St,Slade Green,delayed by 25 minutes
+2010-12-21,Fault on the train,08:17,Slade Green,Victoria,delayed by 26 minutes
+2010-12-21,Fault on the train,05:31,Tonbridge,Tunbridge Wells,delayed by 23 minutes
+2010-12-21,Fault on the train,05:50,Tunbridge Wells,Cannon St,terminated at Sevenoaks
+2010-12-21,Fault on the train,08:00,Tunbridge Wells,Charing Cross,cancelled
+2010-12-21,Fault on the train,05:33,Sittingbourne,Sheerness,cancelled
+2010-12-21,Fault on the train,05:57,Sheerness,Sittingbourne,cancelled
+2010-12-21,Fault on the train,06:22,Sittingbourne,Sheerness,delayed by 12 minutes
+2010-12-21,Fault on the train,06:46,Sheerness,Sittingbourne,delayed by 11 minutes
+2010-12-21,Fault on the train,07:09,Sittingbourne,Sheerness,delayed by 19 minutes
+2010-12-21,Fault on the train,07:35,Sheerness,Sittingbourne,delayed by 14 minutes
+2010-12-21,Fault on the train,06:52,Crayford,Cannon St,cancelled
+2010-12-21,Fault on the train,06:40,Beckenham Junction,Victoria,cancelled
+2010-12-21,Signalling error,04:55,Strood,Paddock Wood,delayed by 47 minutes
+2010-12-21,Signalling error,05:35,Strood,Paddock Wood,delayed by 15 minutes
+2010-12-21,Signalling error,05:42,Paddock Wood,Strood,delayed by 43 minutes
+2010-12-21,Signalling error,06:25,Paddock Wood,Strood,delayed by 12 minutes
+2010-12-21,Signalling error,06:35,Strood,Paddock Wood,delayed by 23 minutes
+2010-12-21,Operational incident,05:30,Charing Cross,Ramsgate,delayed by 17 minutes
+2010-12-21,Operational incident,07:15,Ashford,Victoria,delayed by 10 minutes
+2010-12-21,Operational incident,06:07,Tonbridge,Ore,cancelled
+2010-12-21,Operational incident,06:35,Tonbridge,Hastings,delayed by 37 minutes
+2010-12-21,Operational incident,07:41,Ore,Charing Cross,started at Hastings
+2010-12-21,Operational incident,07:41,Ore,Charing Cross,delayed by 21 minutes
+2010-12-21,Operational incident,09:45,Charing Cross,Hastings,delayed by 30 minutes
+2010-12-21,Operational incident,11:15,Charing Cross,Hastings,delayed by 17 minutes
+2010-12-21,Delayed Eurostar service,07:56,Ashford,Ramsgate,delayed by 10 minutes
+2010-12-21,Train delayed from depot,04:33,Swanley,Victoria,delayed by 29 minutes
+2010-12-21,Train delayed from depot,06:34,Maidstone East,Canterbury West,delayed by 29 minutes
+2010-12-21,Train delayed from depot,08:49,Charing Cross,Sidcup,delayed by 11 minutes
+2010-12-21,Train delayed from depot,10:36,Charing Cross,Sevenoaks,delayed by 11 minutes
+2010-12-21,Train delayed from depot,11:36,Sevenoaks,Charing Cross,delayed by 14 minutes
+2010-12-21,Train delayed from depot,12:36,Charing Cross,Sevenoaks,delayed by 11 minutes
+2010-12-21,Train delayed from depot,13:36,Sevenoaks,Charing Cross,delayed by 16 minutes
+2010-12-21,Train delayed from depot,06:02,Ashford,Dover Priory,delayed by 49 minutes
+2010-12-21,Train delayed from depot,06:14,Ramsgate,Cannon St,terminated at Ashford
+2010-12-21,Train delayed from depot,06:30,Ashford,Ramsgate,delayed by 29 minutes
+2010-12-21,Train delayed from depot,06:33,Ashford,Ramsgate,delayed by 27 minutes
+2010-12-21,Train delayed from depot,06:39,Dover Priory,Faversham,delayed by 49 minutes
+2010-12-21,Train delayed from depot,06:45,Victoria,Dover Priory,delayed by 13 minutes
+2010-12-21,Train delayed from depot,06:45,Victoria,Dover Priory,delayed by 12 minutes
+2010-12-21,Train delayed from depot,07:35,Dover Priory,Victoria,delayed by 13 minutes
+2010-12-21,Train delayed from depot,07:40,Ramsgate,Charing Cross,delayed by 12 minutes
+2010-12-21,Train delayed from depot,07:51,Faversham,Dover Priory,delayed by 25 minutes
+2010-12-21,Train delayed from depot,08:18,Ramsgate,Ashford,delayed by 12 minutes
+2010-12-21,Train delayed from depot,09:05,Dover Priory,Victoria,delayed by 22 minutes
+2010-12-21,Train delayed from depot,09:10,Orpington,Victoria,delayed by 14 minutes
+2010-12-21,Train delayed from depot,09:52,Victoria,Ramsgate,delayed by 20 minutes
+2010-12-21,Train delayed from depot,11:15,Faversham,Dover Priory,delayed by 20 minutes
+2010-12-21,Train delayed from depot,11:22,Victoria,Ramsgate,delayed by 12 minutes
+2010-12-21,Train delayed from depot,12:04,Ramsgate,Faversham,delayed by 10 minutes
+2010-12-21,Train delayed from depot,12:40,Ramsgate,Faversham,delayed by 11 minutes
+2010-12-21,Overrunning engineering work,06:45,Charing Cross,Hastings,delayed by 12 minutes
+2010-12-21,Overrunning engineering work,07:40,Tunbridge Wells,Charing Cross,delayed by 15 minutes
+2010-12-21,Overrunning engineering work,09:00,Charing Cross,Tunbridge Wells,delayed by 10 minutes
+2010-12-21,Overrunning engineering work,09:03,Ashford,Ramsgate,delayed by 34 minutes
+2010-12-21,Overrunning engineering work,10:04,Ramsgate,Faversham,delayed by 11 minutes
+2010-12-21,Overrunning engineering work,10:21,Tunbridge Wells,Charing Cross,delayed by 17 minutes
+2010-12-21,Overrunning engineering work,11:30,Charing Cross,Tunbridge Wells,delayed by 18 minutes
+2010-12-21,Overrunning engineering work,12:51,Tunbridge Wells,Charing Cross,delayed by 13 minutes
+2010-12-21,Overrunning engineering work,13:32,Hastings,Charing Cross,delayed by 15 minutes
+2010-12-21,Overrunning engineering work,13:45,Charing Cross,Hastings,delayed by 18 minutes
+2010-12-21,Under investigation,00:12,St Pancras International,Ashford,delayed by 82 minutes
+2010-12-21,Under investigation,16:34,Ramsgate,Faversham,started at Margate
+2010-12-21,Under investigation,15:45,Faversham,Dover Priory,did not call at Bekesbourne
+2010-12-21,Under investigation,12:03,Tonbridge,Strood,delayed by 10 minutes
+2010-12-21,Under investigation,07:12,Folkestone Central,Cannon St,delayed by 12 minutes
+2010-12-21,Under investigation,07:12,Folkestone Central,Cannon St,delayed by 12 minutes
+2010-12-21,Under investigation,09:30,Charing Cross,Tunbridge Wells,delayed by 14 minutes
+2010-12-21,Under investigation,10:30,Charing Cross,Tunbridge Wells,terminated at Tonbridge
+2010-12-21,Under investigation,11:51,Tunbridge Wells,Charing Cross,started at Tonbridge
+2010-12-21,Under investigation,12:00,Charing Cross,Tunbridge Wells,delayed by 12 minutes
+2010-12-21,Under investigation,12:10,Charing Cross,Dover Priory,delayed by 10 minutes
+2010-12-21,Under investigation,12:45,Charing Cross,Hastings,delayed by 13 minutes
+2010-12-21,Under investigation,13:33,Ashford,Canterbury West,delayed by 26 minutes
+2010-12-21,Under investigation,06:15,Faversham,Ramsgate,delayed by 15 minutes
+2010-12-21,Under investigation,12:05,Dover Priory,Victoria,delayed by 19 minutes
+2010-12-21,Under investigation,14:22,Victoria,Ramsgate,delayed by 33 minutes
+2010-12-21,Under investigation,14:22,Victoria,Ramsgate,terminated at Margate
+2010-12-21,Under investigation,15:45,Faversham,Dover Priory,delayed by 28 minutes
+2010-12-21,Under investigation,16:39,Dover Priory,Victoria,delayed by 21 minutes
+2010-12-21,Under investigation,17:10,Orpington,Victoria,did not call at Beckenham Junction
+2010-12-21,Under investigation,17:10,Orpington,Victoria,delayed by 19 minutes

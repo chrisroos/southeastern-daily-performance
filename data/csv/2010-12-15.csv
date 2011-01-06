@@ -1,0 +1,86 @@
+2010-12-15,Train crew rostering error,10:56,Blackfriars,Sevenoaks,cancelled
+2010-12-15,Train crew rostering error,12:32,Sevenoaks,Blackfriars,cancelled
+2010-12-15,Train fault at Tunbridge Wells,05:50,Tunbridge Wells,Cannon St,terminated at Tonbridge
+2010-12-15,Train fault at Tunbridge Wells,08:00,Tunbridge Wells,Charing Cross,cancelled
+2010-12-15,Train fault at Grove Park,05:29,Ashford,Charing Cross,delayed by 10 minutes
+2010-12-15,Train fault at Grove Park,06:36,Charing Cross,Sevenoaks,delayed by 15 minutes
+2010-12-15,Train fault at Grove Park,06:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-12-15,Train fault at Grove Park,07:37,Sevenoaks,Cannon St,started at Orpington
+2010-12-15,Train fault at Ashford,08:47,Ashford,Victoria,delayed by 16 minutes
+2010-12-15,Driver error at Ashford,09:45,Faversham,Dover Priory,delayed by 12 minutes
+2010-12-15,Driver error at Bedford,06:40,Blackfriars,Orpington,cancelled
+2010-12-15,Driver error at Bedford,08:47,Orpington,Blackfriars,cancelled
+2010-12-15,Driver error at Bedford,09:54,Blackfriars,Sevenoaks,cancelled
+2010-12-15,Points failure at St Mary Cray,08:06,Blackfriars,Sevenoaks,delayed by 34 minutes
+2010-12-15,Points failure at St Mary Cray,08:06,Blackfriars,Sevenoaks,terminated at St Mary Cray
+2010-12-15,Driver error,09:40,Charing Cross,Ramsgate,delayed by 16 minutes
+2010-12-15,Train scheduling error,09:40,Charing Cross,Ramsgate,did not call at Paddock Wood
+2010-12-15,Station congestion,08:25,Victoria,Orpington,delayed by 10 minutes
+2010-12-15,Station congestion,08:25,Victoria,Orpington,did not call at Bickley
+2010-12-15,Station congestion,09:36,Sevenoaks,Charing Cross,delayed by 10 minutes
+2010-12-15,Train scheduling error,06:57,Strood,Cannon St,delayed by 17 minutes
+2010-12-15,Train scheduling error,06:57,Strood,Cannon St,terminated at Greenhithe
+2010-12-15,Train scheduling error,08:10,Cannon St,Cannon St,started at Slade Green
+2010-12-15,Train fault at Waterloo East,06:32,Dartford,Charing Cross,terminated at Waterloo East
+2010-12-15,Train fault at Waterloo East,07:26,Charing Cross,Gravesend,cancelled
+2010-12-15,Train fault at Waterloo East,08:48,Gravesend,Charing Cross,cancelled
+2010-12-15,Train crew rostering error,08:13,Charing Cross,Dover Priory,delayed by 14 minutes
+2010-12-15,Train crew rostering error,08:17,Charing Cross,Hastings,delayed by 13 minutes
+2010-12-15,Train crew rostering error,09:36,Ashford,Canterbury West,delayed by 18 minutes
+2010-12-15,Passenger taken ill at London Bridge,08:02,Dartford,Charing Cross,terminated at London Bridge
+2010-12-15,Passenger taken ill at London Bridge,09:02,Charing Cross,Dartford,delayed by 10 minutes
+2010-12-15,Passenger taken ill at London Bridge,09:13,Charing Cross,Dover Priory,delayed by 14 minutes
+2010-12-15,Passenger taken ill at London Bridge,09:17,Charing Cross,Hayes,terminated at Elmers End
+2010-12-15,Passenger taken ill at London Bridge,10:08,Hayes,Charing Cross,started at Clock House
+2010-12-15,Passenger taken ill at London Bridge,10:34,Ashford,Canterbury West,delayed by 18 minutes
+2010-12-15,Passenger taken ill at London Bridge,10:38,Dartford,Victoria,delayed by 12 minutes
+2010-12-15,Train scheduling error,09:00,Charing Cross,Tunbridge Wells,delayed by 12 minutes
+2010-12-15,Train scheduling error,09:06,Charing Cross,Sevenoaks,delayed by 11 minutes
+2010-12-15,Train scheduling error,10:06,Sevenoaks,Charing Cross,delayed by 12 minutes
+2010-12-15,Train scheduling error,10:06,Sevenoaks,Charing Cross,did not call at Petts Wood
+2010-12-15,Train scheduling error,10:21,Tunbridge Wells,Charing Cross,delayed by 12 minutes
+2010-12-15,Driver error at Plumstead,06:39,Barnehurst,Cannon St,cancelled
+2010-12-15,Driver error at Plumstead,07:14,Barnehurst,Cannon St,cancelled
+2010-12-15,Driver error at Plumstead,07:24,Cannon St,Crayford,cancelled
+2010-12-15,Driver error at Plumstead,07:56,Cannon St,Dartford,cancelled
+2010-12-15,Driver error at Plumstead,08:12,Crayford,Cannon St,cancelled
+2010-12-15,Driver error at Plumstead,09:07,Cannon St,Slade Green,cancelled
+2010-12-15,Road vehicle struck bridge at Bickley,08:45,Dover Priory,Victoria,delayed by 16 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,08:47,Ashford,Victoria,delayed by 26 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,08:47,Ashford,Victoria,terminated at Bromley South
+2010-12-15,Road vehicle struck bridge at Bickley,08:58,Blackfriars,Sevenoaks,delayed by 10 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,08:58,Blackfriars,Sevenoaks,delayed by 23 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:22,Victoria,Ramsgate,delayed by 16 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:22,Victoria,Ramsgate,did not call at Chatham
+2010-12-15,Road vehicle struck bridge at Bickley,09:32,Gillingham,Victoria,delayed by 24 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:37,Victoria,Ashford,delayed by 27 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:37,Victoria,Ashford,did not call at Otford
+2010-12-15,Road vehicle struck bridge at Bickley,09:40,Charing Cross,Ramsgate,delayed by 14 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:40,Victoria,Orpington,delayed by 24 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:40,Victoria,Orpington,terminated at Bromley South
+2010-12-15,Road vehicle struck bridge at Bickley,09:42,Sevenoaks,Blackfriars,delayed by 18 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:42,Sevenoaks,Blackfriars,delayed by 14 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:52,Victoria,Ramsgate,delayed by 25 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:55,Orpington,Victoria,delayed by 19 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:55,Victoria,Orpington,delayed by 12 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,09:58,Victoria,Gillingham,delayed by 28 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:07,Victoria,Ashford,delayed by 19 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:10,Orpington,Victoria,delayed by 29 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:22,Victoria,Ramsgate,delayed by 10 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:25,Victoria,Orpington,cancelled
+2010-12-15,Road vehicle struck bridge at Bickley,10:25,Orpington,Victoria,did not call at Petts Wood
+2010-12-15,Road vehicle struck bridge at Bickley,10:37,Victoria,Ashford,""
+2010-12-15,Road vehicle struck bridge at Bickley,10:37,Victoria,Ashford,""
+2010-12-15,Road vehicle struck bridge at Bickley,10:40,Orpington,Victoria,delayed by 19 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:40,Orpington,Victoria,did not call at Shortlands
+2010-12-15,Road vehicle struck bridge at Bickley,10:45,Faversham,Dover Priory,delayed by 34 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:52,Victoria,Ramsgate,delayed by 24 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:52,Victoria,Ramsgate,did not call at Longfield
+2010-12-15,Road vehicle struck bridge at Bickley,10:55,Victoria,Orpington,delayed by 14 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:55,Orpington,Victoria,delayed by 16 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,10:55,Victoria,Orpington,did not call at Beckenham Junction
+2010-12-15,Road vehicle struck bridge at Bickley,11:00,Charing Cross,Tunbridge Wells,did not call at Hildenborough
+2010-12-15,Road vehicle struck bridge at Bickley,11:02,Sevenoaks,Blackfriars,delayed by 24 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,11:07,Victoria,Ashford,delayed by 19 minutes
+2010-12-15,Road vehicle struck bridge at Bickley,11:07,Victoria,Ashford,terminated at Bromley South
+2010-12-15,Road vehicle struck bridge at Bickley,11:10,Orpington,Victoria,cancelled

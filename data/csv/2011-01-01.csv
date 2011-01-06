@@ -1,0 +1,86 @@
+2010-01-01,Train crew rostering error,00:37,Charing Cross,Beckenham Junction,cancelled
+2010-01-01,Passenger disorder at Belvedere,00:47,Charing Cross,Dartford,delayed by 10 minutes
+2010-01-01,Train planning error,04:48,Gillingham,Charing Cross,delayed by 10 minutes
+2010-01-01,Passenger alarm activated at New Cross,04:52,Charing Cross,Gravesend,delayed by 54 minutes
+2010-01-01,Passenger alarm activated at New Cross,04:52,Charing Cross,Gravesend,terminated at Dartford
+2010-01-01,Passenger alarm activated at New Cross,06:03,Gravesend,Charing Cross,cancelled
+2010-01-01,Passenger alarm activated at New Cross,07:17,Charing Cross,Hayes,cancelled
+2010-01-01,Passenger alarm activated at New Cross,08:08,Hayes,Charing Cross,cancelled
+2010-01-01,Train delayed from depot at Ramsgate,05:53,Margate,St Pancras International,delayed by 11 minutes
+2010-01-01,Track circuit failure at Sevenoaks,06:06,Charing Cross,Sevenoaks,terminated at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,06:13,Victoria,Sevenoaks,terminated at Swanley
+2010-01-01,Track circuit failure at Sevenoaks,06:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,06:43,Victoria,Sevenoaks,terminated at Sevenoaks
+2010-01-01,Track circuit failure at Sevenoaks,06:55,Sevenoaks,Victoria,cancelled
+2010-01-01,Track circuit failure at Sevenoaks,07:06,Charing Cross,Sevenoaks,terminated at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,07:06,Sevenoaks,Charing Cross,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,07:25,Sevenoaks,Victoria,started at Swanley
+2010-01-01,Track circuit failure at Sevenoaks,07:30,Charing Cross,Ramsgate,delayed by 18 minutes
+2010-01-01,Track circuit failure at Sevenoaks,07:36,Charing Cross,Sevenoaks,terminated at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,07:36,Sevenoaks,Charing Cross,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,07:45,Charing Cross,Hastings,delayed by 19 minutes
+2010-01-01,Track circuit failure at Sevenoaks,07:55,Sevenoaks,Victoria,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,08:00,Charing Cross,Ramsgate,delayed by 16 minutes
+2010-01-01,Track circuit failure at Sevenoaks,08:06,Charing Cross,Sevenoaks,terminated at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,08:13,Victoria,Sevenoaks,cancelled
+2010-01-01,Track circuit failure at Sevenoaks,08:21,Tunbridge Wells,Charing Cross,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,08:25,Sevenoaks,Victoria,started at Swanley
+2010-01-01,Track circuit failure at Sevenoaks,08:36,Sevenoaks,Charing Cross,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,08:55,Sevenoaks,Victoria,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,09:25,Sevenoaks,Victoria,started at Orpington
+2010-01-01,Track circuit failure at Sevenoaks,09:33,Ashford,Canterbury West,delayed by 17 minutes
+2010-01-01,Track circuit failure at Sevenoaks,09:36,Sevenoaks,Charing Cross,delayed by 14 minutes
+2010-01-01,Track circuit failure at Sevenoaks,09:36,Sevenoaks,Charing Cross,terminated at London Bridge
+2010-01-01,Track circuit failure at Sevenoaks,10:36,Charing Cross,Sevenoaks,started at London Bridge
+2010-01-01,Driver error at Victoria,09:55,Victoria,Orpington,cancelled
+2010-01-01,Driver error at Victoria,10:22,Victoria,Ramsgate,delayed by 21 minutes
+2010-01-01,Driver error at Victoria,10:40,Orpington,Victoria,cancelled
+2010-01-01,Driver error at Tonbridge,08:40,Charing Cross,Ramsgate,delayed by 12 minutes
+2010-01-01,Driver error at Tonbridge,08:45,Charing Cross,Hastings,delayed by 11 minutes
+2010-01-01,Track circuit failure at Cannon Street,09:54,Gillingham,Charing Cross,delayed by 10 minutes
+2010-01-01,Driver error,10:45,Cannon St,Cannon St,delayed by 12 minutes
+2010-01-01,Driver error,10:22,Dartford,Charing Cross,cancelled
+2010-01-01,Driver error,10:39,Victoria,Dartford,cancelled
+2010-01-01,Driver error,11:01,Dartford,Cannon St,cancelled
+2010-01-01,Driver error,11:17,Charing Cross,Hayes,cancelled
+2010-01-01,Driver error,11:38,Dartford,Victoria,cancelled
+2010-01-01,Driver error,12:08,Hayes,Charing Cross,cancelled
+2010-01-01,Driver error,12:39,Victoria,Dartford,cancelled
+2010-01-01,Driver error,13:02,Charing Cross,Dartford,cancelled
+2010-01-01,Driver error,13:38,Dartford,Victoria,cancelled
+2010-01-01,Signal failure in the Wandsworth area,12:09,Victoria,Dartford,cancelled
+2010-01-01,Signal failure in the Wandsworth area,13:08,Dartford,Victoria,cancelled
+2010-01-01,Train crew rostering error,12:13,Victoria,Sevenoaks,cancelled
+2010-01-01,Train crew rostering error,14:43,Victoria,Sevenoaks,cancelled
+2010-01-01,Train crew rostering error,12:43,Victoria,Sevenoaks,cancelled
+2010-01-01,Train crew rostering error,15:13,Victoria,Sevenoaks,cancelled
+2010-01-01,Train crew rostering error,16:25,Sevenoaks,Victoria,delayed by 26 minutes
+2010-01-01,Train crew rostering error,10:55,Sevenoaks,Victoria,cancelled
+2010-01-01,Train crew rostering error,11:40,Orpington,Victoria,cancelled
+2010-01-01,Train crew rostering error,13:55,Sevenoaks,Victoria,cancelled
+2010-01-01,Train crew rostering error,13:25,Sevenoaks,Victoria,cancelled
+2010-01-01,Train planning error,06:10,Maidstone East,Ashford,cancelled
+2010-01-01,Train fault,13:25,Victoria,Orpington,cancelled
+2010-01-01,Train fault,14:10,Orpington,Victoria,started at Bromley South
+2010-01-01,Driver error,14:39,Victoria,Dartford,cancelled
+2010-01-01,Driver error,15:38,Dartford,Victoria,cancelled
+2010-01-01,Conductor error,15:32,Hastings,Charing Cross,delayed by 11 minutes
+2010-01-01,Conductor error,16:22,Dartford,Charing Cross,delayed by 10 minutes
+2010-01-01,Conductor error,18:33,Ashford,Canterbury West,delayed by 15 minutes
+2010-01-01,Train crew rostering error,14:00,Charing Cross,Tunbridge Wells,terminated at Orpington
+2010-01-01,Train crew rostering error,15:21,Tunbridge Wells,Charing Cross,delayed by 11 minutes
+2010-01-01,Train crew rostering error,16:24,Gillingham,Charing Cross,cancelled
+2010-01-01,Train crew rostering error,17:56,Charing Cross,Gravesend,cancelled
+2010-01-01,Train crew rostering error,19:03,Gravesend,Charing Cross,started at Dartford
+2010-01-01,Train planning error,17:39,Charing Cross,Gillingham,delayed by 10 minutes
+2010-01-01,Train planning error,16:21,Tunbridge Wells,Charing Cross,delayed by 31 minutes
+2010-01-01,Train planning error,16:21,Tunbridge Wells,Charing Cross,terminated at London Bridge
+2010-01-01,Train planning error,16:51,Tunbridge Wells,Charing Cross,delayed by 11 minutes
+2010-01-01,Train planning error,17:30,Charing Cross,Tunbridge Wells,started at London Bridge
+2010-01-01,Train planning error,17:30,Charing Cross,Tunbridge Wells,delayed by 11 minutes
+2010-01-01,Train fault,16:00,Cannon St,Hayes,cancelled
+2010-01-01,Driver error,17:24,Gillingham,Charing Cross,delayed by 10 minutes
+2010-01-01,Train planning error,17:33,Ashford,Canterbury West,delayed by 11 minutes
+2010-01-01,Train delayed from depot,11:38,Barnehurst,London Bridge,cancelled
+2010-01-01,Train fault,10:40,Cannon St,Cannon St,cancelled
+2010-01-01,Train crew rostering error,21:55,Dartford,Charing Cross,cancelled
